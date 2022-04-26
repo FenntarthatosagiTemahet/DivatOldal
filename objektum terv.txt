@@ -1,0 +1,36 @@
+divatbemutató képgaléria:
+const galeriaKepek = [{
+  kepCim: "kep cím",
+  eleres: "kep.jpg",
+  keszito: "nev",
+  tipus: "férfi/női",
+  leírás: "mi alapján tervezte meg",
+  tovabbiKepek: [{
+	eleres: "kep2.jpg"
+}],
+  ar: "Nem eladó",
+  modellNeve: "XY",
+  ruhaoldalEleresiut: ""
+},
+{
+   kepCim: "kep cím",
+  eleres: "kep.jpg",
+  keszito: "nev",
+  tipus: "férfi/női",
+  leírás: "mi alapján tervezte meg",
+  tovabbiKepek: "",
+  ar: "Nem eladó",
+  modellNeve: "XY",
+  ruhaoldalEleresiut: ""
+},
+{
+   kepCim: "kep cím",
+  eleres: "kep.jpg",
+  keszito: "nev",
+  tipus: "férfi/női",
+  leírás: "mi alapján tervezte meg",
+  tovabbiKepek: "",
+  ar: "Nem eladó",
+  modellNeve: "XY",
+  ruhaoldalEleresiut: ""
+}];

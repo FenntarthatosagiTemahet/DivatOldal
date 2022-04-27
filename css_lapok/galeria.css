@@ -1,0 +1,33 @@
+main
+{
+    display: grid;
+    grid-template-areas: "h h h h h"
+                         "n n n n n"
+                         "as a a a a"
+                         "f f f f f";
+    margin: auto;
+    width: 100%;
+}
+
+header
+{
+    grid-area: h;
+}
+
+article
+
+article img
+{
+    grid-area: a;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+aside
+{
+    grid-area: as;
+}
+
+footer
+{
+    grid-area: f;
+}

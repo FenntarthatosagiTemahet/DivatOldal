@@ -285,25 +285,29 @@ function init()
         pont : 1,
         helyes:"csak 2-3 évente cserélem",
     },];
-    ID("teszt").innerHTML= listabejaras(altalanosteszt);
-    ID("teszt").innerHTML= listabejaras(kozepiskolasteszt);
+    ID("teszt").innerHTML = listabejaras(altalanosteszt);
+    ID("teszt").innerHTML = listabejaras(kozepiskolasteszt);
     ID("teszt").innerHTML= listabejaras(felnotteszt);
+    console.log(listabejaras(kozepiskolasteszt));
 }
 
 function listabejaras(array){
     var txt ="<form>";
     for (let index = 0; index < array.length; index++) {
-        let i = 0;
+        let i = 1;
         for (const key in array[index]) {
-            if(i===0){
+            if(i===1){
                 txt+=`<label for="${index}.kerdes">${array[index][key]}</label><br>`
-                //txt += `<li>${key}: ${termekek[index][key]}`
             }
-            else if (i<0 || i < 4) {
-                txt += `<input type="radio" id="${index}.valasz" name="${index}.valasz" value="${index}.valasz">
-                <label for="${index}.valasz">${array[index][key]}</label><br>`
+            else if (Object.keys(array[index]).length===7 && (i<1 || i < 5)) {
+                txt += `<input type="checkbox" id="${index}${i}.valasz" name="${index}.valasz" value="${index}.valasz">
+                <label for="${index}${i}.valasz">${array[index][key]}</label><br>`
             }
-            else if (i = 5) {
+            else if (i<1 || i < 5) {
+                txt += `<input type="radio" id="${index}${i}.valasz" name="${index}.valasz" value="${index}.valasz">
+                <label for="${index}${i}.valasz">${array[index][key]}</label><br>`
+            }
+            else if (i === 5) {
                 txt+=`<p>${array[index][key]}pont</p>`
             }
             i++;

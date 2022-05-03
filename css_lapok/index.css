@@ -1,0 +1,44 @@
+* {
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+#fodiv {
+    display: flex;
+    flex-direction: row;
+    /* padding: 50px; */
+}
+
+div {
+    margin: 10px;
+}
+
+#mellek_div>a,
+img {
+    transition: transform .2s;
+}
+
+
+
+#mellek_div>a,
+img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+img {
+    width: 250px;
+}

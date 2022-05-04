@@ -1,0 +1,22 @@
+{ "manipul" : [
+    {
+      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "kep": "../minta_kepek/facepalm.jpg",
+      "link": "cikk.html"
+    },
+    {
+      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "kep": "../minta_kepek/ruha2.jpg",
+      "link": "galeria.html"
+    },
+    {
+      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "kep": "../minta_kepek/ruha3.jpg",
+      "link": "jatek.html"
+    },
+    {
+      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "kep": "../minta_kepek/ruha4.jpg",
+      "link": "teszt.html"
+    } 
+  ]}

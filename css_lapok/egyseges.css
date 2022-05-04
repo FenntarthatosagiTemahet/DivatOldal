@@ -1,3 +1,9 @@
+:root{
+    szin1: #fff1e6;
+    szin2: #faedcd;
+}
+
+
 *
 {
     box-sizing: border-box;
@@ -7,7 +13,7 @@
 
 body
 {
-    background-image: linear-gradient(#fff1e6, #faedcd);
+    background-image: linear-gradient(szin1, szin2);
     margin-top: 150px;
 }
 
@@ -18,7 +24,7 @@ nav
     margin: auto;
     overflow: hidden;
     background-color: white;
-    top: 0;
+    top: 0; 
     z-index: 1;
    
 }

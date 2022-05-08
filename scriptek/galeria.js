@@ -21,7 +21,7 @@ function init() {
   mintaKepFeltolt();
 }
 
-const mintaKep = "../kepek/minta.png";
+const mintaKep = "../minta_kepek/minta.png";
 
 function mintaKepFeltolt() 
 {

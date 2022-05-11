@@ -18,10 +18,9 @@ header
     grid-area: h;
 }
 
-nav h1
+nav
 {
-    text-align: center;
-    margin-top: 15px;
+    grid-area: n;
 }
 
 article
@@ -54,4 +53,5 @@ aside
 footer
 {
     grid-area: f;
+    text-align: center;
 }

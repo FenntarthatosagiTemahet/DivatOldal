@@ -21,7 +21,7 @@ function init() {
   mintaKepFeltolt();
 }
 
-const mintaKep = "../kepek/minta.png";
+const mintaKep = "../minta_kepek/minta.png";
 
 function mintaKepFeltolt() 
 {
@@ -34,7 +34,7 @@ function mintaKepFeltolt()
 const galeriaAdatok = [
   {
     kepCim: "kep cím",
-    eleres: "kep.jpg",
+    eleres: "../kepek/lanyokKepei/",
     keszito: "Árokszállási Renáta Andrea",
     tipus: "női",
     leírás: "mi alapján tervezte meg",

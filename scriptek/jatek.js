@@ -56,12 +56,14 @@ function kartyatMutat(i) {
                 setTimeout(() => {
                     ID(Number(kartyak[0])).style.display = "none";
                     ID(Number(kartyak[1])).style.display = "none";
-                }, 1000);
+                }, 500);
             }
             else {
                 setTimeout(() => {
                     ID(Number(kartyak[0])).className = "invisible";
+                    ID(Number(kartyak[0])).style.backgroundColor = "pink";
                     ID(Number(kartyak[1])).className = "invisible";
+                    ID(Number(kartyak[1])).style.backgroundColor = "pink";
                 })
             }
             kartyak.splice(0);
@@ -85,12 +87,11 @@ function init() {
             kepFeldolgozas();
             })
         })
-        .catch(err => console.log(err));
+    .catch(err => console.log(err));
 
     const tomb = $a("#memory-game div");
     let tombHossz = tomb.length;
 
     for(i = 0; i < tombHossz; i++) tomb[i].className = "invisible";
     for(i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", kartyatMutat(i));
-
 }

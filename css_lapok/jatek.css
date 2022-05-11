@@ -15,6 +15,7 @@ main {
 
 #title {
     grid-area: h;
+    text-decoration: underline;
 }
 
 #navbar {
@@ -42,11 +43,10 @@ main {
     cursor: pointer;
 }
 
-/* #memory-game .invisible {
+#memory-game .invisible {
     background: "pink";
 }
-
-#memory-game .visible {
+/* #memory-game .visible {
     background: none;
 } */
 
@@ -57,4 +57,5 @@ main {
 
 #footer {
     grid-area: f;
+    padding: 20px;
 }

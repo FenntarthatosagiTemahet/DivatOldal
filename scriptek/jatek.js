@@ -10,9 +10,9 @@ var txt = "";
 
 const kepek = [];
 
-let pontszam = 0, szamlalo = 0, probalkozasokSzama = 0;
+let pontszam = 0, szamlalo = 0;
 
-function kepFeldolgozas() { 
+function kepFeldolgozas() {
     // console.log(kepek.length);
     let txt = "";
     kepek.sort(function(a, b) {
@@ -28,16 +28,19 @@ function kepFeldolgozas() {
     var tombHossz = tomb.length;
     txt = "";
     for(i = 0; i < tombHossz; i++) {
+        tomb[i].className = "invisible";
+        // tomb[i].innerHTML = `<img src='${kepek[i].kepEleresiUtvonala}' alt='${kepek[i].kepNeve}'>`
+        // tomb[i].style.background = `url("${kepek[i].kepEleresiUtvonala}")`;
         tomb[i].style.backgroundColor = "pink";
     }
 
     for(let i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", function() {kartyatMutat(i)});
 }
 
-function kartyatMutat() {
+function kartyatMutat(i) {
     if(szamlalo < 2) {
         event.target.className = "visible";
-        event.target.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
+        event.target.style.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
         event.target.style.backgroundSize = "100%";
         szamlalo++;
     }
@@ -48,18 +51,20 @@ function kartyatMutat() {
 
 function init() {
     ID("title").innerHTML = "<h1>Memóriajáték</h1>";
-    ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
-    ID("footer").innerHTML = "<p>@ Semmilyen jog nincs fenntartva<br>Készítette: Én</p>";
+    ID("points").innerHTML = "<p></p>"
+    ID("footer").innerHTML = "<p>@ Semmilyen jog nincs fenntartva<br>Készítette: Én</p>"
 
     fetch("../json/jatek.json")
         .then((response) => response.json())
         .then((data) => {
             data.kepek.forEach(elem => {
                 kepek.push(elem);
-                kepFeldolgozas();
+                kepFeldolgozas()
             })
         })
         .catch(err => console.log(err));
 
+    for(i = 0; i < tombHossz; i++) tomb[i].className = "invisible";
+    for(i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", kartyatMutat);
 
 }

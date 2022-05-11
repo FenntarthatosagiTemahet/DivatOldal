@@ -54,8 +54,7 @@ function kartyatMutat(i) {
                 probalkozasokSzama++;
                 ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
                 setTimeout(() => {
-                    ID(Number(kartyak[0])).style.display = "none";
-                    ID(Number(kartyak[1])).style.display = "none";
+                    
                 }, 500);
             }
             else {
@@ -64,7 +63,8 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[0])).style.backgroundColor = "pink";
                     ID(Number(kartyak[1])).className = "invisible";
                     ID(Number(kartyak[1])).style.backgroundColor = "pink";
-                })
+                    
+                }, 500)
             }
             kartyak.splice(0);
             szamlalo = 0;
@@ -77,7 +77,7 @@ function kartyatMutat(i) {
 
 function init() {
     ID("title").innerHTML = "<h1>Memóriajáték</h1>";
-    ID("footer").innerHTML = "<p>@ Semmilyen jog nincs fenntartva<br>Készítette: Én</p>"
+    ID("footer").innerHTML = "<p>@ Semmilyen jog nincs fenntartva<br>Készítette: Én</p>";
     
     fetch("../json/jatek.json")
     .then((response) => response.json())

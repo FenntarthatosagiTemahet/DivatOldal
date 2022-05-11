@@ -45,7 +45,7 @@ main {
     background: "pink";
 }
 
-#rules {
+#points {
     grid-area: a;
     width: 100px;
 }

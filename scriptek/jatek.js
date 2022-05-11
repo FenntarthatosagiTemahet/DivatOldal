@@ -48,9 +48,6 @@ function kartyatMutat(i) {
     else {
         szamlalo = 0;
         probalkozasokSzama++;
-        for(i = 0; i < $a("#memory-game div").length; i++) {
-            if($a("#memory-game div")[i].className == "visible") $a("#memory-game div")[i].className == "invisible";
-        }
     }
 }
 

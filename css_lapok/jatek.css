@@ -42,13 +42,13 @@ main {
     cursor: pointer;
 }
 
-#memory-game .invisible {
+/* #memory-game .invisible {
     background: "pink";
 }
 
 #memory-game .visible {
     background: none;
-}
+} */
 
 #points {
     grid-area: a;

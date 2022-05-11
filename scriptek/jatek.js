@@ -54,19 +54,23 @@ function kartyatMutat(i) {
                 probalkozasokSzama++;
                 ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
                 setTimeout(() => {
-                    
+                    ID(Number(kartyak[0])).style.backgroundImage = "none";
+                    ID(Number(kartyak[1])).style.backgroundImage = "none";
+                    ID(Number(kartyak[0])).style.backgroundColor = "blue";
+                    ID(Number(kartyak[1])).style.backgroundColor = "blue";
+                    kartyak.splice();
                 }, 500);
             }
             else {
+                console.log(ID(Number(kartyak[0])));
                 setTimeout(() => {
                     ID(Number(kartyak[0])).className = "invisible";
-                    ID(Number(kartyak[0])).style.backgroundColor = "pink";
+                    ID(Number(kartyak[0])).style.backgroundImage = "none";
                     ID(Number(kartyak[1])).className = "invisible";
-                    ID(Number(kartyak[1])).style.backgroundColor = "pink";
-                    
+                    ID(Number(kartyak[1])).style.backgroundImage = "none";
+                    kartyak.splice(0);
                 }, 500)
             }
-            kartyak.splice(0);
             szamlalo = 0;
             probalkozasokSzama++;
             console.log(szamlalo)

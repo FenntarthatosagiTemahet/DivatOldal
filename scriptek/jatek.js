@@ -21,7 +21,7 @@ function kepFeldolgozas() {
     })
     console.log(kepek);
     for(i = 0; i < kepek.length; i++) {
-        txt += "<div></div>";
+        txt += "<div id=\"" + i + "\"></div>";
     }
     // console.log(txt);
     ID("memory-game").innerHTML = txt;
@@ -34,20 +34,42 @@ function kepFeldolgozas() {
         // tomb[i].style.background = `url("${kepek[i].kepEleresiUtvonala}")`;
         tomb[i].style.backgroundColor = "pink";
     }
-
+    ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
+    
     for(let i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", function() {kartyatMutat(i)});
 }
+
+var kartyak = [];
 
 function kartyatMutat(i) {
     if(szamlalo < 2) {
         event.target.className = "visible";
         event.target.style.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
         event.target.style.backgroundSize = "100%";
+        kartyak.push(event.target.id);
+        console.log(kartyak);
         szamlalo++;
-    }
-    else {
-        szamlalo = 0;
-        probalkozasokSzama++;
+        if(szamlalo == 2) {
+            if(kepek[kartyak[0]].kepEleresiUtvonala == kepek[kartyak[1]].kepEleresiUtvonala) {
+                probalkozasokSzama++;
+                ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
+                setTimeout(() => {
+                    ID(Number(kartyak[0])).style.display = "none";
+                    ID(Number(kartyak[1])).style.display = "none";
+                }, 1000);
+            }
+            else {
+                setTimeout(() => {
+                    ID(Number(kartyak[0])).className = "invisible";
+                    ID(Number(kartyak[1])).className = "invisible";
+                })
+            }
+            kartyak.splice(0);
+            szamlalo = 0;
+            probalkozasokSzama++;
+            console.log(szamlalo)
+            console.log(probalkozasokSzama)
+        }
     }
 }
 
@@ -60,11 +82,13 @@ function init() {
     .then((data) => {
         data.kepek.forEach(elem => {
             kepek.push(elem);
-            kepFeldolgozas()
-            ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>"
+            kepFeldolgozas();
             })
         })
         .catch(err => console.log(err));
+
+    const tomb = $a("#memory-game div");
+    let tombHossz = tomb.length;
 
     for(i = 0; i < tombHossz; i++) tomb[i].className = "invisible";
     for(i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", kartyatMutat(i));

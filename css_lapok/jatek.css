@@ -43,10 +43,11 @@ main {
     cursor: pointer;
 }
 
-#memory-game .invisible {
+/* #memory-game .invisible {
     background: "pink";
 }
-/* #memory-game .visible {
+
+#memory-game .visible {
     background: none;
 } */
 

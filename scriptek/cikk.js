@@ -49,19 +49,33 @@ function init(){
 
 
     function feltolt(){
-        let txt = "";
-        for (let i = 0; i < lista.length; i++) {
-            txt+=`<div id= "cikkek"><h1>${lista[i].focim}</h1> <p>${lista[i].bekezdes1}</p> <p>${lista[i].bekezdes7}</p></div>`;
-        }
-        console.log(txt);
-        ID("cikkContainer").innerHTML = txt;
+        let txt = ""; 
+        for (let index = 0; index < lista.length; index++) {
+          txt+=`<div id="mellekdiv">`;
+          for (const key in lista[index]) {
+            if(key.includes("focim")){
+              txt+=`<h1>${lista[index][key]}</h1>`
+            } else if((key.includes("bekezdeslista"))){
+              txt+=`<p>${lista[index][key]}</p>`
+            }else if((key.includes("cikk_iroja"))){
+              txt+=`<p>${lista[index][key]}</p>`
+            }
+            }
+            txt+=`</div>`
+          }
+         
+          console.log(txt);
+          ID("cikkContainer").innerHTML = txt;
     }
+
+
+    
     
 
 
 
 
-    console.log(cikkek[0].bekezdes)    
+        
 
 
 

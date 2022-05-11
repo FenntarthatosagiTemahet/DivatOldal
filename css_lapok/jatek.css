@@ -15,6 +15,7 @@ main {
 
 #title {
     grid-area: h;
+    text-decoration: underline;
 }
 
 #navbar {
@@ -39,17 +40,23 @@ main {
     height: 200px;
     border: 1px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
 
-#memory-game .invisible {
+/* #memory-game .invisible {
     background: "pink";
 }
 
-#rules {
+#memory-game .visible {
+    background: none;
+} */
+
+#points {
     grid-area: a;
     width: 100px;
 }
 
 #footer {
     grid-area: f;
+    padding: 20px;
 }

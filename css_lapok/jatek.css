@@ -39,10 +39,15 @@ main {
     height: 200px;
     border: 1px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 #memory-game .invisible {
     background: "pink";
+}
+
+#memory-game .visible {
+    background: none;
 }
 
 #points {

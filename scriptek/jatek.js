@@ -11,6 +11,7 @@ var txt = "";
 const kepek = [];
 
 let pontszam = 0, szamlalo = 0;
+var probalkozasokSzama = 0;
 
 function kepFeldolgozas() {
     // console.log(kepek.length);
@@ -46,25 +47,29 @@ function kartyatMutat(i) {
     }
     else {
         szamlalo = 0;
+        probalkozasokSzama++;
+        for(i = 0; i < $a("#memory-game div").length; i++) {
+            if($a("#memory-game div")[i].className == "visible") $a("#memory-game div")[i].className == "invisible";
+        }
     }
 }
 
 function init() {
     ID("title").innerHTML = "<h1>Memóriajáték</h1>";
-    ID("points").innerHTML = "<p></p>"
     ID("footer").innerHTML = "<p>@ Semmilyen jog nincs fenntartva<br>Készítette: Én</p>"
-
+    
     fetch("../json/jatek.json")
-        .then((response) => response.json())
-        .then((data) => {
-            data.kepek.forEach(elem => {
-                kepek.push(elem);
-                kepFeldolgozas()
+    .then((response) => response.json())
+    .then((data) => {
+        data.kepek.forEach(elem => {
+            kepek.push(elem);
+            kepFeldolgozas()
+            ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>"
             })
         })
         .catch(err => console.log(err));
 
     for(i = 0; i < tombHossz; i++) tomb[i].className = "invisible";
-    for(i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", kartyatMutat);
+    for(i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", kartyatMutat(i));
 
 }

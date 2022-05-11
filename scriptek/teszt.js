@@ -17,9 +17,16 @@ function CLASS(elem) {
 }
 
 function init() {
+    var melyikteszt = "";
   const altalanosteszt = []
   const kozepiskolasteszt = []
   const felnotteszt = []
+  const htmlgombok = $All("#gombok>button");
+  htmlgombok.forEach((elem) => {
+    elem.addEventListener('click', function () {
+      melyikteszt=event.target.innerHTML;
+    })
+  })
   fetch('../json/tesztek.json')
     .then((response) => response.json())
     .then((data) => {
@@ -33,11 +40,11 @@ function init() {
         felnotteszt.push(element)
       })
       ID('teszt').innerHTML = listabejaras(altalanosteszt)
-      ID('teszt').innerHTML = listabejaras(kozepiskolasteszt)
-      ID('teszt').innerHTML = listabejaras(felnotteszt)
+      //ID('teszt').innerHTML = listabejaras(kozepiskolasteszt);
+      //ID('teszt').innerHTML = listabejaras(felnotteszt);
     })
     .catch((err) => {
-      console.log(err);
+      console.log(err)
     })
 }
 

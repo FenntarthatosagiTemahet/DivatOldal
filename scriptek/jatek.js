@@ -36,7 +36,13 @@ function kepFeldolgozas() {
 
 function kartyatMutat() {
     if(szamlalo < 2) {
-        event.target.className = "visible"
+        event.target.className = "visible";
+        event.target.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
+        event.target.style.backgroundSize = "100%";
+        szamlalo++;
+    }
+    else {
+        szamlalo = 0;
     }
 }
 

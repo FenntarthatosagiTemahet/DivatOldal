@@ -43,14 +43,6 @@ main {
     cursor: pointer;
 }
 
-/* #memory-game .invisible {
-    background: "pink";
-}
-
-#memory-game .visible {
-    background: none;
-} */
-
 #points {
     grid-area: a;
     width: 100px;

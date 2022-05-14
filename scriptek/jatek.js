@@ -52,7 +52,7 @@ function kartyatMutat(i) {
         if(szamlalo == 2) {
             if(kepek[kartyak[0]].kepEleresiUtvonala == kepek[kartyak[1]].kepEleresiUtvonala) {
                 probalkozasokSzama++;
-                ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
+                // ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
                 setTimeout(() => {
                     ID(Number(kartyak[0])).style.backgroundImage = "none";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
@@ -62,7 +62,8 @@ function kartyatMutat(i) {
                 }, 500);
             }
             else {
-                console.log(ID(Number(kartyak[0])));
+                // console.log(ID(Number(kartyak[0])));
+                probalkozasokSzama++;
                 setTimeout(() => {
                     ID(Number(kartyak[0])).className = "invisible";
                     ID(Number(kartyak[0])).style.backgroundImage = "none";
@@ -70,9 +71,9 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
                     kartyak.splice(0);
                 }, 500)
-            }
+            };
+            ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;
-            probalkozasokSzama++;
             console.log(szamlalo)
             console.log(probalkozasokSzama)
         }

@@ -1,5 +1,5 @@
 {
-    "ZeroWaste":
+    "zeroWaste":
     [
     {
       "kepCim": "0 waste",
@@ -17,7 +17,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/BajuszGyongyikeKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BajuszGyongyikeKep1.jpg",
       "keszito": "Bajusz Gyöngyike",
       "tipus": "női ruha",
       "leírás": "Fontos szempont volt, hogy a ruha megvarrásánál egyáltalán ne keletkezzen hulladék. Az anyag hosszú volt, így téglalapokra lett szétvágva és több formázóval, ráncokkal és hajtásokkal készült el. Végül egy elegáns és könnyed nyári ruha született meg belőle. ",
@@ -30,7 +30,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/BallaRobinKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BallaRobinKep1.jpg",
       "keszito": "Balla Robin",
       "tipus": "férfi ruha",
       "leírás": "A nadrág egy techwear samurai nadrág a régi kort próbáltam meg idézni és egy új vonalat belevinni.Ennek az ötvözete adta a nulla hulladékos ruhám.",
@@ -48,7 +48,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/BarthaEmmaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BarthaEmmaKep1.jpg",
       "keszito": "Bartha Emma Zsuzsanna",
       "tipus": "női ruha",
       "leírás": "A ruhám ötletét egy hasonló poncsóból merítettem, de emellett a nép viseletből ismert, bő, T alakú ingeket is inspirációnak használtam. A ruha elkészítésekor az egyszerűség, és a hulladék nélkül való elkészíthetőség volt a fő szempont. Egyszerűen, egy téglalapból lett kiszabva a ruhadarab. A felső öltözet különlegessége, hogy többféleképpen hordható: a barna oldalával kifele fordítva, de a mintással is egyaránt. Ezen kívül, mivel vállainál cipzár fut, 90 fokkal elfordítva és szétcipzározva is viselhető",
@@ -61,7 +61,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/BereczLiliBlankaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BereczLiliBlankaKep1.jpg",
       "keszito": "Berecz Lili Blanka",
       "tipus": "női ruha",
       "leír ás": "A ruha alsó része anyukám egy régi ruhájának szoknyájából, felső része pedig egy leselejtezett nyári topomból készült. Mivel az eredeti ötletet édesanyám ruhája adta, szerettem volna mindazt megjeleníteni a kreáción, amit ő szeret. A Bridgerton család című, kedvenc sorozatában látható kosztümök fazonjai és a görög mitológia istennői inspirálták a végső formát.<br> A mell alatti vágás, azonban kicsit lejebb, néhány centivel a derékvonal fölé került, így jóval több alkattípusnak előnyös. A derékvágástól elengedett, lenge szoknyarész könnyed és légies hatású. Nem feszül előnytelenül, karcsúsítja az alakot, esetenként nyújtja is viselője sziluettjét. Az otthon összegyűlt hulladék anyagokból apró rózsákat készítettem, majd ezeket kézi öltésekkel erősítettem fel a ruha lépéshasítékába bevarrt, mélyrózsaszínű anyagra.A fenék fölötti derékrészen, bordó selyemmasni található, melyet szintén kézi öltésekkel rögzítettem, akárcsak a vállrészekre került, színben és anyagban masnihoz passzoló virágokat.",
@@ -74,7 +74,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/BuzasVandaSzonjaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BuzasVandaSzonjaKep1.jpg",
       "keszito": "Buzás Vanda Szonja",
       "tipus": "férfi/női",
       "leírás": "A ruhámat a fesztivál hangulata és a tavasz inspirálta, könnyed mégis több van benne mit elsőre látszik.",
@@ -87,7 +87,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/FabianFanniKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/FabianFanniKep1.jpg",
       "keszito": "Fábián Fanni",
       "tipus": "női ruha",
       "leírás": "Vászonból készült ruha, melyben egy körszoknya és egy egyszerű fűzős felsőrész kapcsolódik egymáshoz.",
@@ -102,7 +102,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/FazekasAnnaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/FazekasAnnaKep1.jpg",
       "keszito": "Fazekas Anna",
       "tipus": "női ruha",
       "leírás": "Célom valami jobb, színesebb, érdekesebb öltözék létrehozása volt. Különböző színű geometriai formák jelennek meg a  felsőn és a nadrágon úgyszínt , létrehozva valami újat ,egyedit,de mégis felhasználva a régit.",
@@ -115,7 +115,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/FodiMartinKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/FodiMartinKep1.jpg",
       "keszito": "Fódi Martin Levente",
       "tipus": "női ruha",
       "leírás": "Bőr pausz/Dipa: A ruha kialakítása során, fő szempontja az volt a tervezőnek, hogy ne termeljen szemetet és egy könnyen lebomló anyagból készítse el. Ezért esett választása a papírra, amely a dipa és bőr pausz találkozásával adta meg a ruha könnyed formáját és dinamikáját. A ruha a tervezője számára egyfajta prototípusnak szolgál, kísérletezés a jövőbeli tervekhez. A tervező, Fódi Martin a ruhán keresztül,  mint egy retro-futurisztikus elemekből álló festővásznon, utópisztikus  jövőképét tárja elénk.",
@@ -129,7 +129,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/HoffmannDoraKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/HoffmannDoraKep1.jpg",
       "keszito": "Hoffmann Dóra",
       "tipus": "női ruha",
       "leírás": " A zero waste irányt követve a megújulás, letisztultság vonalát kísértem végig a tervezésben és a kivitelezésben. A kibontakozó geometrikus formavilág és az egy hangú sötét természet adta földszín tökéletes ellentétet nyújt a térmészet és a mesterséges világ között.<br> Geometrikus vonalvezetesben történő négyzet felső, szabás vonal nélkül. Hátul pánttal zárható, belebújós felső cipzár nyakeldolgozassal díszítve. Ezt kiegeszíti a derékban több irányba hajtható bő nadrág. Formavilágát tekintve téglalapok és háromszögekből áll.",
@@ -144,7 +144,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/JuhaszNoraKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/JuhaszNoraKep1.jpg",
       "keszito": "Juhász Nóra",
       "tipus": "női ruha",
       "leírás": "Juhász Nóra ruhája különböző méretű tèglalapokból lett összevarva. Inspirációs tèmaként az èpületek ès a futónövènyek szolgáltak.",
@@ -158,7 +158,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/KerteszKrisztinaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/KerteszKrisztinaKep1.jpg",
       "keszito": "Kertész Krisztina",
       "tipus": "női ruha",
       "leírás": "\"Számomra a környezetvédelem egyik fontos eleme mentén képzeltem el a nullahulladékos ruhát, miszerint már meglévő, de nem hordott ruhadarabomat alakítottam át egy leheletnyit.\" - Kertész Krisztina, a tervező",
@@ -172,7 +172,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/MeszarosMercedeszKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/MeszarosMercedeszKep1.jpg",
       "keszito": "Mészáros Mercédesz Beatrix",
       "tipus": "női ruha",
       "leírás": "Ezt a könnyed esésű szatén ruhát a  hozzáillő ujjatlan kabáttal Mészáros Mercédesz tervezte. Ideális viselet rendezvényekre és munkába is, magassarkúval párosítva.",
@@ -185,7 +185,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/NagyDominikaAnnaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyDominikaAnnaKep1.jpg",
       "keszito": "Nagy Dominika Anna",
       "tipus": "női ruha",
       "leírás": "A geometria, építészet és asszimetria inspirált.",
@@ -198,7 +198,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/NagyFloraKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyFloraKep1.jpg",
       "keszito": "Nagy Flóra",
       "tipus": "női ruha",
       "leírás": "mi alapján tervezte meg",
@@ -211,7 +211,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/NagyHannaNapsugarKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyHannaNapsugarKep1.jpg",
       "keszito": "Nagy Hanna Napsugár",
       "tipus": "női ruha",
       "leírás": "Nagy Hanna Napsugár által tervezett ruha célja az volt,hogy kényelmes legyen és könnyen lehessen benne mozogni, így akár fellépésekre is lehessen használni.",
@@ -232,7 +232,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/NovakNoraKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NovakNoraKep1.jpg",
       "keszito": "Novák Nóra",
       "tipus": "női ruha",
       "leírás": "Viharkabát /upcycling esőkabát/ A műanyag oldhatatlansága, le nem bomlósága tökéletesen párhuzamba állítható a dohánytermékek rendszeres használatával. Mindkét esetben az ember a fogyasztó ki a testét és a földjét is szennyezi. A műanyag lebomlása több száz évbe telik, a kátrány a tüdőben lerakódva akár évek múltán is kimutatható. Novák Nóra munkája.",
@@ -247,7 +247,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/SzilagyiEszterTanarKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/SzilagyiEszterTanarKep1.jpg",
       "keszito": "Szilágyi Eszter Mária",
       "tipus": "női ruha",
       "leírás": "A tanárnő ruhái",
@@ -260,7 +260,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/SzoboszlaiBellaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/SzoboszlaiBellaKep1.jpg",
       "keszito": "Szoboszlai Bella",
       "tipus": "női ruha",
       "leírás": "Az élénk színek es merész szabásvonalak az élet változatosságát és lendületességet tükrözik. Az öltözék Szoboszali Bella munkája.",
@@ -277,7 +277,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/SzóradNikolettKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/SzóradNikolettKep1.jpg",
       "keszito": "Szórád Nikolett",
       "tipus": "női ruha",
       "leírás": "Szórád Nikolett által tervezett összeállitást a fekete és rózsaszín harmoniája ihlette, melyet egy pillangós párnahuzatból készült fűző koronáz meg.",
@@ -292,7 +292,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/TothDavidKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/TothDavidKep1.jpg",
       "keszito": "Tóth Dávid",
       "tipus": "női ruha",
       "leírás": "Tóth Dávid által tervezett öltözék egy könnyed nyári nadrág és blúz, melyet a művész  szülővárosa, Zalaegerszeg inspirált.",
@@ -305,7 +305,7 @@
     },
     {
       "kepCim": "0 waste",
-      "eleres": "../kepek/divattervezokKepei/WertheimLorettaKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/WertheimLorettaKep1.jpg",
       "keszito": "Wertheim Loretta",
       "tipus": "női ruha",
       "leírás": "A kifutón látható ruha egy upcycle koncepcióval készült öltözék, a tervező, Wertheim Loretta, egy kidobásra szánt ruhát alakított át egy hordható, elegáns estélyi ruhadarabbá.",
@@ -320,7 +320,7 @@
     }
   ],
 
-  "UjrahasznositottIng1":
+  "UjrahasznositottIng":
     [
     {
       "kepCim": "Újrahasznosított ing",
@@ -338,7 +338,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/BajuszGyongyikeIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BajuszGyongyikeIngKep1.jpg",
       "keszito": "Bajusz Gyöngyike",
       "tipus": "női ruha",
       "leírás": "Fontos szempont volt, hogy a ruha megvarrásánál egyáltalán ne keletkezzen hulladék. Az anyag hosszú volt, így téglalapokra lett szétvágva és több formázóval, ráncokkal és hajtásokkal készült el. Végül egy elegáns és könnyed nyári ruha született meg belőle. ",
@@ -351,7 +351,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/BarthaEmmaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BarthaEmmaIngKep1.jpg",
       "keszito": "Bartha Emma Zsuzsanna",
       "tipus": "női ruha",
       "leírás": "A ruhám ötletét egy hasonló poncsóból merítettem, de emellett a nép viseletből ismert, bő, T alakú ingeket is inspirációnak használtam. A ruha elkészítésekor az egyszerűség, és a hulladék nélkül való elkészíthetőség volt a fő szempont. Egyszerűen, egy téglalapból lett kiszabva a ruhadarab. A felső öltözet különlegessége, hogy többféleképpen hordható: a barna oldalával kifele fordítva, de a mintással is egyaránt. Ezen kívül, mivel vállainál cipzár fut, 90 fokkal elfordítva és szétcipzározva is viselhető",
@@ -366,7 +366,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/BereczLiliBlankaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BereczLiliBlankaIngKep1.jpg",
       "keszito": "Berecz Lili Blanka",
       "tipus": "női ruha",
       "leír ás": "A ruha alsó része anyukám egy régi ruhájának szoknyájából, felső része pedig egy leselejtezett nyári topomból készült. Mivel az eredeti ötletet édesanyám ruhája adta, szerettem volna mindazt megjeleníteni a kreáción, amit ő szeret. A Bridgerton család című, kedvenc sorozatában látható kosztümök fazonjai és a görög mitológia istennői inspirálták a végső formát.<br> A mell alatti vágás, azonban kicsit lejebb, néhány centivel a derékvonal fölé került, így jóval több alkattípusnak előnyös. A derékvágástól elengedett, lenge szoknyarész könnyed és légies hatású. Nem feszül előnytelenül, karcsúsítja az alakot, esetenként nyújtja is viselője sziluettjét. Az otthon összegyűlt hulladék anyagokból apró rózsákat készítettem, majd ezeket kézi öltésekkel erősítettem fel a ruha lépéshasítékába bevarrt, mélyrózsaszínű anyagra.A fenék fölötti derékrészen, bordó selyemmasni található, melyet szintén kézi öltésekkel rögzítettem, akárcsak a vállrészekre került, színben és anyagban masnihoz passzoló virágokat.",
@@ -380,7 +380,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/BuzasVandaSzonjaIng1Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BuzasVandaSzonjaIng1Kep1.jpg",
       "keszito": "Buzás Vanda Szonja",
       "tipus": "női ruha",
       "leírás": "A ruhámat a fesztivál hangulata és a tavasz inspirálta, könnyed mégis több van benne mit elsőre látszik.",
@@ -394,7 +394,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/FabianFanniIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/FabianFanniIngKep1.jpg",
       "keszito": "Fábián Fanni",
       "tipus": "női ruha",
       "leírás": "Vászonból készült ruha, melyben egy körszoknya és egy egyszerű fűzős felsőrész kapcsolódik egymáshoz.",
@@ -408,7 +408,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/FazekasAnnaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/FazekasAnnaIngKep1.jpg",
       "keszito": "Fazekas Anna",
       "tipus": "női ruha",
       "leírás": "Célom valami jobb, színesebb, érdekesebb öltözék létrehozása volt. Különböző színű geometriai formák jelennek meg a  felsőn és a nadrágon úgyszínt , létrehozva valami újat ,egyedit,de mégis felhasználva a régit.",
@@ -421,7 +421,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/FodiMartinIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/FodiMartinIngKep1.jpg",
       "keszito": "Fódi Martin Levente",
       "tipus": "női ruha",
       "leírás": "Bőr pausz/Dipa: A ruha kialakítása során, fő szempontja az volt a tervezőnek, hogy ne termeljen szemetet és egy könnyen lebomló anyagból készítse el. Ezért esett választása a papírra, amely a dipa és bőr pausz találkozásával adta meg a ruha könnyed formáját és dinamikáját. A ruha a tervezője számára egyfajta prototípusnak szolgál, kísérletezés a jövőbeli tervekhez. A tervező, Fódi Martin a ruhán keresztül,  mint egy retro-futurisztikus elemekből álló festővásznon, utópisztikus  jövőképét tárja elénk.",
@@ -434,7 +434,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/HoffmannDoraIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/HoffmannDoraIngKep1.jpg",
       "keszito": "Hoffmann Dóra",
       "tipus": "női ruha",
       "leírás": " A zero waste irányt követve a megújulás, letisztultság vonalát kísértem végig a tervezésben és a kivitelezésben. A kibontakozó geometrikus formavilág és az egy hangú sötét természet adta földszín tökéletes ellentétet nyújt a térmészet és a mesterséges világ között.<br> Geometrikus vonalvezetesben történő négyzet felső, szabás vonal nélkül. Hátul pánttal zárható, belebújós felső cipzár nyakeldolgozassal díszítve. Ezt kiegeszíti a derékban több irányba hajtható bő nadrág. Formavilágát tekintve téglalapok és háromszögekből áll.",
@@ -449,7 +449,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/KerteszKrisztinaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/KerteszKrisztinaIngKep1.jpg",
       "keszito": "Kertész Krisztina",
       "tipus": "női ruha",
       "leírás": "\"Számomra a környezetvédelem egyik fontos eleme mentén képzeltem el a nullahulladékos ruhát, miszerint már meglévő, de nem hordott ruhadarabomat alakítottam át egy leheletnyit.\" - Kertész Krisztina, a tervező",
@@ -463,7 +463,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/MeszarosMercedeszIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/MeszarosMercedeszIngKep1.jpg",
       "keszito": "Mészáros Mercédesz Beatrix",
       "tipus": "női ruha",
       "leírás": "Ezt a könnyed esésű szatén ruhát a  hozzáillő ujjatlan kabáttal Mészáros Mercédesz tervezte. Ideális viselet rendezvényekre és munkába is, magassarkúval párosítva.",
@@ -477,7 +477,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng1Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng1Kep1.jpg",
       "keszito": "Molnár-Csíkós Hajnalka",
       "tipus": "női ruha",
       "leírás": "A tanárnő ruhái",
@@ -490,7 +490,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/NagyDominikaAnnaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyDominikaAnnaIngKep1.jpg",
       "keszito": "Nagy Dominika Anna",
       "tipus": "női ruha",
       "leírás": "A geometria, építészet és asszimetria inspirált.",
@@ -503,7 +503,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/NagyFloraIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyFloraIngKep1.jpg",
       "keszito": "Nagy Flóra",
       "tipus": "női ruha",
       "leírás": "mi alapján tervezte meg",
@@ -516,7 +516,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/NagyHannaNapsugarIng1Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyHannaNapsugarIng1Kep1.jpg",
       "keszito": "Nagy Hanna Napsugár",
       "tipus": "női ruha",
       "leírás": "Nagy Hanna Napsugár által tervezett ruha célja az volt,hogy kényelmes legyen és könnyen lehessen benne mozogni, így akár fellépésekre is lehessen használni.",
@@ -531,7 +531,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/SzoboszlaiBellaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/SzoboszlaiBellaIngKep1.jpg",
       "keszito": "Szoboszlai Bella",
       "tipus": "női ruha",
       "leírás": "Az élénk színek es merész szabásvonalak az élet változatosságát és lendületességet tükrözik. Az öltözék Szoboszali Bella munkája.",
@@ -545,7 +545,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/SzoradNikolettIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/SzoradNikolettIngKep1.jpg",
       "keszito": "Szórád Nikolett",
       "tipus": "női ruha",
       "leírás": "Szórád Nikolett által tervezett összeállitást a fekete és rózsaszín harmoniája ihlette, melyet egy pillangós párnahuzatból készült fűző koronáz meg.",
@@ -559,7 +559,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/TothDavidKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/TothDavidKep1.jpg",
       "keszito": "Tóth Dávid",
       "tipus": "férfi ruha",
       "leírás": "Tóth Dávid által tervezett öltözék egy könnyed nyári nadrág és blúz, melyet a művész  szülővárosa, Zalaegerszeg inspirált.",
@@ -572,7 +572,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/WertheimLorettaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/WertheimLorettaIngKep1.jpg",
       "keszito": "Wertheim Loretta",
       "tipus": "női ruha",
       "leírás": "A kifutón látható ruha egy upcycle koncepcióval készült öltözék, a tervező, Wertheim Loretta, egy kidobásra szánt ruhát alakított át egy hordható, elegáns estélyi ruhadarabbá.",
@@ -589,7 +589,7 @@
     [
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/BuzasVandaSzonjaIng2Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BuzasVandaSzonjaIng2Kep1.jpg",
       "keszito": "Buzás Vanda Szonja",
       "tipus": "női ruha",
       "leírás": "A ruhámat a fesztivál hangulata és a tavasz inspirálta, könnyed mégis több van benne mit elsőre látszik.",
@@ -602,7 +602,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/HoffmannDoraIng2Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/HoffmannDoraIng2Kep1.jpg",
       "keszito": "Hoffmann Dóra",
       "tipus": "női ruha",
       "leírás": " A zero waste irányt követve a megújulás, letisztultság vonalát kísértem végig a tervezésben és a kivitelezésben. A kibontakozó geometrikus formavilág és az egy hangú sötét természet adta földszín tökéletes ellentétet nyújt a térmészet és a mesterséges világ között.<br> Geometrikus vonalvezetesben történő négyzet felső, szabás vonal nélkül. Hátul pánttal zárható, belebújós felső cipzár nyakeldolgozassal díszítve. Ezt kiegeszíti a derékban több irányba hajtható bő nadrág. Formavilágát tekintve téglalapok és háromszögekből áll.",
@@ -618,7 +618,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng2Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng2Kep1.jpg",
       "keszito": "Molnár-Csíkós Hajnalka",
       "tipus": "női ruha",
       "leírás": "A tanárnő ruhái",
@@ -631,7 +631,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "eleres": "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep1.jpg",
       "keszito": "Nagy Hanna Napsugár",
       "tipus": "női ruha",
       "leírás": "Nagy Hanna Napsugár által tervezett ruha célja az volt,hogy kényelmes legyen és könnyen lehessen benne mozogni, így akár fellépésekre is lehessen használni.",

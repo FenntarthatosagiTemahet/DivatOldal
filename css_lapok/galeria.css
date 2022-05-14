@@ -27,27 +27,44 @@ article
 {
     grid-area: a;
 }
-
-article .minta 
+.ing .ingTarolo,
+.zeroWaste .zeroWasteTarolo
 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start ;
+    flex-wrap: wrap;
 }
-
-div .kep
+.ingTarolo div,
+.zeroWasteTarolo div
 {
+    flex: 0 0 24%;
     padding: 10px;
+    margin: 5px;
 }
-
-article .minta img
+.ingTarolo img,
+.zeroWasteTarolo img
 {
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
+}
+.ingTarolo div span,
+.zeroWasteTarolo div span
+{
+    font-weight: bold;
 }
 
 aside
 {
     grid-area: as;
+    padding: 10px;
+}
+
+.tervezok p
+{
+    padding: 10px;
 }
 
 footer

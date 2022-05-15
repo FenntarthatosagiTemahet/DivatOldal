@@ -51,30 +51,42 @@ function init() {
   fetchfeltolt("kozep", kozepiskolasteszt);
   fetchfeltolt("felnot", felnotteszt);
   tesztvalasztas();
-  answers = document.querySelectorAll('.answer')
+  const helyesvalaszok = [];
+  ID("kuldes").addEventListener("click", function(){
+    const answers = document.querySelectorAll('input');
+    answers.forEach((element)=>{
+      if(element.checked){
+        helyesvalaszok.push(element);
+      }
+    })
+  });
 } //vége
 /*function helyesvalaszokszerzes(){
   const helyesvalaszok = [];
 }*/
+
 function listabejaras(array) {
   var txt = '<form>'
+  let db = 1;
   for (let index = 0; index < array.length; index++) {
     let i = 1
     for (const key in array[index]) {
       if (i === 1) {
         txt += `<label for="${index}.kerdes">${array[index][key]}</label><br>`
       } else if (Object.keys(array[index]).length === 7 && (i < 1 || i < 5)) {
-        txt += `<div class=answer><input type="checkbox" id="${index}${i}.valasz" name="${index}.valasz" value="${index}.valasz">
-                <label for="${index}${i}.valasz">${array[index][key]}</label><br></div>`
+        txt += `<input type="checkbox" id="${db}.valasz" name="${index}.valasz" value="${index}.valasz">
+                <label for="${db}.valasz">${array[index][key]}</label><br>`
+                db++;
       } else if (i < 1 || i < 5) {
-        txt += `<div class=answer><input type="radio" id="${index}${i}.valasz" name="${index}.valasz" value="${index}.valasz">
-                <label for="${index}${i}.valasz">${array[index][key]}</label><br></div>`
+        txt += `<input type="radio" id="${db}.valasz" name="${index}.valasz" value="${index}.valasz">
+                <label for="${db}.valasz">${array[index][key]}</label><br>`
+                db++;
       } else if (i === 5) {
         txt += `<p>${array[index][key]}pont</p>`
       }
       i++
     }
   }
-  txt += "<input type='submit' class='kuldesgomb' value='Küldés'> </form>"
+  txt += "</form>"
   return txt
 }

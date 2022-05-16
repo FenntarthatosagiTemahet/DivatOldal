@@ -70,8 +70,6 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).className = "invisible";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
                     kartyak.splice(0, kartyak.length);
-                    // kartyak = [];
-                    // kartyak.length = 0;
                 }, 1000)
             };
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";

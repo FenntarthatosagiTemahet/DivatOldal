@@ -44,7 +44,6 @@ function init(){
       .catch((err) => {
         console.log(err);
       });
-
     }
 
 

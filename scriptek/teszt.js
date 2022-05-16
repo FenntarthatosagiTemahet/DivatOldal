@@ -65,11 +65,11 @@ function listabejaras(array) {
       if (i === 1) {
         txt += `<label for="${index}.kerdes">${array[index][key]}</label><br>`
       } else if (Object.keys(array[index]).length === 7 && (i < 1 || i < 5)) {
-        txt += `<input type="checkbox" id="${db}.valasz" name="${index}.valasz" value="${index}.valasz">
+        txt += `<input type="checkbox" id="${db}.valasz" name="${index}.valasz" value="${array[index][key]}">
                 <label for="${db}.valasz">${array[index][key]}</label><br>`
                 db++;
       } else if (i < 1 || i < 5) {
-        txt += `<input type="radio" id="${db}.valasz" name="${index}.valasz" value="${index}.valasz">
+        txt += `<input type="radio" id="${db}.valasz" name="${index}.valasz" value="${array[index][key]}">
                 <label for="${db}.valasz">${array[index][key]}</label><br>`
                 db++;
       } else if (i === 5) {
@@ -118,5 +118,6 @@ function init() {
         felhvalaszok.push(element);
       }
     })
+    console.log(felhvalaszok[0].value);
   });
 }

@@ -26,7 +26,24 @@ function init() {
   // mintaKepFeltolt();
   $("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste", zeroTxt));
   //tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt);
-  $("#zero").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
+  //$("#ing").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
+  valaszt();
+}
+
+function valaszt(){
+  var melyik = ""
+  const tomb = $All("article>button");
+  tomb.forEach((elem)=>{
+    elem.addEventListener("click", function(){
+      melyik = event.target.innerHTML;
+      if(melyik === "Zero waste"){
+        $("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste", zeroTxt));
+      }
+      else if(melyik ==="Újrahasznosított ingek"){
+        $("#ing").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
+      }
+    })
+  })
 }
 
 function tombBeolvasas(tomb, kulcs, txt)

@@ -18,7 +18,7 @@ function kepFeldolgozas() {
     let txt = "";
     kepek.sort(function(a, b) {
         return 0.5 - Math.random();
-    })
+    });
     console.log(kepek);
     for(i = 0; i < kepek.length; i++) {
         txt += "<div id=\"" + i + "\"></div>";
@@ -40,9 +40,10 @@ function kepFeldolgozas() {
 }
 
 var kartyak = [];
+var megtalaltKartyak = [];
 
 function kartyatMutat(i) {
-    if(szamlalo < 2) {
+    if(szamlalo < 2 && event.target.className == "invisible") {
         event.target.className = "visible";
         event.target.style.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
         event.target.style.backgroundSize = "100%";
@@ -52,14 +53,17 @@ function kartyatMutat(i) {
         if(szamlalo == 2) {
             if(kepek[kartyak[0]].kepEleresiUtvonala == kepek[kartyak[1]].kepEleresiUtvonala) {
                 probalkozasokSzama++;
-                // ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
                 setTimeout(() => {
-                    ID(Number(kartyak[0])).style.backgroundImage = "none";
+                    /* ID(Number(kartyak[0])).style.backgroundImage = "none";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
                     ID(Number(kartyak[0])).style.backgroundColor = "blue";
-                    ID(Number(kartyak[1])).style.backgroundColor = "blue";
+                    ID(Number(kartyak[1])).style.backgroundColor = "blue"; */
+                    ID(Number(kartyak[0])).className = "found";
+                    ID(Number(kartyak[1])).className = "found";
+                    megtalaltKartyak.push(kartyak[0]);
+                    megtalaltKartyak.push(kartyak[1]);
                     kartyak.splice(0, kartyak.length);
-                }, 1000);
+                }, 750);
             }
             else {
                 // console.log(ID(Number(kartyak[0])));
@@ -70,12 +74,12 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).className = "invisible";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
                     kartyak.splice(0, kartyak.length);
-                }, 1000)
+                }, 750)
             };
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;
-            console.log(szamlalo)
-            console.log(probalkozasokSzama)
+            console.log("Számláló: " + szamlalo);
+            console.log("Próbálkozások száma: " + probalkozasokSzama);
         }
     }
 }
@@ -98,5 +102,10 @@ function init() {
     let tombHossz = tomb.length;
 
     for(i = 0; i < tombHossz; i++) tomb[i].className = "invisible";
-    for(i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", kartyatMutat(i));
+    for(i = 0; i < tombHossz; i++) {
+        /* if(tomb[i].className == "invisible") {
+            tomb[i].addEventListener("click", kartyatMutat(i));
+        } */
+        tomb[i].addEventListener("click", kartyatMutat);
+    }
 }

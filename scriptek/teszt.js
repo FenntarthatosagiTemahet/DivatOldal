@@ -63,7 +63,7 @@ function listabejaras(array) {
     let i = 1
     for (const key in array[index]) {
       if (i === 1) {
-        txt += `<label for="${index}.kerdes">${array[index][key]}</label><br>`
+        txt += `<p">${array[index][key]}</p><br>`
       } else if (Object.keys(array[index]).length === 7 && (i < 1 || i < 5)) {
         txt += `<input type="checkbox" id="${db}.valasz" name="${index}.valasz" value="${array[index][key]}">
                 <label for="${db}.valasz">${array[index][key]}</label><br>`
@@ -94,30 +94,43 @@ function helyesvalaszokszerzes(array){
     tombtiszit(helyesvalaszok);
   }
 for (let index = 0; index < array.length; index++) {
-  if(Object.keys(array[index]).length === 7){
-    helyesvalaszok.push(Object.keys(array[index])[Object.keys(array[index]).length-1]);
-    helyesvalaszok.push(Object.keys(array[index])[Object.keys(array[index]).length-2]);
+  if(Object.values(array[index]).length === 7){
+    helyesvalaszok.push(Object.values(array[index])[Object.values(array[index]).length-1]);
+    helyesvalaszok.push(Object.values(array[index])[Object.values(array[index]).length-2]);
   }
-  else if(Object.keys(array[index]).length === 6){
-    helyesvalaszok.push(Object.keys(array[index])[Object.keys(array[index]).length-1]);
+  else if(Object.values(array[index]).length === 6){
+    helyesvalaszok.push(Object.values(array[index])[Object.values(array[index]).length-1]);
   }
   
 }
+}
+
+function felhasznalovalasz(){
+  ID("kuldes").addEventListener("click", function(){
+    let i = 0;
+    const answers = document.querySelectorAll('input');
+    const answersvalue = $All('label');
+    answers.forEach((element)=>{
+      
+        if(element.checked.value === helyesvalaszok[i]){
+          answersvalue[i].style.color="green";
+        }
+        else{
+          answersvalue[i].style.color="red";
+        }
+        i++;
+    })
+  });
 }
 
 function init() {
   fetchfeltolt("alt", altalanosteszt);
   fetchfeltolt("kozep", kozepiskolasteszt);
   fetchfeltolt("felnot", felnotteszt);
+  
   tesztvalasztas();
   const felhvalaszok = [];
-  ID("kuldes").addEventListener("click", function(){
-    const answers = document.querySelectorAll('input');
-    answers.forEach((element)=>{
-      if(element.checked){
-        felhvalaszok.push(element);
-      }
-    })
-    console.log(felhvalaszok[0].value);
-  });
+  felhasznalovalasz();
+
+
 }

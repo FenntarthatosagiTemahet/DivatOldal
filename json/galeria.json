@@ -394,6 +394,19 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/BuzasVandaSzonjaIng2Kep1.jpg",
+      "keszito": "Buzás Vanda Szonja",
+      "tipus": "női ruha",
+      "leírás": "A ruhámat a fesztivál hangulata és a tavasz inspirálta, könnyed mégis több van benne mit elsőre látszik.",
+      "tovabbiKepek": 
+      [
+          "../kepek/divattervezokKepei/BuzasVandaSzonjaIng2Kep1.jpg"
+      ],
+      "modellNeve": "Buzás Vanda Szonja",
+      "ruhaoldalEleresiut": ""
+    },
+    {
+      "kepCim": "Újrahasznosított ing",
       "foKepEleresiUt": "../kepek/divattervezokKepei/FabianFanniIngKep1.jpg",
       "keszito": "Fábián Fanni",
       "tipus": "női ruha",
@@ -449,6 +462,22 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/HoffmannDoraIng2Kep1.jpg",
+      "keszito": "Hoffmann Dóra",
+      "tipus": "női ruha",
+      "leírás": " A zero waste irányt követve a megújulás, letisztultság vonalát kísértem végig a tervezésben és a kivitelezésben. A kibontakozó geometrikus formavilág és az egy hangú sötét természet adta földszín tökéletes ellentétet nyújt a térmészet és a mesterséges világ között.<br> Geometrikus vonalvezetesben történő négyzet felső, szabás vonal nélkül. Hátul pánttal zárható, belebújós felső cipzár nyakeldolgozassal díszítve. Ezt kiegeszíti a derékban több irányba hajtható bő nadrág. Formavilágát tekintve téglalapok és háromszögekből áll.",
+      "tovabbiKepek": 
+      [
+          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep2.jpg",
+          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep3.jpg",
+          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep4.jpg",
+          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep5.jpg"
+      ],
+      "modellNeve": "Horváth Dorina",
+      "ruhaoldalEleresiut": ""
+    },
+    {
+      "kepCim": "Újrahasznosított ing",
       "foKepEleresiUt": "../kepek/divattervezokKepei/KerteszKrisztinaIngKep1.jpg",
       "keszito": "Kertész Krisztina",
       "tipus": "női ruha",
@@ -490,6 +519,19 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng2Kep1.jpg",
+      "keszito": "Molnár-Csíkós Hajnalka",
+      "tipus": "női ruha",
+      "leírás": "A tanárnő ruhái",
+      "tovabbiKepek": 
+      [
+          "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng2Kep2.jpg"
+      ],
+      "modellNeve": "Székely Bendegúz",
+      "ruhaoldalEleresiut": ""
+    },
+    {
+      "kepCim": "Újrahasznosított ing",
       "foKepEleresiUt": "../kepek/divattervezokKepei/NagyDominikaAnnaIngKep1.jpg",
       "keszito": "Nagy Dominika Anna",
       "tipus": "női ruha",
@@ -525,6 +567,21 @@
           "../kepek/divattervezokKepei/NagyHannaNapsugarIng1Kep2.jpg",
           "../kepek/divattervezokKepei/NagyHannaNapsugarIng1Kep3.jpg",
           "../kepek/divattervezokKepei/NagyHannaNapsugarIng1Kep4.jpg"
+      ],
+      "modellNeve": "Nagy Hanna Napsugár",
+      "ruhaoldalEleresiut": ""
+    },
+    {
+      "kepCim": "Újrahasznosított ing",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep1.jpg",
+      "keszito": "Nagy Hanna Napsugár",
+      "tipus": "női ruha",
+      "leírás": "Nagy Hanna Napsugár által tervezett ruha célja az volt,hogy kényelmes legyen és könnyen lehessen benne mozogni, így akár fellépésekre is lehessen használni.",
+      "tovabbiKepek": 
+      [
+          "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep2.jpg",
+          "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep3.jpg",
+          "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep4.jpg"
       ],
       "modellNeve": "Nagy Hanna Napsugár",
       "ruhaoldalEleresiut": ""
@@ -582,66 +639,6 @@
           "../kepek/divattervezokKepei/WertheimLorettaIngKep3.jpg"
       ],
       "modellNeve": "Wertheim Loretta",
-      "ruhaoldalEleresiut": ""
-    }
-  ],
-  "UjrahasznositottIng2":
-    [
-    {
-      "kepCim": "Újrahasznosított ing",
-      "foKepEleresiUt": "../kepek/divattervezokKepei/BuzasVandaSzonjaIng2Kep1.jpg",
-      "keszito": "Buzás Vanda Szonja",
-      "tipus": "női ruha",
-      "leírás": "A ruhámat a fesztivál hangulata és a tavasz inspirálta, könnyed mégis több van benne mit elsőre látszik.",
-      "tovabbiKepek": 
-      [
-          "../kepek/divattervezokKepei/BuzasVandaSzonjaIng2Kep1.jpg"
-      ],
-      "modellNeve": "Buzás Vanda Szonja",
-      "ruhaoldalEleresiut": ""
-    },
-    {
-      "kepCim": "Újrahasznosított ing",
-      "foKepEleresiUt": "../kepek/divattervezokKepei/HoffmannDoraIng2Kep1.jpg",
-      "keszito": "Hoffmann Dóra",
-      "tipus": "női ruha",
-      "leírás": " A zero waste irányt követve a megújulás, letisztultság vonalát kísértem végig a tervezésben és a kivitelezésben. A kibontakozó geometrikus formavilág és az egy hangú sötét természet adta földszín tökéletes ellentétet nyújt a térmészet és a mesterséges világ között.<br> Geometrikus vonalvezetesben történő négyzet felső, szabás vonal nélkül. Hátul pánttal zárható, belebújós felső cipzár nyakeldolgozassal díszítve. Ezt kiegeszíti a derékban több irányba hajtható bő nadrág. Formavilágát tekintve téglalapok és háromszögekből áll.",
-      "tovabbiKepek": 
-      [
-          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep2.jpg",
-          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep3.jpg",
-          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep4.jpg",
-          "../kepek/divattervezokKepei/HoffmannDoraIng2Kep5.jpg"
-      ],
-      "modellNeve": "Horváth Dorina",
-      "ruhaoldalEleresiut": ""
-    },
-    {
-      "kepCim": "Újrahasznosított ing",
-      "foKepEleresiUt": "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng2Kep1.jpg",
-      "keszito": "Molnár-Csíkós Hajnalka",
-      "tipus": "női ruha",
-      "leírás": "A tanárnő ruhái",
-      "tovabbiKepek": 
-      [
-          "../kepek/divattervezokKepei/MolnarCsikosHajnalkaOfoIng2Kep2.jpg"
-      ],
-      "modellNeve": "Székely Bendegúz",
-      "ruhaoldalEleresiut": ""
-    },
-    {
-      "kepCim": "Újrahasznosított ing",
-      "foKepEleresiUt": "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep1.jpg",
-      "keszito": "Nagy Hanna Napsugár",
-      "tipus": "női ruha",
-      "leírás": "Nagy Hanna Napsugár által tervezett ruha célja az volt,hogy kényelmes legyen és könnyen lehessen benne mozogni, így akár fellépésekre is lehessen használni.",
-      "tovabbiKepek": 
-      [
-          "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep2.jpg",
-          "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep3.jpg",
-          "../kepek/divattervezokKepei/NagyHannaNapsugarIng2Kep4.jpg"
-      ],
-      "modellNeve": "Nagy Hanna Napsugár",
       "ruhaoldalEleresiut": ""
     }
   ]

@@ -23,8 +23,9 @@ const ingKepek=[];
 
 function init() {
   $("footer").innerHTML = "&copy Készítette: Weinberger Péter";
-  // mintaKepFeltolt();
-  $("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste", zeroTxt));
+  window.addEventListener("click", tombBeolvasas(ingKepek, "UjrahasznositottIng"));
+  window.addEventListener("click", tombBeolvasas(zeroWasteKepek, "zeroWaste"));
+  //$("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste"));
   //tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt);
   //$("#ing").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
   valaszt();
@@ -37,16 +38,16 @@ function valaszt(){
     elem.addEventListener("click", function(){
       melyik = event.target.innerHTML;
       if(melyik === "Zero waste"){
-        $("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste", zeroTxt));
+        $("#zero").addEventListener("click", kepekFeltoltAdatokkal(zeroWasteKepek));
       }
       else if(melyik ==="Újrahasznosított ingek"){
-        $("#ing").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
+        $("#ing").addEventListener("click",kepekFeltoltAdatokkal(ingKepek));
       }
     })
   })
 }
 
-function tombBeolvasas(tomb, kulcs, txt)
+function tombBeolvasas(tomb, kulcs)
 {
   fetch("../json/galeria.json")
   .then((response)=>response.json())
@@ -55,18 +56,18 @@ function tombBeolvasas(tomb, kulcs, txt)
       {
         tomb.push(elem);
       });
-    kepekFeltoltAdatokkal(tomb, txt);
-    // console.log(tomb);
+      kepekFeltoltAdatokkal(tomb);
   })
   .catch(err => console.log(err));
 }
 
-var zeroTxt=`<div class="zeroWaste">`;
-var ingTxt=`<div class="ing">`;
-var asideTxt="<div>";
-function kepekFeltoltAdatokkal(tomb, txt) 
+
+
+
+function kepekFeltoltAdatokkal(tomb) 
 {
-  
+  var txt=`<div class="galeriaKepek">`;
+  var asideTxt="<div>";
   for (let i = 0; i < tomb.length; i++) 
   {
       txt+=`<div><img src="${tomb[i].foKepEleresiUt}" alt="kép">
@@ -79,14 +80,9 @@ function kepekFeltoltAdatokkal(tomb, txt)
     
   }
   txt+="</div>";
-
   asideTxt+="</div>";
-  $(".galeriaKepek").innerHTML=txt;
-  // txt="";
-  // $(".ing").innerHTML=txt;
-  // $(".tervezok").innerHTML=asideTxt;
-   console.log(zeroTxt);
-   console.log(ingTxt);
+  $(".galeria").innerHTML=txt;
+  $(".tervezok").innerHTML=asideTxt;
 }
 
 
@@ -94,14 +90,4 @@ function kepekFeltoltAdatokkal(tomb, txt)
 function ujoldal() 
 {
 
-}
-
-const mintaKep = "../minta_kepek/minta.png";
-
-function mintaKepFeltolt() 
-{
-  for (let i = 0; i < 23; i++) 
-  {
-    $(".minta").innerHTML += `<div><div class=kep><img src="${mintaKep}" alt="hattér"></div></div>`;
-  }
 }

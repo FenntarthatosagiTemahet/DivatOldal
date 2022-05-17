@@ -27,7 +27,7 @@ article
 {
     grid-area: a;
 }
- .galeriaKepek .zeroWaste, .galeriaKepek .ing
+ .galeria .galeriaKepek, .galeria .galeriaKepek
 {
     display: flex;
     flex-direction: row;
@@ -35,22 +35,19 @@ article
     align-items: flex-start ;
     flex-wrap: wrap;
 }
-.ing div,
-.zeroWaste div
+.galeriaKepek div
 {
     flex: 0 0 24%;
     padding: 10px;
     margin: 5px;
 }
-.galeriaKepek .ing img,
-.galeriaKepek .zeroWaste img
+.galeria .galeriaKepek img
 {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
 }
-.ing div span,
-.zeroWaste div span
+.galeriaKepek div span
 {
     font-weight: bold;
 }

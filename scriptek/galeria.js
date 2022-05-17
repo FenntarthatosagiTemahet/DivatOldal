@@ -23,17 +23,14 @@ const ingKepek=[];
 
 function init() {
   $("footer").innerHTML = "&copy Készítette: Weinberger Péter";
-  window.addEventListener("click", tombBeolvasas(ingKepek, "UjrahasznositottIng"));
-  window.addEventListener("click", tombBeolvasas(zeroWasteKepek, "zeroWaste"));
-  //$("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste"));
-  //tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt);
-  //$("#ing").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
+  tombBeolvasas(ingKepek, "UjrahasznositottIng");
+  tombBeolvasas(zeroWasteKepek, "zeroWaste");
   valaszt();
 }
 
 function valaszt(){
   var melyik = ""
-  const tomb = $All("article>button");
+  const tomb = $All("#gombok button");
   tomb.forEach((elem)=>{
     elem.addEventListener("click", function(){
       melyik = event.target.innerHTML;

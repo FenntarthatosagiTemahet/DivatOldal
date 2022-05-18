@@ -91,6 +91,7 @@ function kepekFeltoltAdatokkal(tomb)
       let kepEleres=event.target.id;
       console.log(event.target.id);
       kepEleres=localStorage.setItem("aktualisKep", JSON.stringify(tomb[kepEleres]));
+      console.log(kepEleres);
     });
   }
   for (let j = 0; j < asideLista.length; j++) 

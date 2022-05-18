@@ -24,14 +24,25 @@ function init()
 
 function feltolt() 
 {
-    let txt = "";
-
-    let adatok = JSON.parse(localStorage.getItem("aktualisKep"));
+    var tomb=[];
+    const adatok=JSON.parse(localStorage.getItem("aktualisKep"));
     
-    for (const kulcs in adatok) 
+    
+    tomb.push(adatok);
+    // console.log(tomb);
+    // console.log(tomb.length);
+    let txt = "<div>";
+    for (let i = 0; i < tomb.length; i++) 
     {
-        txt+=`<p>${adatok[kulcs]}<p>`;
+        for (let j = 0; j < tomb[i].tovabbiKepek.length; j++) 
+        {
+            txt+=`<img src="${tomb[i].tovabbiKepek[j]}">`;
+            // console.log(j);    
+        }
+        txt+=`<p>${tomb[i].kepCim}</p>`;
     }
+
+    txt+="</div>";
     ID("aktualisKepek").innerHTML = txt
     
 }

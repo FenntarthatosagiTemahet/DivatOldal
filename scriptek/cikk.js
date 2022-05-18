@@ -50,7 +50,7 @@ function init(){
     function feltolt(){
         let txt = ""; 
         for (let index = 0; index < lista.length; index++) {
-          txt+=`<div class="mellekdiv">`;
+          txt+=`<div class="mellekdiv">`;              /*"<div id='mellekdiv"+index+"'>";*/
           for (const key in lista[index]) {
             if(key.includes("focim")){
               txt+=`<h1>${lista[index][key]}</h1>`
@@ -60,20 +60,22 @@ function init(){
               txt+=`<p>${lista[index][key]}</p>`
             }
             }
-            txt+=`<button value="${index}" id="refgmb${index}">Bővebben</button></div>`
+            txt+=`<a href="../html_oldalak/feltcikk.html"><button value="${index}" id="refgmb${index}">Bővebben</button></a></div>`
           }
          
         console.log(txt);
         ID("cikkContainer").innerHTML = txt;
-        ID("headerid").innerHTML = "cikkek" 
+        // ID("headerid").innerHTML = "cikkek" 
+        gomb();
     }
 
       function gomb(){
         let egeszcikk = "";
         let gomblista = document.querySelectorAll("button")
         for (let index = 0; index < gomblista.length; index++) {
-          gomblista[index].addEventListener("click", function(){
-            let gombertek = event.target.value
+          gomblista[index].addEventListener("click", function(event){
+            let gombertek = event.target.value 
+            localStorage.setItem("aktualisgomb", JSON.stringify(lista[gombertek]))
           })
         }
       }

@@ -20,6 +20,9 @@ body
 {
     /* background-color: var(--galeriaHatter); */
     background-image: linear-gradient(var(--hatterAtmenet1), var(--hatterAtmenet2));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header

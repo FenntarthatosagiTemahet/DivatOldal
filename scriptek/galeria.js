@@ -23,13 +23,28 @@ const ingKepek=[];
 
 function init() {
   $("footer").innerHTML = "&copy Készítette: Weinberger Péter";
-  // mintaKepFeltolt();
-  $("#zero").addEventListener("click", tombBeolvasas(zeroWasteKepek,"zeroWaste", zeroTxt));
-  //tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt);
-  $("#zero").addEventListener("click",tombBeolvasas(ingKepek,"UjrahasznositottIng", ingTxt));
+  tombBeolvasas(ingKepek, "UjrahasznositottIng");
+  tombBeolvasas(zeroWasteKepek, "zeroWaste");
+  valaszt();
 }
 
-function tombBeolvasas(tomb, kulcs, txt)
+function valaszt(){
+  var melyik = ""
+  const tomb = $All("#gombok button");
+  tomb.forEach((elem)=>{
+    elem.addEventListener("click", function(){
+      melyik = event.target.innerHTML;
+      if(melyik === "Zero waste"){
+        $("#zero").addEventListener("click", kepekFeltoltAdatokkal(zeroWasteKepek));
+      }
+      else if(melyik ==="Újrahasznosított ingek"){
+        $("#ing").addEventListener("click",kepekFeltoltAdatokkal(ingKepek));
+      }
+    })
+  })
+}
+
+function tombBeolvasas(tomb, kulcs)
 {
   fetch("../json/galeria.json")
   .then((response)=>response.json())
@@ -38,19 +53,18 @@ function tombBeolvasas(tomb, kulcs, txt)
       {
         tomb.push(elem);
       });
-    kepekFeltoltAdatokkal(tomb, txt);
-    // console.log(tomb);
+      kepekFeltoltAdatokkal(tomb);
   })
   .catch(err => console.log(err));
 }
 
-var zeroTxt=`<div class="zeroWasteTarolo">`;
-var ingTxt=`<div class="ingTarolo">`;
-var asideTxt="<div>";
-function kepekFeltoltAdatokkal(tomb, txt) 
+
+
+
+function kepekFeltoltAdatokkal(tomb) 
 {
-  let zero=`<div class="zeroWasteTarolo">`;
-  let ing=`<div class="ingTarolo">`;
+  var txt=`<div class="galeriaKepek">`;
+  var asideTxt="<div>";
   for (let i = 0; i < tomb.length; i++) 
   {
       txt+=`<div><img src="${tomb[i].foKepEleresiUt}" alt="kép">
@@ -63,14 +77,9 @@ function kepekFeltoltAdatokkal(tomb, txt)
     
   }
   txt+="</div>";
-
   asideTxt+="</div>";
-  $(".zeroWaste").innerHTML=txt;
-  // txt="";
-  // $(".ing").innerHTML=txt;
-  // $(".tervezok").innerHTML=asideTxt;
-  console.log(zeroTxt);
-  console.log(ingTxt);
+  $(".galeria").innerHTML=txt;
+  $(".tervezok").innerHTML=asideTxt;
 }
 
 
@@ -79,329 +88,3 @@ function ujoldal()
 {
 
 }
-
-const mintaKep = "../minta_kepek/minta.png";
-
-function mintaKepFeltolt() 
-{
-  for (let i = 0; i < 23; i++) 
-  {
-    $(".minta").innerHTML += `<div><div class=kep><img src="${mintaKep}" alt="hattér"></div></div>`;
-  }
-}
-
-const galeriaAdatok = [
-  {
-    kepCim: "kep cím",
-    eleres: "../kepek/lanyokKepei/",
-    keszito: "Árokszállási Renáta Andrea",
-    tipus: "női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Bajusz Gyöngyike",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Balla Robin",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Bartha Emma Zsuzsanna",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Berecz Lili Blanka",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Buzás Vanda Szonja",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Fábián Fanni",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Fazekas Anna",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Fódi Martin Levente",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Hoffmann Dóra",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Juhász Nóra",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Kertész Krisztina",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Mészáros Mercédesz Beatrix",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Nagy Dominika Anna",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Nagy Flóra",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Nagy Hanna Napsugár",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Novák Nóra",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Szoboszlai Bella",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Szórád Nikolett",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-    eleres: "kep.jpg",
-    keszito: "Tóth Dávid",
-    tipus: "férfi/női",
-    leírás: "mi alapján tervezte meg",
-    tovabbiKepek: [
-      {
-        eleres: "kep2.jpg",
-      },
-    ],
-    ar: "Nem eladó",
-    modellNeve: "XY",
-    ruhaoldalEleresiut: "",
-  },
-  {
-    kepCim: "kep cím",
-   eleres: "kep.jpg",
-   keszito: "Wertheim Loretta",
-   tipus: "férfi/női",
-   leírás: "mi alapján tervezte meg",
-   tovabbiKepek: [{
-       eleres: "kep2.jpg"
-   }],
-   ar: "Nem eladó",
-   modellNeve: "XY",
-   ruhaoldalEleresiut: ""
- }
-];

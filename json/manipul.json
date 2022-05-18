@@ -1,21 +1,21 @@
 { "manipul" : [
     {
-      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "szoveg": "Ha szeretne olvasni néhány cikket a fentarthatósági témahéttel kapcsolatban és, hogy zöldebben éljen akkor ezen az oldalon a helye.",
       "kep": "../kepek/divattervezokKepei/BallaRobinKep1.jpg",
       "link": "cikk.html"
     },
     {
-      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
-      "kep": "../kepek/divattervezokKepei/BallaRobinKep2.jpg",
+      "szoveg": "Ebben a galériában a divattervezők ruháit lehet megnézni, hogy miket terveztek a fentarthatósági témahét kapcsán.",
+      "kep": "../kepek/kozosKep.png",
       "link": "galeria.html"
     },
     {
-      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "szoveg": "Ezen az oldalon, ha nem szeretne olvasni a cikkekről, vagy ruhákat nézni, vagy pedig tesztet kitölteni, akkor eltölthet némi időt játékkal.",
       "kep": "../kepek/divattervezokKepei/BallaRobinKep3.jpg",
       "link": "jatek.html"
     },
     {
-      "szoveg": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed rutrum tellus. Vivamus lectus nisi.",
+      "szoveg": "Ez az oldal egy teszt kitöltéséről szól ami kapcsolatos a cikkekhez és a fentarthatósági témahéttel kapcsolatosan.",
       "kep": "../kepek/divattervezokKepei/BallaRobinKep4.jpg",
       "link": "teszt.html"
     } 

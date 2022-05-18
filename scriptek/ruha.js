@@ -34,12 +34,18 @@ function feltolt()
     let txt = "<div>";
     for (let i = 0; i < tomb.length; i++) 
     {
+      txt+=`<div class=ruhaKepek>`;
         for (let j = 0; j < tomb[i].tovabbiKepek.length; j++) 
         {
-            txt+=`<img src="${tomb[i].tovabbiKepek[j]}">`;
+            txt+=`<div><img src="${tomb[i].tovabbiKepek[j]}"></div>`;
             // console.log(j);    
         }
-        txt+=`<p>${tomb[i].kepCim}</p>`;
+        txt+="</div>"
+        txt+=`<p>${tomb[i].kepCim}</p>
+        <p>${tomb[i].keszito}</p>
+        <p>${tomb[i].tipus}</p>
+        <p>${tomb[i].leiras}</p>
+        <p>${tomb[i].modellNeve}</p>`;
     }
 
     txt+="</div>";

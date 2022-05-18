@@ -42,7 +42,6 @@ function tesztvalasztas(){
       if (melyikteszt === "Általános Iskolás") {
         ID('teszt').innerHTML = listabejaras(altalanosteszt)
         helyesvalaszokszerzes(altalanosteszt);
-        console.log(helyesvalaszok)
       } else if (melyikteszt === "Középiskolás") {
         ID('teszt').innerHTML = listabejaras(kozepiskolasteszt)
         helyesvalaszokszerzes(kozepiskolasteszt);
@@ -50,6 +49,7 @@ function tesztvalasztas(){
         ID('teszt').innerHTML = listabejaras(felnotteszt)
         helyesvalaszokszerzes(felnotteszt);
       }
+      ID("kuldes").innerHTML="<button class='kuldesgomb'>Küldés</button>";
     })
   })
 }
@@ -59,9 +59,10 @@ function listabejaras(array) {
   let db = 1;
   for (let index = 0; index < array.length; index++) {
     let i = 1
+    txt+='<div>'
     for (const key in array[index]) {
       if (i === 1) {
-        txt += `<p">${array[index][key]}</p><br>`
+        txt += `<p>${array[index][key]}</p>`
       } else if (Object.keys(array[index]).length === 7 && (i < 1 || i < 5)) {
         txt += `<input type="checkbox" id="${db}.valasz" name="${index}.valasz" value="${array[index][key]}">
                 <label for="${db}.valasz">${array[index][key]}</label><br>`
@@ -71,10 +72,11 @@ function listabejaras(array) {
                 <label for="${db}.valasz">${array[index][key]}</label><br>`
                 db++;
       } else if (i === 5) {
-        txt += `<p>${array[index][key]}pont</p>`
+        txt += `<p>${array[index][key]}pont</p><br>`
       }
       i++
     }
+    txt+='</div>'
   }
   txt += "</form>"
   return txt
@@ -103,28 +105,25 @@ for (let index = 0; index < array.length; index++) {
 }
 }
 
-function felhasznalovalasz(){
+function tesztjavitas(){
   ID("kuldes").addEventListener("click", function(){
-    let kovhelyesval = 0;
+    let helyesval = 0;
     let valaszokszam = 0;
     const answers = $All('input');
     const answerslabel = document.querySelectorAll('label');
-    console.log(answers[0]);
-    console.log(answerslabel[0]);
     for (let index = 0; index < answers.length; index++) {
       if(answers[index].checked){
         if(answers[index].value===helyesvalaszok[valaszokszam]){
-          console.log("asd")
           answerslabel[index].style.color="green"
-          kovhelyesval++;
+          helyesval++;
         }
         else{
           answerslabel[index].style.color="red"
         }
         valaszokszam++;
       }
-      console.log(kovhelyesval);
     }
+    window.alert(`Köszönjük, hogy velünk játszottál! \n\nEnnyi pontot szerzett ${helyesval}/${valaszokszam}.`);
   });
 }
 
@@ -132,10 +131,9 @@ function init() {
   fetchfeltolt("alt", altalanosteszt);
   fetchfeltolt("kozep", kozepiskolasteszt);
   fetchfeltolt("felnot", felnotteszt);
-  
   tesztvalasztas();
   const felhvalaszok = [];
-  felhasznalovalasz();
+  tesztjavitas();
 
 
 }

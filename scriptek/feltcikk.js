@@ -31,8 +31,11 @@ function init(){
             txt+=`<h1>${adatok[key]}</h1>`
         }
         else if((key.includes("bekezdeslista"))){
-             txt+=`<p>${adatok[key]}</p>`
-    }
+            txt+=`<p>${adatok[key]}</p>`
+        }
+        else if((key.includes("bekezdeskeplista"))){
+            txt+=``
+        }
     ID("halo").innerHTML = txt
     }
 }

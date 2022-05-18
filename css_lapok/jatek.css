@@ -1,9 +1,9 @@
-body {
+/* body {
     background-color: #0099ff;
-}
+} */
 
 main {
-    background-color: #ccc;
+    /* background-color: #ccc; */
     width: 100%;
     text-align: center;
     display: flex;
@@ -21,7 +21,7 @@ main {
 }
 
 #memory-game {
-    width: 50%;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
     display: flex;

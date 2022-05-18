@@ -6,26 +6,22 @@ main {
     background-color: #ccc;
     width: 100%;
     text-align: center;
-    display: grid;
-    grid-template-areas: "h h h h"
-                         "n n n n"
-                         "s s s a"
-                         "f f f f";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
 }
 
 #title {
-    grid-area: h;
     text-decoration: underline;
 }
 
 #navbar {
-    grid-area: n;
     text-align: left;
 }
 
 #memory-game {
-    grid-area: s;
-    width: 900px;
+    width: 50%;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -36,19 +32,67 @@ main {
 }
 
 #memory-game div {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid black;
     border-radius: 20px;
     cursor: pointer;
 }
 
 #points {
-    grid-area: a;
-    width: 100px;
+    width: 200px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#points p {
+    text-align: center;
 }
 
 #footer {
-    grid-area: f;
     padding: 20px;
+}
+
+/* Reszponzivitás */
+@media screen and (max-width: 1200px) {
+    #memory-game {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        width: 100%;
+    }
+    
+    #memory-game {
+        width: 100%;
+    }
+
+    #memory-game div {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #memory-game {
+        width: 100%;
+    }
+
+    #memory-game div {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #navbar {
+        width: 400px;
+        height: 100%;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+    }
 }

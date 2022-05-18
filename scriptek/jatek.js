@@ -53,6 +53,8 @@ function kartyatMutat(i) {
         if(szamlalo == 2) {
             if(kepek[kartyak[0]].kepEleresiUtvonala == kepek[kartyak[1]].kepEleresiUtvonala) {
                 probalkozasokSzama++;
+                megtalaltKartyak.push(kartyak[0]);
+                megtalaltKartyak.push(kartyak[1]);
                 setTimeout(() => {
                     /* ID(Number(kartyak[0])).style.backgroundImage = "none";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
@@ -60,8 +62,7 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).style.backgroundColor = "blue"; */
                     ID(Number(kartyak[0])).className = "found";
                     ID(Number(kartyak[1])).className = "found";
-                    megtalaltKartyak.push(kartyak[0]);
-                    megtalaltKartyak.push(kartyak[1]);
+
                     kartyak.splice(0, kartyak.length);
                 }, 750);
             }
@@ -78,10 +79,22 @@ function kartyatMutat(i) {
             };
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;
+            /* console.log("Megtalált kártyák: " + megtalaltKartyak);
+            console.log("Megtalált kártyák hossza: " + megtalaltKartyak.length);
             console.log("Számláló: " + szamlalo);
-            console.log("Próbálkozások száma: " + probalkozasokSzama);
+            console.log("Próbálkozások száma: " + probalkozasokSzama); */
+
+            setTimeout(() => {
+                if(megtalaltKartyak.length == 16) vegeKiir();
+            }, 800);
         }
     }
+}
+
+function vegeKiir() {
+    var szoveg = "Gratulálok! Végigjátszottad a játékot!\n\nA próbálkozások száma: " + probalkozasokSzama + "\n\nSzeretnél még egyet játszani?";
+    // alert(szoveg);
+    if(confirm(szoveg)) window.location = "../html_oldalak/jatek.html";
 }
 
 function init() {
@@ -103,9 +116,6 @@ function init() {
 
     for(i = 0; i < tombHossz; i++) tomb[i].className = "invisible";
     for(i = 0; i < tombHossz; i++) {
-        /* if(tomb[i].className == "invisible") {
-            tomb[i].addEventListener("click", kartyatMutat(i));
-        } */
         tomb[i].addEventListener("click", kartyatMutat);
     }
 }

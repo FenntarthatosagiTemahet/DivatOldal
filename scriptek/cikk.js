@@ -50,28 +50,33 @@ function init(){
     function feltolt(){
         let txt = ""; 
         for (let index = 0; index < lista.length; index++) {
-          txt+=`<div id="mellekdiv">`;
+          txt+=`<div class="mellekdiv">`;
           for (const key in lista[index]) {
             if(key.includes("focim")){
               txt+=`<h1>${lista[index][key]}</h1>`
-            } else if((key.includes("bekezdeslista"))){
-              txt+=`<p>${lista[index][key]}</p>`
+            // } else if((key.includes("bekezdeslista"))){
+              // txt+=`<p>${lista[index][key]}</p>`
             }else if((key.includes("cikk_iroja"))){
               txt+=`<p>${lista[index][key]}</p>`
             }
             }
-            txt+=`</div>`
+            txt+=`<button value="${index}" id="refgmb${index}">Bővebben</button></div>`
           }
          
-          console.log(txt);
-          ID("cikkContainer").innerHTML = txt;
+        console.log(txt);
+        ID("cikkContainer").innerHTML = txt;
+        ID("headerid").innerHTML = "cikkek" 
     }
 
-
-    
-    
-
-
+      function gomb(){
+        let egeszcikk = "";
+        let gomblista = document.querySelectorAll("button")
+        for (let index = 0; index < gomblista.length; index++) {
+          gomblista[index].addEventListener("click", function(){
+            let gombertek = event.target.value
+          })
+        }
+      }
 
 
         

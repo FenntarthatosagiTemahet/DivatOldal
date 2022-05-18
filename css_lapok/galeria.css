@@ -2,6 +2,13 @@
 {
     border: 1px solid black;
 } */
+
+:root{
+    
+    --galeriaGomb: #f5ebe0;
+    /* #9F9AA4, #E7CFCD, #CFD8D7, #B5C9C3, #CAB1BD */
+}
+
 main
 {
     display: grid;
@@ -11,40 +18,53 @@ main
                          "f f f f f f f";
 }
 
+nav #gombok
+{
+    position: relative;
+}
+
 #gombok
 {
-    /* display: flex;
-    justify-content: space-evenly; */
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
+    position: unset; */
 }
 
 #gombok button
 {
     cursor: pointer;
     border: none;
-    background-color: white;
+    background-color: var(--galeriaGomb);
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     font-size: 16pt;
 }
 
-#gombok button:focus
+#gombok button:focus, #gombok button:hover
 {
     background-color: black;
     color: white;
 }
 
-#gombok button:hover
-{
-    background-color: silver;
-    color: black;
-}
-
 header
 {
     grid-area: h;
+    background-color: var(--Cim);
+    opacity: 0.5;
+}
+
+header h1
+{
+    line-height: 100px;
+    /* padding: 50px; */
+    text-align: center;
+    color: #540b0e;
+    opacity: 1;
+    z-index: 111111;
 }
 
 nav
@@ -54,7 +74,9 @@ nav
 
 article
 {
+    /* margin-top: 60px; */
     grid-area: a;
+    /* background-color: var(--galeriaHatter); */
 }
  .galeria .galeriaKepek, .galeria .galeriaKepek
 {
@@ -68,28 +90,61 @@ article
 {
     flex: 0 0 24%;
     padding: 10px;
-    margin: 5px;
 }
 .galeria .galeriaKepek img
 {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 .galeriaKepek div span
 {
     font-weight: bold;
 }
 
+.galeriaKepek div p
+{
+    text-align: center;
+}
+
 aside
 {
     grid-area: as;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin: 20px; */
+    margin-top: 60px;
+    padding: 0px;
+    /* background-color: var(--galeriaHatter); */
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+}
+aside p
+{
+    margin: 5px;
+    float: left;
+    
+}
+
+aside a
+{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+    padding: 5px;
+    color: black;
+}
+
+aside a:hover
+{
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.8);
 }
 
 .tervezok p
 {
-    padding: 10px;
+    margin-top: 20px;
 }
 
 footer

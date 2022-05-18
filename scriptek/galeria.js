@@ -68,10 +68,8 @@ function kepekFeltoltAdatokkal(tomb)
   for (let i = 0; i < tomb.length; i++) 
   {
       txt+=`<div><img src="${tomb[i].foKepEleresiUt}" alt="kép">
-          <p>A kép címe: <span>${tomb[i].kepCim}</span></p>
-          <p>Készítő neve: <span>${tomb[i].keszito}</span></p>
-          <p>Ruha típusa: <span>${tomb[i].tipus}</span></p>
-          <p>Modell neve: <span>${tomb[i].modellNeve}</span></p></div>`;
+          <p><span>${tomb[i].keszito}</span></p>
+          <p>(<span>${tomb[i].modellNeve}</span>)</p></div>`;
 
     asideTxt+=`<p><a href="#">${tomb[i].keszito}</a></p>`;
     

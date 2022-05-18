@@ -3,16 +3,22 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: beige;
-}
+} */
 
 main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1500px;
     margin: auto;
-    max-width: 1000px;
+    
+    
+}
+header{
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 
@@ -70,11 +76,5 @@ img:hover {
 } */
 img{
     width: 250px;
-    border-radius: 20%;
-}
-#kep{
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
+    border-radius: 100%;
 }

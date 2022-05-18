@@ -43,7 +43,7 @@ function feltolt() {
     //txt += `<div id="mellék_div"><div><p>${manipul[index].szoveg}</p></div><div><a href=${manipul[index].link}><img src="${manipul[index].kep}"alt="facepalm""/></a></div></div>`;
     //}
     //else{
-    txt += `<div id="mellék_div"><div class="ize""><a href=${manipul[index].link}><div class="kep"><img src="${manipul[index].kep}"alt="facepalm""/></div></a></div><div><p>${manipul[index].szoveg}</p></div></div>`;
+    txt += `<div id="mellék_div"><div class="ize""><a href=${manipul[index].link}><div class="kep"><img src="${manipul[index].kep}"alt="facepalm""/></div></a></div><div><h4>${manipul[index].cim}</h4><p>${manipul[index].szoveg}</p></div></div>`;
     // }
     console.log(txt);
   }

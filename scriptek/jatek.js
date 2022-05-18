@@ -62,9 +62,10 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).style.backgroundColor = "blue"; */
                     ID(Number(kartyak[0])).className = "found";
                     ID(Number(kartyak[1])).className = "found";
-
+                    ID(Number(kartyak[0])).style.opacity = "0.7";
+                    ID(Number(kartyak[1])).style.opacity = "0.7";
                     kartyak.splice(0, kartyak.length);
-                }, 750);
+                }, 550);
             }
             else {
                 // console.log(ID(Number(kartyak[0])));
@@ -75,7 +76,7 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).className = "invisible";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
                     kartyak.splice(0, kartyak.length);
-                }, 750)
+                }, 650)
             };
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;

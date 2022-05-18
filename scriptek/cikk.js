@@ -42,7 +42,7 @@ function init(){
         feltolt();
       })
       .catch((err) => {
-        console.log(err);
+      console.log(err);
       });
     }
 

@@ -91,3 +91,11 @@ nav ul li a.aktiv
     color: white;
     border-radius: 5px;
 }
+
+footer
+{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}

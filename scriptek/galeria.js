@@ -22,10 +22,12 @@ const ingKepek=[];
 
 
 function init() {
-  $("footer").innerHTML = "&copy Készítette: Weinberger Péter";
+  $("footer").innerHTML = "&copy Készítette: Weinberger Péter & Hoffmann Dóra";
   tombBeolvasas(ingKepek, "UjrahasznositottIng");
   tombBeolvasas(zeroWasteKepek, "zeroWaste");
   valaszt();
+  // $("#zero").style.backgroundColor="black";
+  // $("#zero").style.color="white";
 }
 
 function valaszt(){
@@ -34,6 +36,9 @@ function valaszt(){
   tomb.forEach((elem)=>{
     elem.addEventListener("click", function(){
       melyik = event.target.innerHTML;
+
+      $("#zero").style.backgroundColor="black";
+      $("#zero").style.color="white";
       if(melyik === "Zero waste"){
         $("#zero").addEventListener("click", kepekFeltoltAdatokkal(zeroWasteKepek));
       }
@@ -58,31 +63,49 @@ function tombBeolvasas(tomb, kulcs)
   .catch(err => console.log(err));
 }
 
-
-
-
 function kepekFeltoltAdatokkal(tomb) 
 {
+  // let melyikKep=event.target.innerHTML;
   var txt=`<div class="galeriaKepek">`;
   var asideTxt="<div>";
-  for (let i = 0; i < tomb.length; i++) 
+  for (var i = 0; i < tomb.length; i++) 
   {
-      txt+=`<div><img src="${tomb[i].foKepEleresiUt}" alt="kép">
-          <p><span>${tomb[i].keszito}</span></p>
-          <p>(<span>${tomb[i].modellNeve}</span>)</p></div>`;
+      txt+=`<div id="${i}"><a href="ruha.html"><img id="${i}" src="${tomb[i].foKepEleresiUt}" alt="kép">
+          <p><span id="${i}">${tomb[i].keszito}</span></p>
+          <p>(<span>${tomb[i].modellNeve}</span>)</p></a></div>`;
 
-    asideTxt+=`<p><a href="#">${tomb[i].keszito}</a></p>`;
-    
+    asideTxt+=`<p><a id="${i}" href="ruha.html">${tomb[i].keszito}</a></p>`;
+    // console.log(tomb[i]);
+    // 
   }
   txt+="</div>";
   asideTxt+="</div>";
   $(".galeria").innerHTML=txt;
   $(".tervezok").innerHTML=asideTxt;
+  // kepekElerese();
+  kepLista = document.querySelectorAll(".galeriaKepek>div");
+  asideLista = document.querySelectorAll(".tervezok>div>p");
+  for (let i = 0; i < kepLista.length; i++) 
+  {
+    kepLista[i].addEventListener("click", function(){
+      let kepEleres=event.target.id;
+      console.log(event.target.id);
+      kepEleres=localStorage.setItem("aktualisKep", JSON.stringify(tomb[kepEleres]));
+    });
+  }
+  for (let j = 0; j < asideLista.length; j++) 
+  {
+    asideLista[j].addEventListener("click", function(){
+      let asideEleres=event.target.id;
+      console.log(event.target.id);
+      asideEleres=localStorage.setItem("aktualisKep", JSON.stringify(tomb[asideEleres]));
+    });
+  }
 }
 
-
-
-function ujoldal() 
-{
-
-}
+// function ujoldal()
+// {
+//   let kepEleres=event.target.id;
+//   console.log(event.target.id);
+//   kepEleres=localStorage.setItem("aktualisKep", JSON.stringify(tomb[kepEleres]));
+// }

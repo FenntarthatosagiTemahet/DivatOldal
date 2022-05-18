@@ -17,6 +17,7 @@ function CLASS(elem) {
 }
 
 const manipul = [];
+const indexbekezd = [];
 
 function init() {
   fetch("../json/manipul.json")
@@ -33,18 +34,49 @@ function init() {
     .catch((err) => {
       console.log(err);
     });
+    valami();
 }
+
+function valami(){
+  fetch("../json/indexbekezd.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data);
+    console.log(data.indexbekezd);
+    data.indexbekezd.forEach((elem) => {
+      indexbekezd.push(elem);
+    });
+    console.log(indexbekezd);
+    betolt();
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+}
+
+function betolt(){
+  let text = "";
+  for (let i = 0; i < indexbekezd.length; i++) {
+    for (const key in indexbekezd[i]) {
+      if(key.includes("cim")){
+        text+=`<h3>${indexbekezd[i][key]}</h3>`;
+      }
+      else if(key.includes("bekezd")){
+          text+=`<p>${indexbekezd[i][key]}</p>`
+      }
+        
+      }
+    } 
+    ID("cikek").innerHTML = text;
+    }
+    
+  
+  
 
 function feltolt() {
   let txt = "";
   for (let index = 0; index < manipul.length; index++) {
-    //txt += `<div id="mellék_div"><div><p>${manipul[index].szoveg}</p></div><div><a href=${manipul[index].link}><img src="${manipul[index].kep}"alt="facepalm""/></a></div></div>`;
-    //if(index%2===0){
-    //txt += `<div id="mellék_div"><div><p>${manipul[index].szoveg}</p></div><div><a href=${manipul[index].link}><img src="${manipul[index].kep}"alt="facepalm""/></a></div></div>`;
-    //}
-    //else{
     txt += `<div id="mellék_div"><div class="ize""><a href=${manipul[index].link}><div class="kep"><img src="${manipul[index].kep}"alt="facepalm""/></div></a></div><div><h4>${manipul[index].cim}</h4><p>${manipul[index].szoveg}</p></div></div>`;
-    // }
     console.log(txt);
   }
   ID("fodiv").innerHTML = txt;

@@ -46,11 +46,9 @@ function tesztvalasztas(){
       } else if (melyikteszt === "Középiskolás") {
         ID('teszt').innerHTML = listabejaras(kozepiskolasteszt)
         helyesvalaszokszerzes(kozepiskolasteszt);
-        console.log(helyesvalaszok)
       } else if (melyikteszt === "Felnőtt") {
         ID('teszt').innerHTML = listabejaras(felnotteszt)
         helyesvalaszokszerzes(felnotteszt);
-        console.log(helyesvalaszok)
       }
     })
   })
@@ -107,19 +105,26 @@ for (let index = 0; index < array.length; index++) {
 
 function felhasznalovalasz(){
   ID("kuldes").addEventListener("click", function(){
-    let i = 0;
-    const answers = document.querySelectorAll('input');
-    const answersvalue = $All('label');
-    answers.forEach((element)=>{
-      
-        if(element.checked.value === helyesvalaszok[i]){
-          answersvalue[i].style.color="green";
+    let kovhelyesval = 0;
+    let valaszokszam = 0;
+    const answers = $All('input');
+    const answerslabel = document.querySelectorAll('label');
+    console.log(answers[0]);
+    console.log(answerslabel[0]);
+    for (let index = 0; index < answers.length; index++) {
+      if(answers[index].checked){
+        if(answers[index].value===helyesvalaszok[valaszokszam]){
+          console.log("asd")
+          answerslabel[index].style.color="green"
+          kovhelyesval++;
         }
         else{
-          answersvalue[i].style.color="red";
+          answerslabel[index].style.color="red"
         }
-        i++;
-    })
+        valaszokszam++;
+      }
+      console.log(kovhelyesval);
+    }
   });
 }
 

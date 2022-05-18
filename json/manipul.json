@@ -12,15 +12,15 @@
       "link": "galeria.html"
     },
     {
-      "szoveg": "Ezen az oldalon, ha nem szeretne olvasni a cikkekről, vagy ruhákat nézni, vagy pedig tesztet kitölteni, akkor eltölthet némi időt játékkal.",
-      "cim": "Játék",
-      "kep": "../kepek/memkoll.jpg",
-      "link": "jatek.html"
-    },
-    {
       "szoveg": "Ez az oldal egy teszt kitöltéséről szól ami kapcsolatos a cikkekhez és a fentarthatósági témahéttel kapcsolatosan.",
       "cim" : "Teszt",
       "kep": "../kepek/tesztlehet.jpg",
       "link": "teszt.html"
+    },
+    {
+      "szoveg": "Ezen az oldalon, ha nem szeretne olvasni a cikkekről, vagy ruhákat nézni, vagy pedig tesztet kitölteni, akkor eltölthet némi időt játékkal.",
+      "cim": "Játék",
+      "kep": "../kepek/memkoll.jpg",
+      "link": "jatek.html"
     } 
   ]}

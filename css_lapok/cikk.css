@@ -1,3 +1,49 @@
 body{
-    background-color: beige;
+    background-color: #9ABCA7;
 }
+
+header{
+    margin: auto;
+}
+
+#headerid{
+    text-align: center;
+    font-size: 40px;
+    width: 1200px;
+}
+
+#cikkContainer{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #b7b7b736;
+    margin: auto;
+    width: 1200px;
+}
+
+.mellekdiv{
+    border: 1px solid black;
+    border-radius: 2px;
+    width:300px ;
+    margin:auto;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    box-shadow: 5px 10px 8px #131212;
+    background-color: #B7B7B7;
+    
+}
+
+.mellekdiv h1{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    
+}
+
+.mellekdiv p{
+    text-align: center;
+    color: black;
+}
+

@@ -31,7 +31,7 @@ function feltolt()
     tomb.push(adatok);
     // console.log(tomb);
     // console.log(tomb.length);
-    let txt = "<div>";
+    let txt = "";
     for (let i = 0; i < tomb.length; i++) 
     {
       txt+=`<div class=ruhaKepek>`;
@@ -41,14 +41,14 @@ function feltolt()
             // console.log(j);    
         }
         txt+="</div>"
-        txt+=`<p>${tomb[i].kepCim}</p>
-        <p>${tomb[i].keszito}</p>
-        <p>${tomb[i].tipus}</p>
+        txt+=`<div class="szovegTartalom"><h2>${tomb[i].kepCim}</h2>
+        <p><span id="keszitoNeve">${tomb[i].keszito}</span></p>
+        <p><span>${tomb[i].tipus}</span></p>
         <p>${tomb[i].leiras}</p>
-        <p>${tomb[i].modellNeve}</p>`;
+        <p><span>${tomb[i].modellNeve}</p></span><div>`;
     }
 
-    txt+="</div>";
-    ID("aktualisKepek").innerHTML = txt
+    txt+="";
+    $All("article")[0].innerHTML = txt
     
 }

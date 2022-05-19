@@ -1,0 +1,94 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+main
+{
+    display: grid;
+    grid-template-areas: "h h h h h h h"
+                         "n n n n n n n"
+                         "a a a a a a a"
+                         "f f f f f f f";
+}
+
+.ruhaKepek
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* box-shadow: 0px 0px 10px 4px rgba(0,0,0,-0.5); */
+    border-radius: 5px;
+}
+
+.ruhaKepek div
+{
+    flex: 0 0 25%;
+    padding: 10px;
+    grid-area: k;
+}
+
+.szovegTartalom div
+{
+    grid-area: t;
+}
+
+.ruhaKepek img
+{
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 10px 19px 0px rgba(0,0,0,0.75)
+    ;
+}
+
+.szovegTartalom
+{
+    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+
+.szovegTartalom h2
+{
+    text-align: center;
+}
+
+.szovegTartalom p
+{
+    padding: 5px;
+    text-align: justify;
+}
+
+.szovegTartalom #keszitoNeve
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header
+{
+    grid-area: h;
+}
+
+nav
+{
+    grid-area: n;
+}
+
+article
+{
+    margin: 10px;
+    max-width: 98%;
+    grid-area: a;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer
+{
+    grid-area: f;
+}

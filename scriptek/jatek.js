@@ -2,7 +2,7 @@ window.addEventListener("load", init);
 
 function ID(elem) {return document.getElementById(elem);}
 function CL(elem) {return document.getElementsByClassName(elem);}
-function $(elem) {return document.querySelector(elem);}
+function $e(elem) {return document.querySelector(elem);}
 function $a(elem) {return document.querySelectorAll(elem);}
 
 let i = 0;
@@ -14,7 +14,6 @@ let pontszam = 0, szamlalo = 0;
 var probalkozasokSzama = 0;
 
 function kepFeldolgozas() {
-    // console.log(kepek.length);
     let txt = "";
     kepek.sort(function(a, b) {
         return 0.5 - Math.random();
@@ -23,15 +22,14 @@ function kepFeldolgozas() {
     for(i = 0; i < kepek.length; i++) {
         txt += "<div id=\"" + i + "\"></div>";
     }
-    // console.log(txt);
     ID("memory-game").innerHTML = txt;
+
     var tomb = $a("#memory-game div");
     var tombHossz = tomb.length;
     txt = "";
+    
     for(i = 0; i < tombHossz; i++) {
         tomb[i].className = "invisible";
-        // tomb[i].innerHTML = `<img src='${kepek[i].kepEleresiUtvonala}' alt='${kepek[i].kepNeve}'>`
-        // tomb[i].style.background = `url("${kepek[i].kepEleresiUtvonala}")`;
         tomb[i].style.backgroundColor = "pink";
     }
     ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
@@ -47,6 +45,7 @@ function kartyatMutat(i) {
         event.target.className = "visible";
         event.target.style.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
         event.target.style.backgroundSize = "100%";
+        event.target.style.animation = "lathato 1.5s 1";
         kartyak.push(event.target.id);
         console.log(kartyak);
         szamlalo++;
@@ -56,19 +55,16 @@ function kartyatMutat(i) {
                 megtalaltKartyak.push(kartyak[0]);
                 megtalaltKartyak.push(kartyak[1]);
                 setTimeout(() => {
-                    /* ID(Number(kartyak[0])).style.backgroundImage = "none";
-                    ID(Number(kartyak[1])).style.backgroundImage = "none";
-                    ID(Number(kartyak[0])).style.backgroundColor = "blue";
-                    ID(Number(kartyak[1])).style.backgroundColor = "blue"; */
                     ID(Number(kartyak[0])).className = "found";
                     ID(Number(kartyak[1])).className = "found";
-                    ID(Number(kartyak[0])).style.opacity = "0.7";
-                    ID(Number(kartyak[1])).style.opacity = "0.7";
+                    ID(Number(kartyak[0])).style.animation = "megtalalt 1s 1";
+                    ID(Number(kartyak[1])).style.animation = "megtalalt 1s 1";
+                    ID(Number(kartyak[0])).style.opacity = "0.5";
+                    ID(Number(kartyak[1])).style.opacity = "0.5";
                     kartyak.splice(0, kartyak.length);
                 }, 550);
             }
             else {
-                // console.log(ID(Number(kartyak[0])));
                 probalkozasokSzama++;
                 setTimeout(() => {
                     ID(Number(kartyak[0])).className = "invisible";
@@ -76,15 +72,10 @@ function kartyatMutat(i) {
                     ID(Number(kartyak[1])).className = "invisible";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
                     kartyak.splice(0, kartyak.length);
-                }, 650)
+                }, 600)
             };
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;
-            /* console.log("Megtalált kártyák: " + megtalaltKartyak);
-            console.log("Megtalált kártyák hossza: " + megtalaltKartyak.length);
-            console.log("Számláló: " + szamlalo);
-            console.log("Próbálkozások száma: " + probalkozasokSzama); */
-
             setTimeout(() => {
                 if(megtalaltKartyak.length == 16) vegeKiir();
             }, 800);
@@ -94,14 +85,16 @@ function kartyatMutat(i) {
 
 function vegeKiir() {
     var szoveg = "Gratulálok! Végigjátszottad a játékot!\n\nA próbálkozások száma: " + probalkozasokSzama + "\n\nSzeretnél még egyet játszani?";
-    // alert(szoveg);
     if(confirm(szoveg)) window.location = "../html_oldalak/jatek.html";
 }
 
 function init() {
     ID("title").innerHTML = "<h1>Memóriajáték</h1>";
-    ID("footer").innerHTML = "<p>@ Semmilyen jog nincs fenntartva<br>Készítette: Én</p>";
-    
+    ID("footer").innerHTML = "<p>© Készítette: Piller András Gábor</p>";
+
+    /* ID("difficulty").innerHTML = "<button onclick=\"\">Könnyű</button>"
+    ID("difficulty").innerHTML = "<button onclick=\"\">Nehéz</button>" */
+
     fetch("../json/jatek.json")
     .then((response) => response.json())
     .then((data) => {

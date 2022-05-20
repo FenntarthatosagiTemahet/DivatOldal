@@ -2,52 +2,136 @@
     "kepek": [
     {
         "kepNeve": "Ruha 1",
-        "kepEleresiUtvonala": "../minta_kepek/ruha1.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/ArokSzallasiRenataKep1.jpg"
     }, {
         "kepNeve": "Ruha 1",
-        "kepEleresiUtvonala": "../minta_kepek/ruha1.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/ArokSzallasiRenataKep1.jpg"
     }, {
         "kepNeve": "Ruha 2",
-        "kepEleresiUtvonala": "../minta_kepek/ruha2.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BajuszGyongyikeKep1.jpg"
     }, {
         "kepNeve": "Ruha 2",
-        "kepEleresiUtvonala": "../minta_kepek/ruha2.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BajuszGyongyikeKep1.jpg"
     }, {
         "kepNeve": "Ruha 3",
-        "kepEleresiUtvonala": "../minta_kepek/ruha3.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BarthaEmmaKep1.jpg"
     }, {
         "kepNeve": "Ruha 3",
-        "kepEleresiUtvonala": "../minta_kepek/ruha3.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BarthaEmmaKep1.jpg"
     }, {
         "kepNeve": "Ruha 4",
-        "kepEleresiUtvonala": "../minta_kepek/ruha4.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BereczLiliBlankaKep1.jpg"
     }, {
         "kepNeve": "Ruha 4",
-        "kepEleresiUtvonala": "../minta_kepek/ruha4.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BereczLiliBlankaKep1.jpg"
     }, {
         "kepNeve": "Ruha 5",
-        "kepEleresiUtvonala": "../minta_kepek/ruha5.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BuzasVandaSzonjaKep1.jpg"
     }, {
         "kepNeve": "Ruha 5",
-        "kepEleresiUtvonala": "../minta_kepek/ruha5.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BuzasVandaSzonjaKep1.jpg"
     }, {
         "kepNeve": "Ruha 6",
-        "kepEleresiUtvonala": "../minta_kepek/ruha6.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BallaRobinKep1.jpg"
     }, {
         "kepNeve": "Ruha 6",
-        "kepEleresiUtvonala": "../minta_kepek/ruha6.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/BallaRobinKep1.jpg"
     }, {
         "kepNeve": "Ruha 7",
-        "kepEleresiUtvonala": "../minta_kepek/ruha7.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/FabianFanniKep1.jpg"
     }, {
         "kepNeve": "Ruha 7",
-        "kepEleresiUtvonala": "../minta_kepek/ruha7.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/FabianFanniKep1.jpg"
     }, {
         "kepNeve": "Ruha 8",
-        "kepEleresiUtvonala": "../minta_kepek/ruha8.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/FazekasAnnaKep1.jpg"
     }, {
         "kepNeve": "Ruha 8",
-        "kepEleresiUtvonala": "../minta_kepek/ruha8.jpg"
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/FazekasAnnaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 9",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/FodiMartinKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 9",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/FodiMartinKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 10",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/HoffmannDoraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 10",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/HoffmannDoraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 11",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/JuhaszNoraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 11",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/JuhaszNoraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 12",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/KerteszKrisztinaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 12",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/KerteszKrisztinaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 13",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/MeszarosMercedeszKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 13",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/MeszarosMercedeszKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 14",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NagyDominikaAnnaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 14",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NagyDominikaAnnaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 15",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NagyFloraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 15",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NagyFloraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 16",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NagyHannaNapsugarKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 16",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NagyHannaNapsugarKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 17",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NovakNoraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 17",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/NovakNoraKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 18",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/SzilagyiEszterTanarKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 18",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/SzilagyiEszterTanarKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 19",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/SzoboszlaiBellaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 19",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/SzoboszlaiBellaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 20",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/SzóradNikolettKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 20",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/SzóradNikolettKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 21",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/TothDavidKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 21",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/TothDavidKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 22",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/WertheimLorettaKep1.jpg"
+    }, {
+        "kepNeve": "Ruha 22",
+        "kepEleresiUtvonala": "../kepek/divattervezokKepei/WertheimLorettaKep1.jpg"
     }
     ]
 }

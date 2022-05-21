@@ -134,6 +134,6 @@ function init() {
   tesztvalasztas();
   const felhvalaszok = [];
   tesztjavitas();
-
+  $("footer").innerHTML="<p>&copy Készítette: Xu Jiyu</p>"
 
 }

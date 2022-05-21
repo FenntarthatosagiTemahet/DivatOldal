@@ -23,11 +23,7 @@ function CLASS(elem)
 const lista = [];
 
 function init(){
-/*    for (let index = 0; index < cikkek.length; index++) {
-        for (const key in cikkek[]) {
 
-      }
-        */
 
       
       fetch("../json/cikkek.json")
@@ -50,12 +46,11 @@ function init(){
     function feltolt(){
         let txt = ""; 
         for (let index = 0; index < lista.length; index++) {
-          txt+=`<div class="mellekdiv">`;              /*"<div id='mellekdiv"+index+"'>";*/
+          txt+=`<div class="mellekdiv">`;              
           for (const key in lista[index]) {
             if(key.includes("focim")){
               txt+=`<h1>${lista[index][key]}</h1>`
-            // } else if((key.includes("bekezdeslista"))){
-              // txt+=`<p>${lista[index][key]}</p>`
+
             }else if((key.includes("cikk_iroja"))){
               txt+=`<p>${lista[index][key]}</p>`
             }
@@ -66,7 +61,7 @@ function init(){
         console.log(txt);
         ID("lab").innerHTML = "&copy Készítette: Paál Ádám";
         ID("cikkContainer").innerHTML = txt;
-        // ID("headerid").innerHTML = "cikkek" 
+
         gomb();
     }
 

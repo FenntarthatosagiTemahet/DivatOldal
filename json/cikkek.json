@@ -18,8 +18,8 @@
         ],
 
         "bekezdeskeplista" :[
-            "adagoló.jpg",
-            "fémszívószál.jpg"
+            "../kepek/cikkek_kepei/hulladekmentes/adagoló.jpg",
+            "../kepek/cikkek_kepei/hulladekmentes/fémszívószál.jpg"
         ]
 
     },
@@ -39,9 +39,9 @@
         "alcimlista":["", "", ""],
 
         "bekezdeskeplista" : [
-            "zm5.jpg",
-            "zm3.jpg",
-            "zm2.jpg"
+            "../kepek/cikkek_kepei/zold_marketing/zm5.jpg",
+            "../kepek/cikkek_kepei/zold_marketing/zm3.jpg",
+            "../kepek/cikkek_kepei/zold_marketing/zm2.jpg"
 
         ]
 
@@ -125,9 +125,9 @@
         ],
 
         "bekezdeskeplista":[
-            "kep1.jpg",
-            "kep2.jpg",
-            "kep3.jpg"
+            "../kepek/cikkek_kepei/teszedd/kep1.jpg",
+            "../kepek/cikkek_kepei/teszedd/kep2.jpg",
+            "../kepek/cikkek_kepei/teszedd/kep3.jpg"
         ]
 
     },
@@ -144,7 +144,7 @@
 
         ],
         "alcimlista":["Színház újrahasznosított papírból", ""],
-        "bekezdeskeplista":["1.png", "4.png", "2.png", "3.png"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/1.png", "../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/4.png", "../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/2.png", "../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/3.png"]
     },
 
     {
@@ -162,7 +162,7 @@
         ],
 
         "alcimlista":["", "", "", ""],  
-        "bekezdeskeplista":["kep1.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/veracikk/kep1.jpg"]
 
     },
 
@@ -172,7 +172,7 @@
         "bekezdeslista":[
             "A fenntartható fejlődés (sustainable development) olyan fejlődési folyamat (földeké, városoké, termelési folyamatoké, társadalmaké stb.), amely kielégíti a jelen szükségleteit anélkül, hogy csökkentené a jövendő generációk képességét, hogy kielégítsék a saját szükségleteiket",
 
-            "1. Amit a környezetbe bocsátunk, az nem haladhatja meg a környezet befogadó/feldolgozó képességét. 2. Amit a környezetből kitermelünk, az nem haladhatja meg a környezet újratermelő képességét. 3. A nem-megújuló erőforrások felhasználásának a mértéke nem haladhatja meg azt az ütemet, amilyen arányban helyettesíteni tudjuk őket megújuló erőforrásokkal.Az emberi népesség létszámának és fogyasztásának növekedése tekinthető a globális változás legfontosabb okának. A növekedéssel, illetve a gazdasági tevékenység fokozásával együtt jár a földfelszín globális léptékű megváltozása.A globális változásnak a természetes élőhelyek területének csökkenése mellett a legfeltűnőbb eleme a klímának, illetve a légkör összetételének változása. Annak ellenére, hogy a globális világproblémák összefüggéseinek feltárása már régen elkezdődött, a Föld ökológiai helyzete fokozatosan romlik. „A jövő a mi kezünkben van. Együtt mindent meg kell tennünk annak érdekében, hogy az unokáinknak ne kelljen majd megkérdezniük tőlünk, miért nem sikerült helyesen cselekednünk, és nem szabad hagynunk, hogy a mi hibáink következményeit ők szenvedjék el.” Ban Ki-moon, az ENSZ főtitkára, 2007",
+            "1. Amit a környezetbe bocsátunk, az nem haladhatja meg a környezet befogadó/feldolgozó képességét. </br> 2. Amit a környezetből kitermelünk, az nem haladhatja meg a környezet újratermelő képességét. </br>3. A nem-megújuló erőforrások felhasználásának a mértéke nem haladhatja meg azt az ütemet, amilyen arányban helyettesíteni tudjuk őket megújuló erőforrásokkal. </br></br>Az emberi népesség létszámának és fogyasztásának növekedése tekinthető a globális változás legfontosabb okának. A növekedéssel, illetve a gazdasági tevékenység fokozásával együtt jár a földfelszín globális léptékű megváltozása.A globális változásnak a természetes élőhelyek területének csökkenése mellett a legfeltűnőbb eleme a klímának, illetve a légkör összetételének változása. Annak ellenére, hogy a globális világproblémák összefüggéseinek feltárása már régen elkezdődött, a Föld ökológiai helyzete fokozatosan romlik. „A jövő a mi kezünkben van. Együtt mindent meg kell tennünk annak érdekében, hogy az unokáinknak ne kelljen majd megkérdezniük tőlünk, miért nem sikerült helyesen cselekednünk, és nem szabad hagynunk, hogy a mi hibáink következményeit ők szenvedjék el.” Ban Ki-moon, az ENSZ főtitkára, 2007",
 
             "A főrendszer a bioszféra, amely létfenntartó rendszerként a benne élő emberi alrendszerek létét és létezésének valamennyi feltételét biztosítja. A természetbe ágyazottan, alrendszerként él a társadalom, amely egészséges kontrollt, egyensúlyt tart fenn a bioszféra és a gazdaság között.",
 
@@ -185,7 +185,7 @@
 
         "felsorolas":["A SZEGÉNYSÉG FELSZÁMOLÁSA ","AZ ÉHEZÉS MEGSZÜNTETÉSE","EGÉSZSÉG ÉS JÓLÉT", "MINŐSÉGI OKTATÁS", "NEMEK KÖZÖTTI EGYENLŐSÉG", "TISZTA VÍZ ALAPVETŐ KÖZTISZTASÁG", "MEGFIZETHETŐ ÉS TISZA ENERGIA", "TISZTESSÉGES MUNKA ÉS GAZDASÁGI NÖVEKEDÉS", "IPAR, INNOVÁCIÓ ÉS INFRASTRUKTÚRA", "EGYENLŐTLENSÉGEK CSÖKKENTÉSE", "FENNTARTHATÓ VÁROSOK ÉS KÖZÖSSÉGEK", "FELELŐS FOGYASZTÁS ÉS TERMELÉS", "FELLÉPÉS AZ ÉGHAJLATVÁLTOZÁS ELLEN", "ÓCEÁNOK ÉS TENGEREK VÉDELME", "SZÁRAZFÖLDI ÖKOSZISZTÉMÁK VÉDELME", "BÉKE, IGAZSÁG ÉS ERŐS INTÉZMÉNYEK"  ],
 
-        "bekezdeskeplista":["kép2.jpg", "kép3.jpg", "Kép1.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosag_az_iskolaban/kép2.jpg", "../kepek/cikkek_kepei/fenntarthatosag_az_iskolaban/kép3.jpg", "../kepek/cikkek_kepei/fenntarthatosag_az_iskolaban/Kép1.jpg"]
 
     }, 
 
@@ -210,7 +210,7 @@
         "alcimlista":["De mit is jelent valójában a kifejezés és miért fontos, hogy foglalkozzunk vele?", "A zéro összegű játék hívők", "A win-win hívők", "Környezet, azaz ’odafigyelés’ (környezeti felelősség):", "Társadalmi dimenzió, azaz ’elfogadás’ (társadalmi felelősség):", "Gazdasági dimenzió, azaz a ’felelős vállalat’ megközelítés:" ],
 
 
-        "bekezdeskeplista":["../kepek/fenntarthatosag_fogalm/kép2.png", "../kepek/fenntarthatosag_fogalm/kép3.jpg" ]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosag_fogalm/atr2.jpg", "../kepek/cikkek_kepei/fenntarthatosag_fogalm/atr3.png" ]
 
     }
 

@@ -1,7 +1,6 @@
 p
 {
     font-family: 'PT Serif', serif;
-    /* background-color: #9ABCA7; */
 }
 
 header{
@@ -40,6 +39,10 @@ header{
     color: black;
 }
 
+button{
+    padding: 1px; 
+}
+
 #halo{
     margin: auto;
     width: 1200px;
@@ -49,6 +52,5 @@ header{
 #halo h1{
     text-align: center;
 }
-
 
 

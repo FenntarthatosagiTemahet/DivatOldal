@@ -64,7 +64,7 @@ function init(){
           }
          
         console.log(txt);
-        ID("lab").innerHTML = "Készítette: Paál Ádám";
+        ID("lab").innerHTML = "&copy Készítette: Paál Ádám";
         ID("cikkContainer").innerHTML = txt;
         // ID("headerid").innerHTML = "cikkek" 
         gomb();

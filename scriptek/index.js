@@ -18,6 +18,7 @@ function CLASS(elem) {
 
 const manipul = [];
 const indexbekezd = [];
+const bekezd = indexbekezd.bekezd
 
 function init() {
   fetch("../json/manipul.json")
@@ -62,11 +63,18 @@ function betolt(){
         text+=`<h3>${indexbekezd[i][key]}</h3>`;
       }
       else if(key.includes("bekezd")){
-          text+=`<p>${indexbekezd[i][key]}</p>`
+          for (let index = 0; index < key.length; index++) {
+            if(typeof key[index] ==="undefined"){
+              index=key.length;
+          }else{
+            text+=`<p>${indexbekezd[i][key][index]}</p>`
+          }
+          }
       }
         
       }
-    } 
+    }
+    console.log(text)
     ID("cikek").innerHTML = text;
     }
     
@@ -76,7 +84,7 @@ function betolt(){
 function feltolt() {
   let txt = "";
   for (let index = 0; index < manipul.length; index++) {
-    txt += `<div id="mellék_div"><div class="ize""><a href=${manipul[index].link}><div class="kep"><img src="${manipul[index].kep}"alt="facepalm""/></div></a></div><div><h4>${manipul[index].cim}</h4><p>${manipul[index].szoveg}</p></div></div>`;
+    txt += `<div id="mellék_div"><div class="ize""><a href=${manipul[index].link}><div class="kep"><img src="${manipul[index].kep}"alt="menuKep""/></div></a></div><div><h4>${manipul[index].cim}</h4><p>${manipul[index].szoveg}</p></div></div>`;
     console.log(txt);
   }
   ID("fodiv").innerHTML = txt;

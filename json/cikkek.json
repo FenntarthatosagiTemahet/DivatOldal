@@ -1,7 +1,7 @@
  {"cikkek" :[
      { 
         "focim" : "Hulladék mentes vásárlás",
-        "cikk_iroja" : "Szandi",
+        "cikk_iroja" : "Karányi Alexandra Viktória ",
         
         "bekezdeslista" :[
              "Mára több mint 50 olyan bolt található Magyarországon, amelyben csomagolás nélkül tudunk vásárolni.  Ezekben a boltokba a vásárló saját üvegedényekkel, tárolóeszközökkel érkezik, és azokban tudja haza vinni a megvásárlandó termékeket. Ez nagyban elősegíti a hulladék termelés visszafogását.",
@@ -26,7 +26,7 @@
 
     { 
         "focim" : "A ZÖLD MARKETING",
-        "cikk_iroja" : "VZS",
+        "cikk_iroja" : "Vigh Zsófia ",
 
         "bekezdeslista" :[
             "A marketing már a mindennapjaink része, mindenhol találkozhatunk vele és mindig a szemünk előtt van, még ha nem is látjuk, mint egy rejtett reklám. Mindennapunk része, tehát szinte természetessé vált, nem lenne izgalmas és hasznos ezt a természetes dolgot az életünkben zöldebbé tenni?",
@@ -35,6 +35,8 @@
 
             "Valóban sikerülhet ez? Igen! Hiszen például az egyik legismertebb kávézónak a Starbucks-nak is sikerült. Kávét ragadva sokan 5% poliuretán műanyagot tartalmazó eldobható kávéscsészéket választanak, ami megnehezíti az újrahasznosítást és a komposztálást. A Starbucks azonban környezetbarát konténert fejleszt ki, amely 2020-ig megduplázza a csészék újrahasznosított tartalmát és újrafelhasználhatóságát. A cég elkötelezett amellett, hogy 99% -ban etikusan beszerzett kávéval dolgozik, ezzel a kávé a világ első fenntartható mezőgazdasági terméke lesz, és 2025-ig 100 millió kávéfát biztosít a gazdálkodóknak. A Starbucks emellett 10 000 energiahatékony, zöld kiskereskedelmi üzletet is szeretne építeni és működtetni 2025-ig."
         ],
+
+        "alcimlista":["", "", ""],
 
         "bekezdeskeplista" : [
             "zm5.jpg",
@@ -47,7 +49,7 @@
 
     {
         "focim":"PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé.",
-        "cikk_iroja":"Dóri",
+        "cikk_iroja":"Pipics Dorottya ",
 
 
         "bekezdeslista" :[
@@ -65,12 +67,14 @@
             "8.Műanyag szívószál helyett papír szívószálat használj!",
             "9.Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
             "10.Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal"
-        ]
+        ],
+
+        "alcimlista":[""]
     },
 
     {
         "focim": "Fenntartható Divat-Hol vásároljak?",
-        "cikk_iroja":"Mesi",
+        "cikk_iroja":"Tuli Emese Boglárka ",
 
         "bekezdeslista":[
             "Amikor valaki azt kérdezi tőlem, hol vásároljon fenntartható és etikus divattermékeket Magyarországon, akkor csak azt tudom először mondani: a saját szekrényében. A tudatos vásárlás valahol ott kezdődik, hogy kiderítjük, mi az, amink már van. Elkezdjük megismerni a saját ruhatárunkat, mellette pedig önmagunkat is. Ez nem kétperces folyamat, és nem is biztos, hogy megy egyedül. Amikor valaki azt kérdezi tőlem, hol vásároljon fenntartható és etikus divattermékeket Magyarországon, akkor csak azt tudom először mondani: a saját szekrényében. A tudatos vásárlás valahol ott kezdődik, hogy kiderítjük, mi az, amink már van. Elkezdjük megismerni a saját ruhatárunkat, mellette pedig önmagunkat is. Ez nem kétperces folyamat, és nem is biztos, hogy megy egyedül.",
@@ -99,24 +103,25 @@
 
         "valami_link":"Külföldi márkák, tervezők, alkotók",
 
-        "alcim1": "4 magyar márka, aki hisz a fenntartható divatban"
+        "alcimlista": ["4 magyar márka, aki hisz a fenntartható divatban", "", "", "", "", "", ""]
 
     },
 
     {
         "focim":"Mi az a TeSzedd!?",
-
+        "cikk_iroja": "Kovács Gréta",
         "bekezdeslista":[
-            "A TeSzedd! – Önkéntesen a tiszta Magyarországért akció. Hazánk legnagyobb önkéntes mozgalma. Idén immár kilencedik alkalommal valósul meg. A szemétgyűjtési akció keretében szerte az országban „nagytakarítanak” a TeSzedd! önkéntesei. Azért szervezzük meg ezt a mozgalmat minden évben, hogy közösen megtisztítsuk szűkebb-tágabb környezetünket.",
+            "A TeSzedd! - Önkéntesen a tiszta Magyarországért akció. Hazánk legnagyobb önkéntes mozgalma. Idén immár kilencedik alkalommal valósul meg. A szemétgyűjtési akció keretében szerte az országban „nagytakarítanak” a TeSzedd! önkéntesei. Azért szervezzük meg ezt a mozgalmat minden évben, hogy közösen megtisztítsuk szűkebb-tágabb környezetünket.",
 
-            "A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm. A pályázat célja, hogy tudatosítsa a diákok körében a víz mindennapokban betöltött fontos szerepét. A pályázat a diákok vízhez kötődő viszonyát, művészti alkotásokon keresztül kívánja felmérni. A diákoknak egy vízcsepp helyébe kell beleképzelni magukat és arról szabadon választott művészeti alkotást kell készíteni.",
+            "A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm. A pályázat célja, hogy tudatosítsa a diákok körében a víz mindennapokban betöltött fontos szerepét. A pályázat a diákok vízhez kötődő viszonyát, művészti alkotásokon keresztül kívánja felmérni. A diákoknak egy vízcsepp helyébe kell beleképzelni magukat és arról szabadon választott művészeti alkotást kell készíteni. <br>" ,
 
             "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig"
         ],
 
         "alcimlista":[
             "VÍZCSEPP ÖSSZMŰVÉSZETI PÁLYÁZAT 2022.",
-            "KERT-KÓSTOLGATÓ PÁLYÁZAT"
+            "KERT-KÓSTOLGATÓ PÁLYÁZAT ",
+            " "
         ],
 
         "bekezdeskeplista":[
@@ -125,6 +130,91 @@
             "kep3.jpg"
         ]
 
+    },
+    
+    {
+
+        "focim":"Mára huszonegy tagja van a Zöld Színház Projekt kezdeményezésnek az ország legkülönbözőbb részeiről.",
+        "cikk_iroja":"PItyer Viktória Krisztina",
+        "bekezdeslista":[
+            
+            "Papp Endre (a Zöld Színház Projekt vezetője) világossá teszi, hogy a Zöld Színház Projekt nem hivatott szembemenni a művészeti víziókkal, csupán arra tesz javaslatot, hogy az adott díszletelemet és kelléket honnan szerezzék be.",
+
+            "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz."
+
+        ],
+        "alcimlista":["Színház újrahasznosított papírból", ""],
+        "bekezdeskeplista":["1.png", "4.png", "2.png", "3.png"]
+    },
+
+    {
+        "focim":"Az energiánk 20%-a szélerőművekből fog érkezni",
+        "cikk_iroja":"Zachar Veronika ",
+        "bekezdeslista":[
+            
+            "A szélenergia ipar legalább olyan gyorsan növekszik, mint a napelem ipar, ha nem gyorsabban.  Becslések szerint2030-ra globális szinten az energia 20%-a szélerőművekből fog származni.",
+
+            "A technológia ugyan drága, és sokkal nagyobb mértékű beruházásokra van szükség, mint a napelemes befektetéseknél, de a szélenergia hosszútávú előnyei sokkal kecsegtetőbbek. Ha az átállás sikeres lenne  az azt jelentené, hogy évente 3,6 milliárd tonnával kevesebb széndioxidot engednénk a levegőbe.",
+
+            "Kína az egyik legkiemelkedőbb vezető ország, ha szélenergiáról van szó. Tavaly 17%-ra növelték a szélenergiából befolyó energia mennyiségét az országban, és jelenleg is további bővítéseket terveznek, még idén. Ezen kívül már született megegyezés abban, hogy 1.000 szénbányát fognak bezárni országszerte, ezzel is elősegítve a megújuló energiaforrásokba történő befektetéseket.",
+
+            "Az jó ügy édekében Kínának és még sok más országnak teljesen át kell alakítania a hálózat infrastruktúráját, hogy teljesen ki tudják használni a megújuló energiaforrásokat. "
+        ],
+
+        "alcimlista":["", "", "", ""],  
+        "bekezdeskeplista":["kep1.jpg"]
+
+    },
+
+    {
+        "focim":"A fenntarthatóság problémái és céljai",
+        "cikk_iroja":"Bolla Bettina Réka",
+        "bekezdeslista":[
+            "A fenntartható fejlődés (sustainable development) olyan fejlődési folyamat (földeké, városoké, termelési folyamatoké, társadalmaké stb.), amely kielégíti a jelen szükségleteit anélkül, hogy csökkentené a jövendő generációk képességét, hogy kielégítsék a saját szükségleteiket",
+
+            "1. Amit a környezetbe bocsátunk, az nem haladhatja meg a környezet befogadó/feldolgozó képességét. 2. Amit a környezetből kitermelünk, az nem haladhatja meg a környezet újratermelő képességét. 3. A nem-megújuló erőforrások felhasználásának a mértéke nem haladhatja meg azt az ütemet, amilyen arányban helyettesíteni tudjuk őket megújuló erőforrásokkal.Az emberi népesség létszámának és fogyasztásának növekedése tekinthető a globális változás legfontosabb okának. A növekedéssel, illetve a gazdasági tevékenység fokozásával együtt jár a földfelszín globális léptékű megváltozása.A globális változásnak a természetes élőhelyek területének csökkenése mellett a legfeltűnőbb eleme a klímának, illetve a légkör összetételének változása. Annak ellenére, hogy a globális világproblémák összefüggéseinek feltárása már régen elkezdődött, a Föld ökológiai helyzete fokozatosan romlik. „A jövő a mi kezünkben van. Együtt mindent meg kell tennünk annak érdekében, hogy az unokáinknak ne kelljen majd megkérdezniük tőlünk, miért nem sikerült helyesen cselekednünk, és nem szabad hagynunk, hogy a mi hibáink következményeit ők szenvedjék el.” Ban Ki-moon, az ENSZ főtitkára, 2007",
+
+            "A főrendszer a bioszféra, amely létfenntartó rendszerként a benne élő emberi alrendszerek létét és létezésének valamennyi feltételét biztosítja. A természetbe ágyazottan, alrendszerként él a társadalom, amely egészséges kontrollt, egyensúlyt tart fenn a bioszféra és a gazdaság között.",
+
+            "szociális igazságosság, amelynek az alapja a lehetőségekhez való hozzáférés esélyegyenlőségének biztosítása, valamint a társadalmi terhekből való közös részesedés; az életminőség folytonos javítására való törekvés; a természeti erőforrások fenntartó használata, amelynek megvalósításához a társadalom környezettudatos és környezetetikus magatartása szükséges; a környezetminőség megőrzése ",
+            
+            "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos. "
+        ],
+
+        "alcimlista":["A fenntartható fejlődés fogalma", "A fenntarthatóság alapelvei: ", "A fenntartható fejlődés modellje szerint tehát a teljes rendszer hierarchiaviszonyai a következők:", "A fenntartható társadalom legfontosabb ismérvei, alapvető követelményei:" , "Fenntarthatóság az iskolában"],
+
+        "felsorolas":["A SZEGÉNYSÉG FELSZÁMOLÁSA ","AZ ÉHEZÉS MEGSZÜNTETÉSE","EGÉSZSÉG ÉS JÓLÉT", "MINŐSÉGI OKTATÁS", "NEMEK KÖZÖTTI EGYENLŐSÉG", "TISZTA VÍZ ALAPVETŐ KÖZTISZTASÁG", "MEGFIZETHETŐ ÉS TISZA ENERGIA", "TISZTESSÉGES MUNKA ÉS GAZDASÁGI NÖVEKEDÉS", "IPAR, INNOVÁCIÓ ÉS INFRASTRUKTÚRA", "EGYENLŐTLENSÉGEK CSÖKKENTÉSE", "FENNTARTHATÓ VÁROSOK ÉS KÖZÖSSÉGEK", "FELELŐS FOGYASZTÁS ÉS TERMELÉS", "FELLÉPÉS AZ ÉGHAJLATVÁLTOZÁS ELLEN", "ÓCEÁNOK ÉS TENGEREK VÉDELME", "SZÁRAZFÖLDI ÖKOSZISZTÉMÁK VÉDELME", "BÉKE, IGAZSÁG ÉS ERŐS INTÉZMÉNYEK"  ],
+
+        "bekezdeskeplista":["kép2.jpg", "kép3.jpg", "Kép1.jpg"]
+
+    }, 
+
+    {
+
+        "focim":"A fenntarthatóság fogalmai:",
+        "cikk_iroja": "Oláh Barbara",
+        "bekezdeslista":[
+            "A fenntarthatóság fogalma 1987-ben indult útjára, amikor az ENSZ a fenntartható fejlődést – melyet azóta leegyszerűsítve fenntarthatóságnak is nevezünk – a következőképpen definiálta: fejlődés, amely „anélkül elégíti ki a jelen szükségleteit, hogy veszélyeztetné a jövő generációk lehetőségét saját igényeik kielégítésére”. Azaz fenntartható például az a fejlődés, melynek során nem használunk fel minden, korlátosan hozzáférhető nyersanyagot vagy nem szennyezzük be visszafordíthatatlanul vizeinket. Mint a fenntarthatóság egészével, úgy magával a definíció értelmezésével, gyakorlatba ültetésével kapcsolatban sem teljes az összhang a témával foglalkozók között. Ennek fő oka, hogy az ENSZ által meghatározott definíció kellően általános ahhoz, hogy szabad teret engedjen a konkrét célok, valamint a célok elérését biztosító eszközök meghatározásának.",
+
+            "Sok környezeti szakértő számára például a fenntartható fejlődés alapvetően egyfajta oximoronnak (önmagában való ellentmondásnak) tekinthető, hiszen a környezet befolyásolása nélkül nem képzelhető el fejlődés. Ők úgy gondolják, hogy a gazdaság az emberi társadalom, a társadalom pedig a bioszféra (azaz a földi élet tere) egyik alrendszerének tekinthető, és ezek együttműködése zéróösszegű játék: amit az egyik nyer, az szükségszerűen veszteséget jelent a másik számára, miközben az ökoszisztéma (az élőlény-közösségek és élőhelyeik összessége) valamely összetevőjének túlzott használata drasztikus hatással van az ökoszisztéma egészére.",
+
+            "A fenntarthatóság lényege azonban sokak szerint  – éppen a nyertes-nyertes (win-win) lehetőségek kiaknázása, az olyan eszközök és megoldások megtalálása és alkalmazása, amelyekkel a társadalom és a környezet egyaránt jól jár, és amelyek révén akár évtizedek múlva is összhangban élhetünk a környezetünkkel. Ebben a megközelítésben a fenntarthatóság összetett jelenség. Egyrészt tényszerűséget és tudományosságot várunk el tőle. Másrészt a fenntarthatóság maga cselekvésre – leginkább szokásaink megváltoztatására – szólít fel, és így gyakorlati szerepe is meghatározó. A célok és feladatok értelmezésétől függetlenül és nagyon leegyszerűsítve tehát a fenntarthatóság mindazon fogalmakat és tevékenységeket magában foglalja, amelyek lehetővé teszik, hogy a Földön az élet évtizedek múlva is a maihoz hasonló lehessen. Bár véleményem szerint ezt egy fajta minimalista megközelítésnek kellene tekinteni – hiszen globálisan nézve (bizonyos területeket vagy embercsoportokat tekintve) a mai helyzeten is lehet még javítani –, az aktuális gazdasági-társadalmi folyamatokat figyelembe véve azonban már a jelenlegi szint fenntartása is komoly célkitűzésnek számít.",
+
+            "Környezettudatosság, környezet-etikus magatartás, környezetünk védelme, beleértve a klímaváltozással és a tudatos fogyasztással kapcsolatos szempontokat. Biológiai sokszínűség fenntartása, azaz az állat- és növényvilág védelme. Természeti erőforrásokkal való fenntartható gazdálkodás, takarékos használat, megújuló energiaforrások használata.",
+
+            "Fenntartható társadalom: egészségügyi és élelmezési, valamint a túlnépesedésből és az öregedő társadalmakból fakadó társadalmi problémák kezelése. Szociális igazságosság, esélyegyenlőség, társadalmi különbségek. Társadalmi sokszínűség, szolidaritás, békés egymás mellett élés. ",
+
+            "Tisztességes, átlátható vállalati működés, „fair trade”. Környezeti terhelés csökkentése pl. CO2 kibocsátás minimalizálása és papírmentes iroda révén. Emberközpontúság mind a kollégák, mind az ügyfelek tekintetében. Társadalmi szerepvállalás fontossága."
+
+        ],
+        "alcimlista":["De mit is jelent valójában a kifejezés és miért fontos, hogy foglalkozzunk vele?", "A zéro összegű játék hívők", "A win-win hívők", "Környezet, azaz ’odafigyelés’ (környezeti felelősség):", "Társadalmi dimenzió, azaz ’elfogadás’ (társadalmi felelősség):", "Gazdasági dimenzió, azaz a ’felelős vállalat’ megközelítés:" ],
+
+
+        "bekezdeskeplista":["../kepek/fenntarthatosag_fogalm/kép2.png", "../kepek/fenntarthatosag_fogalm/kép3.jpg" ]
+
     }
+
+
+    
 ]
 }

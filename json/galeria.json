@@ -545,7 +545,7 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "foKepEleresiUt": "../kepek/divattervezokKepei/SzoboszlaiBellaIngKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/SzoboszlaiBellaIngKep2.jpg",
       "keszito": "Szoboszlai Bella",
       "tipus": "női ruha",
       "leiras": "Az élénk színek es merész szabásvonalak az élet változatosságát és lendületességet tükrözik. Az öltözék Szoboszali Bella munkája.",
@@ -571,13 +571,13 @@
     },
     {
       "kepCim": "Újrahasznosított ing",
-      "foKepEleresiUt": "../kepek/divattervezokKepei/TothDavidKep1.jpg",
+      "foKepEleresiUt": "../kepek/divattervezokKepei/TothDavidIngKep1.jpg",
       "keszito": "Tóth Dávid",
       "tipus": "férfi ruha",
       "leiras": "Tóth Dávid által tervezett öltözék egy könnyed nyári nadrág és blúz, melyet a művész  szülővárosa, Zalaegerszeg inspirált.",
       "tovabbiKepek": [
-        "../kepek/divattervezokKepei/TothDavidKep1.jpg",
-        "../kepek/divattervezokKepei/TothDavidKep2.jpg"
+        "../kepek/divattervezokKepei/TothDavidIngKep1.jpg",
+        "../kepek/divattervezokKepei/TothDavidIngKep2.jpg"
       ],
       "modellNeve": "Buzás Vanda Szonja"
     },
@@ -593,6 +593,17 @@
         "../kepek/divattervezokKepei/WertheimLorettaIngKep3.jpg"
       ],
       "modellNeve": "Wertheim Loretta"
+    }
+  ],
+  "galeriaSzoveg":
+  [
+    {
+      "szovegCim": "A zero waste kollekció:",
+      "szovegLeiras": "Egy jól tervezett folyamat lényege, hogy ne keletkezzen szemét, legfeljebb hulladék. A természetben az anyagok folyamatos átalakuláson mennek keresztül, de sohasem kerülnek ki egy zárt körforgásból. Vagyis körkörösen, a lehető leghatékonyabban újrahasznosítható erőforrások. Ezzel szemben az átgondolatlan termelési folyamatok felesleget eredményeznek. Ez a szemét. Teljesen mindegy, hogy a szemét elpazarolt alapanyag, energia, vagy humán tőke.<br>A hulladék nélküli öltözékek elkészítése magas szintű szabászati és kivitelezési ismereteket feltételez, ami korlátozta volna a lehetőségeket. Ezért a hulladék mentesség bemutatására három tervezési és kivitelezési koncepciót választottunk:<br><ul><li>hulladékmentes szabászati és kivitelezési megoldásokkal készített öltözékek</li><li>maradék anyagok felhasználásával készített öltözékek</li><li>upcycle koncepcióval készített öltözékek</li></ul><br>Ezekkel az eljárásokkal azok számára is adhatnak a diákok kreatív ötleteket, akik tudnak varrni és azoknak is, akik most kapnak kedvet ahhoz, hogy megtanulják"
+    },
+    {
+      "szovegCim": "A kreatív kísérletek kollekció:",
+      "szovegLeiras": "A kreatív kísérletek kollekció bepillantást enged a tervezési folyamat egyik fázisába, ahol a diákok kötöttségek nélkül, a formákkal szabadon kísérletezve alkothatták meg az elképzeléseiket régi férfiingeket használva alapanyagként.<br>A feladat az ing alkotóelemeire bontása, a kapott alkatrészek újrakomponálása volt.<br>A bemutatásra kerülő modellek a tervezési folyamat egy pillanatfelvételét testesítik meg, a kibontakozó ötletek egy-egy lehetséges irányát mutatják meg a számtalan lehetőség közül, amelyeket továbbfejlesztve születnek majd meg a végső öltözékek."
     }
   ]
 }

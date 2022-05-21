@@ -22,30 +22,28 @@ function init()
     feltolt();
 }
 
+const ruhaKepekTomb=[];
 function feltolt() 
 {
-    var tomb=[];
     const adatok=JSON.parse(localStorage.getItem("aktualisKep"));
     
     
-    tomb.push(adatok);
-    // console.log(tomb);
-    // console.log(tomb.length);
+    ruhaKepekTomb.push(adatok);
     let txt = "";
-    for (let i = 0; i < tomb.length; i++) 
+    for (let i = 0; i < ruhaKepekTomb.length; i++) 
     {
       txt+=`<div class=ruhaKepek>`;
-        for (let j = 0; j < tomb[i].tovabbiKepek.length; j++) 
+        for (let j = 0; j < ruhaKepekTomb[i].tovabbiKepek.length; j++) 
         {
-            txt+=`<div><img src="${tomb[i].tovabbiKepek[j]}"></div>`;
+            txt+=`<div><img id="${j}" src="${ruhaKepekTomb[i].tovabbiKepek[j]}"></div>`;
             // console.log(j);    
         }
         txt+="</div>"
-        txt+=`<div class="szovegTartalom"><h2>${tomb[i].kepCim}</h2>
-        <p><span id="keszitoNeve">${tomb[i].keszito}</span></p>
-        <p><span>${tomb[i].tipus}</span></p>
-        <p>${tomb[i].leiras}</p>
-        <p><span>${tomb[i].modellNeve}</p></span><div>`;
+        txt+=`<div class="szovegTartalom"><h2>${ruhaKepekTomb[i].kepCim}</h2>
+        <p><span id="keszitoNeve">${ruhaKepekTomb[i].keszito}</span></p>
+        <p><span>${ruhaKepekTomb[i].tipus}</span></p>
+        <p>${ruhaKepekTomb[i].leiras}</p>
+        <p><span>${ruhaKepekTomb[i].modellNeve}</p></span><div>`;
     }
 
     txt+="";

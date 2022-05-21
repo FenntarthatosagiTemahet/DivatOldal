@@ -18,13 +18,19 @@ function CLASS(elem) {
 
 const zeroWasteKepek=[];
 const ingKepek=[];
+const szoveg=[];
 
 
 
 function init() {
   $("footer").innerHTML = "&copy Készítette: Weinberger Péter & Hoffmann Dóra";
+  // tombBeolvasas(szoveg, "galeriaSzoveg");
   tombBeolvasas(ingKepek, "UjrahasznositottIng");
   tombBeolvasas(zeroWasteKepek, "zeroWaste");
+  // $(".szoveg").innerHTML="<h1>A zero waste kollekció:</h1><p></p>";
+  // szovegTartalom(szoveg);
+  console.log(szoveg);
+  // szovegTartalom()
   valaszt();
   // $("#zero").style.backgroundColor="black";
   // $("#zero").style.color="white";
@@ -40,10 +46,10 @@ function valaszt(){
       $("#zero").style.backgroundColor="black";
       $("#zero").style.color="white";
       if(melyik === "Zero waste"){
-        $("#zero").addEventListener("click", kepekFeltoltAdatokkal(zeroWasteKepek));
+        $("#zero").addEventListener("click", galeriaFeltoltAdatokkal(zeroWasteKepek));
       }
       else if(melyik ==="Újrahasznosított ingek"){
-        $("#ing").addEventListener("click",kepekFeltoltAdatokkal(ingKepek));
+        $("#ing").addEventListener("click",galeriaFeltoltAdatokkal(ingKepek));
       }
     })
   })
@@ -58,12 +64,13 @@ function tombBeolvasas(tomb, kulcs)
       {
         tomb.push(elem);
       });
-      kepekFeltoltAdatokkal(tomb);
+      // szovegTartalom(tomb);
+      galeriaFeltoltAdatokkal(tomb);
   })
   .catch(err => console.log(err));
 }
 
-function kepekFeltoltAdatokkal(tomb) 
+function galeriaFeltoltAdatokkal(tomb) 
 {
   // let melyikKep=event.target.innerHTML;
   var txt=`<div class="galeriaKepek">`;
@@ -104,6 +111,16 @@ function kepekFeltoltAdatokkal(tomb)
   }
 }
 
+// function szovegTartalom() 
+// {
+//   let txt="";
+//   for (let i = 0; i < szoveg.length; i++) 
+//   {
+//     txt+=`<div><h1>${szoveg[i].szovegCim}</h1>
+//     <p>${szoveg[i].szovegLeiras}</p></div>`; 
+//   }
+//   $(".szoveg").innerHTML=txt;
+// }
 // function ujoldal()
 // {
 //   let kepEleres=event.target.id;

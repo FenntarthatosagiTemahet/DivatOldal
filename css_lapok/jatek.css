@@ -15,7 +15,7 @@ main {
 }
 
 #memory-game {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -26,8 +26,8 @@ main {
 }
 
 #memory-game div {
-    width: 150px;
-    height: 215px;
+    width: 130px;
+    height: 190px;
     border: 1px solid black;
     border-radius: 20px;
     cursor: pointer;
@@ -53,11 +53,38 @@ main {
 }
 
 #difficulty {
-    width: 400px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#difficulty button {
+    background-color: #f5ebe0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#difficulty button:hover {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
 }
 
 #footer {
+    width: 100%;
     padding: 20px;
+    bottom: 0;
+    position: fixed;
+    opacity: 0.8;
 }
 
 /* Animáció: */
@@ -96,16 +123,5 @@ main {
     #memory-game div {
         width: 120px;
         height: 140px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #navbar {
-        width: 400px;
-        height: 100%;
-    }
-
-    #navbar ul {
-        flex-direction: column;
     }
 }

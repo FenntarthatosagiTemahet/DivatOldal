@@ -2,7 +2,7 @@ window.addEventListener("load", init);
 
 function ID(elem) {return document.getElementById(elem);}
 function CL(elem) {return document.getElementsByClassName(elem);}
-function $e(elem) {return document.querySelector(elem);}
+function $(elem) {return document.querySelector(elem);}
 function $a(elem) {return document.querySelectorAll(elem);}
 
 let i = 0;
@@ -10,17 +10,38 @@ var txt = "";
 
 const kepek = [];
 
-let pontszam = 0, szamlalo = 0;
+let szamlalo = 0;
 var probalkozasokSzama = 0;
+var osszesKartya = 0;
 
 function kepFeldolgozas() {
-    let txt = "";
+    ID("normal-difficulty").onclick = () => {
+        console.log("Normál");
+        osszesKartya = 20;
+        let normalKartyak = [];
+        for(let j = 0; j < osszesKartya; j++) normalKartyak.push(kepek[j]);
+        nullazas();
+        console.log(normalKartyak);
+        kartyaElrendezes(normalKartyak);
+    }
+    ID("hard-difficulty").onclick = () => {
+        console.log("Nehéz");
+        osszesKartya = kepek.length;
+        let nehezKartyak = [];
+        for(let j = 0; j < osszesKartya; j++) nehezKartyak.push(kepek[j]);
+        nullazas();
+        console.log(nehezKartyak);
+        kartyaElrendezes(nehezKartyak);
+    }
+
+    /* let txt = "";
     kepek.sort(function(a, b) {
         return 0.5 - Math.random();
     });
     console.log(kepek);
-    for(i = 0; i < kepek.length; i++) {
-        txt += "<div id=\"" + i + "\"></div>";
+
+    for(i = 0; i < osszesKartya; i++) {
+    txt += "<div id=\"" + i + "\"></div>";
     }
     ID("memory-game").innerHTML = txt;
 
@@ -34,23 +55,55 @@ function kepFeldolgozas() {
     }
     ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
     
-    for(let i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", function() {kartyatMutat(i)});
+    for(let i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", function() {kartyatMutat(i)}); */
+}
+
+function nullazas() {
+    kartyak = [];
+    megtalaltKartyak = [];
+    szamlalo = 0;
+    probalkozasokSzama = 0;
+}
+
+function kartyaElrendezes(aktualisKartya) {
+    let txt = "";
+    aktualisKartya.sort(function(a, b) {
+        return 0.5 - Math.random();
+    });
+    console.log(aktualisKartya);
+
+    for(i = 0; i < osszesKartya; i++) {
+    txt += "<div id=\"" + i + "\"></div>";
+    }
+    ID("memory-game").innerHTML = txt;
+
+    var tomb = $a("#memory-game div");
+    var tombHossz = tomb.length;
+    txt = "";
+    
+    for(i = 0; i < tombHossz; i++) {
+        tomb[i].className = "invisible";
+        tomb[i].style.backgroundColor = "pink";
+    }
+    ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
+    
+    for(let i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", function() {kartyatMutat(i, aktualisKartya)});
 }
 
 var kartyak = [];
 var megtalaltKartyak = [];
 
-function kartyatMutat(i) {
+function kartyatMutat(i, aktualisKartya) {
     if(szamlalo < 2 && event.target.className == "invisible") {
         event.target.className = "visible";
-        event.target.style.backgroundImage = `url("${kepek[i].kepEleresiUtvonala}")`;
+        event.target.style.backgroundImage = `url("${aktualisKartya[i].kepEleresiUtvonala}")`;
         event.target.style.backgroundSize = "100%";
         event.target.style.animation = "lathato 1.5s 1";
         kartyak.push(event.target.id);
         console.log(kartyak);
         szamlalo++;
         if(szamlalo == 2) {
-            if(kepek[kartyak[0]].kepEleresiUtvonala == kepek[kartyak[1]].kepEleresiUtvonala) {
+            if(aktualisKartya[kartyak[0]].kepEleresiUtvonala == aktualisKartya[kartyak[1]].kepEleresiUtvonala) {
                 probalkozasokSzama++;
                 megtalaltKartyak.push(kartyak[0]);
                 megtalaltKartyak.push(kartyak[1]);
@@ -77,7 +130,7 @@ function kartyatMutat(i) {
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;
             setTimeout(() => {
-                if(megtalaltKartyak.length == 16) vegeKiir();
+                if(megtalaltKartyak.length == osszesKartya) vegeKiir();
             }, 800);
         }
     }
@@ -91,9 +144,6 @@ function vegeKiir() {
 function init() {
     ID("title").innerHTML = "<h1>Memóriajáték</h1>";
     ID("footer").innerHTML = "<p>© Készítette: Piller András Gábor</p>";
-
-    /* ID("difficulty").innerHTML = "<button onclick=\"\">Könnyű</button>"
-    ID("difficulty").innerHTML = "<button onclick=\"\">Nehéz</button>" */
 
     fetch("../json/jatek.json")
     .then((response) => response.json())

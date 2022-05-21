@@ -24,18 +24,35 @@ function init(){
     let txt = ""
 
     let adatok =JSON.parse(localStorage.getItem("aktualisgomb"));
-    
-    console.log(adatok.length)
-    for (const key in adatok) {
-        if(key.includes("focim")){
-            txt+=`<h1>${adatok[key]}</h1>`
-        }
-        else if((key.includes("bekezdeslista"))){
-            txt+=`<p>${adatok[key]}</p>`
-        }
-        else if((key.includes("bekezdeskeplista"))){
-            txt+=``
-        }
-    ID("halo").innerHTML = txt
+    const bekezdestomb = adatok.bekezdeslista;
+    const alcimtomb = adatok.alcimlista;
+    const fels = adatok.felsorolas;
+    const bekkep = adatok.bekezdeskeplista
+
+    txt+=`<h1>${adatok.focim}</h1>`
+    for (let index = 0; index < bekezdestomb.length; index++) {
+        txt+=`<h2>${alcimtomb[index]}</h2><p>${bekezdestomb[index]}</p>`
     }
+
+    for (const key in adatok) {
+        if (key.includes("felsorolas")) {
+            txt+= `<ul>` 
+            for (let index = 0; index < fels.length; index++) {
+                txt+= `<li>${fels[index]}</li>`
+            }
+            txt+=`</ul>`
+        }
+    }
+
+    for (const key in adatok) {
+        if (key.includes("bekezdeskeplista")) {
+            for (let index = 0; index < bekkep.length; index++) {
+                txt+=`<img src="${bekkep[index]}" alt="kep">`
+            }
+        }
+    }
+
+        
+    ID("halo").innerHTML = txt
+    
 }

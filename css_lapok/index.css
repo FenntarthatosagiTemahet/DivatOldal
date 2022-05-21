@@ -8,10 +8,13 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: auto;
     
-    
+}
+article, aside{
+    width: 80%;
+    text-align: justify;
 }
 header{
     width: 100%;
@@ -56,6 +59,7 @@ img{
 p{
     padding-bottom: 8px;
     padding-top: 3px;
+    
 }
 h1{
     font-size: 30pt;

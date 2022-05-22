@@ -21,7 +21,7 @@ header{
 
 #cikkContainer{
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex: 0 0 10%;
@@ -38,8 +38,8 @@ nav{
     position: relative;
     border: 1px solid black;
     border-radius: 10px;
-    width:500px ;
-    height: 300px;
+    width:400px ;
+    height: 250px;
     /* border-radius: 10px; */
     margin-top: 40px;
     margin-bottom: 40px;
@@ -69,7 +69,7 @@ nav{
 button{
     padding: 1px; 
     position: absolute;
-    left: 195px;
+    left: 150px;
     bottom: 10px;
     text-align: center;
     border: none;
@@ -143,22 +143,8 @@ button:hover{
     font-weight:bold;
  }
 
-@media screen and (max-width: 1150px) {
-    #cikkContainer{
-        grid-template-columns: 1fr 1fr;
-        margin: auto;
-    }
 
-    #halo{
-        width: 900px;
-    }
-
-    #halo img{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     #cikkContainer{
         grid-template-columns: 1fr;
     }

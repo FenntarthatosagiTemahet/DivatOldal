@@ -1,3 +1,14 @@
+:root{
+    --menu: rgba(186, 173, 160, 0.8);
+    --menuArnyeknelkul: rgba(186, 173, 160, 1);
+    /* --menu: rgba(214, 204, 194, 0.8); */
+    --hatterAtmenet2: #edede9;
+    --hatterAtmenet1: #cebdb0;
+    /* --galeriaHatterAtmenet: #e3d5ca; */
+    --Cim: #d5bdaf;
+    /* #3E78B2,#004BA8,#4A525A,#24272B,#07070A */
+}
+
 p
 {
     font-family: 'PT Serif', serif;
@@ -10,12 +21,13 @@ header{
 
 #cikkContainer{
     border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1200px;
+    width: 90%;
+    display: flex;
+    flex: 0 0 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
     z-index: -1;
-    
 }
 
 nav{
@@ -25,15 +37,19 @@ nav{
 .mellekdiv{
     margin: auto;
     position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    width:300px ;
+    height: 250px;
+
     border: 3px solid black;
     /* border-radius: 10px; */
-    width:500px ;
-    height: 200px;
+
     margin-top: 40px;
     margin-bottom: 40px;
     text-decoration: none;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    background-color: #B7B7B7;
+    background-color: var(--Cim);
     text-align: center;
 
 }
@@ -41,7 +57,7 @@ nav{
 .mellekdiv:hover{
     transition: 0.5s all ease-in-out;
     transform: scale(1.2);
-    background-color: rgba(255, 159, 104, 0.685);
+    background-color: rgba(105, 76, 59, 0.685);
     color: aqua;
 }
 
@@ -57,8 +73,16 @@ nav{
 button{
     padding: 1px; 
     position: absolute;
-    bottom: 2%;
-    left: 45%
+    left: 100px;
+    bottom: 10px;
+    text-align: center;
+    border: none;
+    font-size: 16pt;
+    text-align: center;
+    background-color: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 2) 0px 2px 9px;
 }
 
 button:hover{
@@ -67,7 +91,7 @@ button:hover{
 
 #halo{
     margin: auto;
-    width: 1200px;
+    width: 90%;
     text-align: center;
     background-color:rgba(128, 128, 128, 0.342);
     border-radius: 20px;
@@ -89,7 +113,7 @@ button:hover{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 10px;
     margin: 10px;
-    width: 90%;
+    width: 50%;
 }
 
 #halo li {
@@ -121,7 +145,6 @@ button:hover{
     font-size: 20px;
     font-weight:bold;
  }
-
 
 @media screen and (max-width: 1150px) {
     #cikkContainer{

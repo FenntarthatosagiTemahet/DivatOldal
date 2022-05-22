@@ -12,9 +12,14 @@ main {
     margin: auto;
     
 }
-article, aside{
-    width: 80%;
+aside{
+    width: 90%;
     text-align: justify;
+}
+
+article
+{
+    width: 80%;
 }
 header{
     width: 100%;
@@ -27,7 +32,7 @@ footer{
 
 #fodiv {
     display: flex;
-    
+    width: 100%;
 }
 
 div {
@@ -35,10 +40,20 @@ div {
 }
 #mellék_div{
     
-    width: 300px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    /* width: 100%; */
     overflow: hidden;
 }
 
+#mellék_div h4{
+    text-align: center;
+    margin-top: 20px;
+}
+#mellék_div p{
+    text-align: center;
+}
 
 .kep:hover {
     width: 50%;
@@ -51,13 +66,17 @@ div {
     
 }
 
-h3{
+/* h3{
     text-align: center;
-}
+} */
 
 img{
     width: 200px;
     border-radius: 100%;
+}
+.kep div
+{
+    margin: auto;
 }
 p{
     padding-bottom: 8px;
@@ -66,6 +85,10 @@ p{
 }
 h1{
     font-size: 30pt;
+}
+h2{
+    text-align: center;
+    font-size: 25pt;
 }
 
 

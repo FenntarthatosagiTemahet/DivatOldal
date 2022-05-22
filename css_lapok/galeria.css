@@ -10,8 +10,13 @@ main
     display: grid;
     grid-template-areas: "h h h h h h h"
                          "n n n n n n n"
+                         "s s s s s s s"
                          "a a a a a a a"
                          "f f f f f f f";
+}
+section
+{
+    grid-area: s;
 }
 
 #gombok

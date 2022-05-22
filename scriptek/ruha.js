@@ -18,7 +18,7 @@ function CLASS(elem) {
 
 function init()
 {
-    $("footer").innerHTML = "&copy Készítette: Weinberger Péter & Hoffmann Dóra";
+    $("footer").innerHTML = "&copy Készítette: Weinberger Péter";
     feltolt();
 }
 

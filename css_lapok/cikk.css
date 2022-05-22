@@ -69,7 +69,7 @@ nav{
 button{
     padding: 1px; 
     position: absolute;
-    left: 150px;
+    left: 37%;
     bottom: 10px;
     text-align: center;
     border: none;
@@ -154,7 +154,7 @@ button:hover{
     }
 
     #halo{
-        width: 500px;
+        width: 80%;
     }
 
     #halo img{
@@ -167,13 +167,19 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 400px) {
-    #halo{
+@media screen and (max-width: 500px) {
+    .mellekdiv{
         width: 100%;
+    }
+    button{
+        left: 34%;
+    }
+    #halo{
+        max-width: 80%;
     }
 
     #halo img{
-        width: 90%;
+        max-width: 80%;
     }
 
     #linkekdiv ul{

@@ -15,47 +15,37 @@ var probalkozasokSzama = 0;
 var osszesKartya = 0;
 
 function kepFeldolgozas() {
-    ID("normal-difficulty").onclick = () => {
-        console.log("Normál");
-        osszesKartya = 20;
+    var gombok = $a("#difficulty button");
+    gombok[0].onclick = () => {
+        osszesKartya = 16;
+        let konnyuKartyak = [];
+        for(let j = 0; j < osszesKartya; j++) konnyuKartyak.push(kepek[j]);
+        nullazas();
+        event.target.className = "active";
+        gombok[1].className = "";
+        gombok[2].className = "";
+        kartyaElrendezes(konnyuKartyak);
+    }
+    gombok[1].onclick = () => {
+        osszesKartya = 28;
         let normalKartyak = [];
         for(let j = 0; j < osszesKartya; j++) normalKartyak.push(kepek[j]);
         nullazas();
-        console.log(normalKartyak);
+        event.target.className = "active";
+        gombok[0].className = "";
+        gombok[2].className = "";
         kartyaElrendezes(normalKartyak);
     }
-    ID("hard-difficulty").onclick = () => {
-        console.log("Nehéz");
+    gombok[2].onclick = () => {
         osszesKartya = kepek.length;
         let nehezKartyak = [];
         for(let j = 0; j < osszesKartya; j++) nehezKartyak.push(kepek[j]);
         nullazas();
-        console.log(nehezKartyak);
+        event.target.className = "active";
+        gombok[0].className = "";
+        gombok[1].className = "";
         kartyaElrendezes(nehezKartyak);
     }
-
-    /* let txt = "";
-    kepek.sort(function(a, b) {
-        return 0.5 - Math.random();
-    });
-    console.log(kepek);
-
-    for(i = 0; i < osszesKartya; i++) {
-    txt += "<div id=\"" + i + "\"></div>";
-    }
-    ID("memory-game").innerHTML = txt;
-
-    var tomb = $a("#memory-game div");
-    var tombHossz = tomb.length;
-    txt = "";
-    
-    for(i = 0; i < tombHossz; i++) {
-        tomb[i].className = "invisible";
-        tomb[i].style.backgroundColor = "pink";
-    }
-    ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
-    
-    for(let i = 0; i < tombHossz; i++) tomb[i].addEventListener("click", function() {kartyatMutat(i)}); */
 }
 
 function nullazas() {
@@ -70,7 +60,6 @@ function kartyaElrendezes(aktualisKartya) {
     aktualisKartya.sort(function(a, b) {
         return 0.5 - Math.random();
     });
-    console.log(aktualisKartya);
 
     for(i = 0; i < osszesKartya; i++) {
     txt += "<div id=\"" + i + "\"></div>";
@@ -83,7 +72,7 @@ function kartyaElrendezes(aktualisKartya) {
     
     for(i = 0; i < tombHossz; i++) {
         tomb[i].className = "invisible";
-        tomb[i].style.backgroundColor = "pink";
+        tomb[i].style.backgroundColor = "#d3a778";
     }
     ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
     
@@ -100,7 +89,6 @@ function kartyatMutat(i, aktualisKartya) {
         event.target.style.backgroundSize = "100%";
         event.target.style.animation = "lathato 1.5s 1";
         kartyak.push(event.target.id);
-        console.log(kartyak);
         szamlalo++;
         if(szamlalo == 2) {
             if(aktualisKartya[kartyak[0]].kepEleresiUtvonala == aktualisKartya[kartyak[1]].kepEleresiUtvonala) {

@@ -1,34 +1,44 @@
 p
 {
     font-family: 'PT Serif', serif;
-    /* background-color: #9ABCA7; */
 }
 
 header{
     margin: auto;
 }
 
+
 #cikkContainer{
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
     margin: auto;
-    width: 1200px;
+    z-index: -1;
+    
 }
 
 .mellekdiv{
+    margin: auto;
+    position: relative;
     border: 1px solid black;
     border-radius: 10px;
     width:300px ;
-    margin:auto;
     height: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-decoration: none;
-    box-shadow: 5px 10px 8px #131212;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: #B7B7B7;
     text-align: center;
 
+}
+
+.mellekdiv:hover{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.2);
+    background-color: rgba(255, 159, 104, 0.685);
+    color: aqua;
 }
 
 .mellekdiv h1{
@@ -40,15 +50,89 @@ header{
     color: black;
 }
 
+button{
+    padding: 1px; 
+    position: absolute;
+    bottom: 2%;
+    left: 40%
+}
+
+button:hover{
+    cursor: pointer;
+}
+
 #halo{
     margin: auto;
     width: 1200px;
-    text-align: justify;
+    text-align: center;
+    background-color:rgba(128, 128, 128, 0.342);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 2) 0px 2px 9px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #halo h1{
+    margin: 50px;
+    padding: 15px;
+}
+
+#halo p{
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+}
+
+#halo img {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+#halo li {
+    list-style: none;
+    text-align: justify;
+    /* margin-left: 30%; */
     text-align: center;
+    padding: 10px;
+    font-size: 17px;
 }
 
 
+@media screen and (max-width: 1150px) {
+    #cikkContainer{
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
 
+    #halo{
+        width: 900px;
+    }
+
+    #halo img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #cikkContainer{
+        grid-template-columns: 1fr;
+    }
+
+    #halo{
+        width: 500px;
+    }
+
+    #halo img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #halo{
+        width: 250px;
+    }
+
+    #halo img{
+        width: 90%;
+    }
+}

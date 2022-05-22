@@ -51,9 +51,12 @@ div {
     
 }
 
+h3{
+    text-align: center;
+}
 
 img{
-    width: 250px;
+    width: 200px;
     border-radius: 100%;
 }
 p{

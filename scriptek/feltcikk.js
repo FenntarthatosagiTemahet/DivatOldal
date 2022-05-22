@@ -28,10 +28,15 @@ function init(){
     const alcimtomb = adatok.alcimlista;
     const fels = adatok.felsorolas;
     const bekkep = adatok.bekezdeskeplista
-
+    
     txt+=`<h1>${adatok.focim}</h1>`
     for (let index = 0; index < bekezdestomb.length; index++) {
         txt+=`<h2>${alcimtomb[index]}</h2><p>${bekezdestomb[index]}</p>`
+        for (const key in adatok) {
+            if (key.includes("bekezdeskeplista") && index<bekkep.length) {
+                txt+=`<img loading="lazy" id="bekkep${index}" src="${bekkep[index]}" alt="kep">`
+            }
+        }
     }
 
     for (const key in adatok) {
@@ -44,13 +49,7 @@ function init(){
         }
     }
 
-    for (const key in adatok) {
-        if (key.includes("bekezdeskeplista")) {
-            for (let index = 0; index < bekkep.length; index++) {
-                txt+=`<img src="${bekkep[index]}" alt="kep">`
-            }
-        }
-    }
+    
 
         
     ID("halo").innerHTML = txt

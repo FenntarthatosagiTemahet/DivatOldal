@@ -126,6 +126,7 @@ footer
     }
     nav
     {
+        z-index: 1;
         background-color: var(--menuArnyeknelkul);
     }
     nav ul

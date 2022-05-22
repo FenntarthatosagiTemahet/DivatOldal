@@ -18,6 +18,11 @@ header
     grid-area: h;
 }
 
+h1
+{
+    line-height: 50px;
+}
+
 nav
 {
     grid-area: n;
@@ -130,21 +135,19 @@ footer
 {
     article
     {
+        width: 80%;
         grid-template-columns: 1fr 1fr;
         /* max-width: 80%; */
     }
     .ruhaKepek div
     {
-        flex: 0 0 100%;
+        flex: 0 0 90%;
     }
 }
 
 @media screen and (max-width: 500px)
 {
-    header h1
-    {
-        font-size: 10pt;
-    }
+    
     article
     {
         grid-template-columns: 1fr;
@@ -153,5 +156,9 @@ footer
     .ruhaKepek div
     {
         flex: 0 0 80%;
+    }
+    .szovegTartalom
+    {
+        width: 100%;
     }
 }

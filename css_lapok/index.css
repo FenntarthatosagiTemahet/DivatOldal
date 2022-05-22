@@ -67,6 +67,10 @@ p{
 h1{
     font-size: 30pt;
 }
+h2{
+    text-align: center;
+    font-size: 25pt;
+}
 
 
 @media screen and (max-width: 900px) {

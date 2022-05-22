@@ -52,11 +52,11 @@ function init(){
     }
 
 
-            txt+=`<div id="linkekdiv">`
+            txt+=`<div id="linkekdiv"><ul><p>Források:</p>`
             for (let index = 0; index < linko.length; index++) {
-                txt+= `<a href="${linko[index]}" target="_blank">forrás${index}</a>`
+                txt+= `<li><a href="${linko[index]}" target="_blank">forrás ${index+1}</a></li>`
             }
-            txt+=`</div>`
+            txt+=`</ul></div>`
 
 
     console.log(linko)

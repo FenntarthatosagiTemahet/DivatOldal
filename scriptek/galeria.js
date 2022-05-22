@@ -20,21 +20,11 @@ const zeroWasteKepek=[];
 const ingKepek=[];
 const szoveg=[];
 
-
-
 function init() {
-  $("footer").innerHTML = "&copy Készítette: Weinberger Péter & Hoffmann Dóra";
-  // tombBeolvasas(szoveg, "galeriaSzoveg");
+  $("footer").innerHTML = "&copy Készítette: Weinberger Péter";
   tombBeolvasas(ingKepek, "UjrahasznositottIng");
   tombBeolvasas(zeroWasteKepek, "zeroWaste");
-  // $(".zero").addEventListener("load", gombSzinez);
-  // $(".szoveg").innerHTML="<h1>A zero waste kollekció:</h1><p></p>";
-  // szovegTartalom(szoveg);
-  console.log(szoveg);
-  // szovegTartalom()
   valaszt();
-  // $("#zero").style.backgroundColor="black";
-  // $("#zero").style.color="white";
 }
 
 function valaszt(){
@@ -62,7 +52,6 @@ function tombBeolvasas(tomb, kulcs)
       {
         tomb.push(elem);
       });
-      // szovegTartalom(tomb);
       galeriaFeltoltAdatokkal(tomb);
   })
   .catch(err => console.log(err));
@@ -70,7 +59,6 @@ function tombBeolvasas(tomb, kulcs)
 
 function galeriaFeltoltAdatokkal(tomb) 
 {
-  // let melyikKep=event.target.innerHTML;
   var txt=`<div class="galeriaKepek">`;
   var asideTxt="<div>";
   for (var i = 0; i < tomb.length; i++) 
@@ -79,15 +67,12 @@ function galeriaFeltoltAdatokkal(tomb)
           <p><span id="${i}">${tomb[i].keszito}</span></p>
           <p>(<span>${tomb[i].modellNeve}</span>)</p></a></div>`;
 
-    asideTxt+=`<p><a id="${i}" href="ruha.html">${tomb[i].keszito}</a></p>`;
-    // console.log(tomb[i]);
-    // 
+      asideTxt+=`<p><a id="${i}" href="ruha.html">${tomb[i].keszito}</a></p>`;
   }
   txt+="</div>";
   asideTxt+="</div>";
   $(".galeria").innerHTML=txt;
   $(".tervezok").innerHTML=asideTxt;
-  // kepekElerese();
   kepLista = document.querySelectorAll(".galeriaKepek>div");
   asideLista = document.querySelectorAll(".tervezok>div>p");
   for (let i = 0; i < kepLista.length; i++) 
@@ -108,28 +93,3 @@ function galeriaFeltoltAdatokkal(tomb)
     });
   }
 }
-
-// function gombSzinez() 
-// {
-//     $("#zero").style.backgroundColor="black";
-//     $("#zero").style.color="white";
-//     var gomb=document.querySelector("gombok");
-//     console.log(gomb.length);
-// }
-
-// function szovegTartalom() 
-// {
-//   let txt="";
-//   for (let i = 0; i < szoveg.length; i++) 
-//   {
-//     txt+=`<div><h1>${szoveg[i].szovegCim}</h1>
-//     <p>${szoveg[i].szovegLeiras}</p></div>`; 
-//   }
-//   $(".szoveg").innerHTML=txt;
-// }
-// function ujoldal()
-// {
-//   let kepEleres=event.target.id;
-//   console.log(event.target.id);
-//   kepEleres=localStorage.setItem("aktualisKep", JSON.stringify(tomb[kepEleres]));
-// }

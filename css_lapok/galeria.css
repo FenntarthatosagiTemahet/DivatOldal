@@ -17,9 +17,9 @@ main
 #gombok
 {
     display: flex;
-    justify-content: center;
-    /* margin-left: 80px;
-    width: 70%; */
+    justify-content: space-evenly;
+    /* /* margin-left: 80px; */
+    width: 90%;
 }
 
 #gombok button
@@ -172,7 +172,7 @@ footer
 {
     article
     {
-        max-width: 80%;
+        max-width: 100%;
     }
     #tartalom
     {
@@ -195,12 +195,14 @@ footer
 {
     #gombok
     {
-        /* justify-content: flex-start; */
-        width: 80%;
+        justify-content: space-evenly;
+        /* margin-left: 20px; */
+        width: 100%;
     }
     #tartalom
     {
-        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        grid-template-columns: 2fr 1fr;
     }
     .galeriaKepek div
     {
@@ -217,11 +219,11 @@ footer
     #gombok
     {
         justify-content: center;
-        width: 65%;
+        width: 100%;
     }
     #tartalom
     {
-        width: 70%;
+        width: 100%;
         grid-template-columns: 1fr 1fr;
     }
     .galeriaKepek div
@@ -230,7 +232,7 @@ footer
     }
     .tervezok div
     {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -239,14 +241,14 @@ footer
     #gombok
     {
         justify-content: center;
-        width: 35%;
+        width: 100%;
         flex-wrap: wrap;
         /* display: grid;
         grid-template-columns: 1fr; */
     }
     #tartalom
     {
-        width: 40%;
+        width: 100%;
         grid-template-columns: 1fr;
     }
     .galeriaKepek div
@@ -255,7 +257,7 @@ footer
     }
     .tervezok div
     {
-        width: 60%;
+        width: 100%;
         margin-left: 50px;
     }
 }

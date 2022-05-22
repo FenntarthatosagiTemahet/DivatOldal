@@ -99,3 +99,55 @@ footer
 {
     grid-area: f;
 }
+
+@media screen and (max-width: 1000px)
+{
+    article
+    {
+        grid-template-columns: 2fr 1fr;
+        /* max-width: 80%; */
+    }
+    .ruhaKepek div
+    {
+        flex: 0 0 33%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    article
+    {
+        grid-template-columns: 2fr 1fr;
+        /* max-width: 80%; */
+    }
+    .ruhaKepek div
+    {
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    article
+    {
+        grid-template-columns: 1fr 1fr;
+        /* max-width: 80%; */
+    }
+    .ruhaKepek div
+    {
+        flex: 0 0 100%;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    article
+    {
+        grid-template-columns: 1fr;
+        /* max-width: 80%; */
+    }
+    .ruhaKepek div
+    {
+        flex: 0 0 80%;
+    }
+}

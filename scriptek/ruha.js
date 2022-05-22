@@ -44,6 +44,7 @@ function feltolt()
         <p><span>${ruhaKepekTomb[i].tipus}</span></p>
         <p>${ruhaKepekTomb[i].leiras}</p>
         <p><span>${ruhaKepekTomb[i].modellNeve}</p></span><div>`;
+        $("h1").innerHTML=ruhaKepekTomb[i].keszito;
     }
 
     txt+="";

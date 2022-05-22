@@ -27,6 +27,7 @@ function init() {
   // tombBeolvasas(szoveg, "galeriaSzoveg");
   tombBeolvasas(ingKepek, "UjrahasznositottIng");
   tombBeolvasas(zeroWasteKepek, "zeroWaste");
+  // $(".zero").addEventListener("load", gombSzinez);
   // $(".szoveg").innerHTML="<h1>A zero waste kollekció:</h1><p></p>";
   // szovegTartalom(szoveg);
   console.log(szoveg);
@@ -42,9 +43,6 @@ function valaszt(){
   tomb.forEach((elem)=>{
     elem.addEventListener("click", function(){
       melyik = event.target.innerHTML;
-
-      $("#zero").style.backgroundColor="black";
-      $("#zero").style.color="white";
       if(melyik === "Zero waste"){
         $("#zero").addEventListener("click", galeriaFeltoltAdatokkal(zeroWasteKepek));
       }
@@ -110,6 +108,14 @@ function galeriaFeltoltAdatokkal(tomb)
     });
   }
 }
+
+// function gombSzinez() 
+// {
+//     $("#zero").style.backgroundColor="black";
+//     $("#zero").style.color="white";
+//     var gomb=document.querySelector("gombok");
+//     console.log(gomb.length);
+// }
 
 // function szovegTartalom() 
 // {

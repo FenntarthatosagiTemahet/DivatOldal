@@ -147,16 +147,17 @@ main {
     }
 
     #difficulty {
+        max-width: 400px;
         flex-direction: column;
         gap: 10px;
     }
 
     #difficulty button {
-        width: 50%;
+        width: 60%;
         margin: auto;
     }
-    aside
-    {
-        width: 60%;
+
+    footer {
+        max-width: 400px;
     }
 }

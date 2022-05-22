@@ -1,5 +1,5 @@
 article{
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 #gombok button
@@ -34,6 +34,12 @@ form div{
     border-radius: 5px;
     box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
 }
+
+form div p
+{
+    margin-top: 15px;
+}
+
 #kuldes{
     text-align: center;
 }

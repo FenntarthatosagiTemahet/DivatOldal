@@ -27,7 +27,9 @@ function init(){
     const bekezdestomb = adatok.bekezdeslista;
     const alcimtomb = adatok.alcimlista;
     const fels = adatok.felsorolas;
-    const bekkep = adatok.bekezdeskeplista
+    const bekkep = adatok.bekezdeskeplista;
+    const linko = adatok.linkek;
+
     
     txt+=`<h1>${adatok.focim}</h1>`
     for (let index = 0; index < bekezdestomb.length; index++) {
@@ -49,6 +51,15 @@ function init(){
         }
     }
 
+
+            txt+=`<div id="linkekdiv">`
+            for (let index = 0; index < linko.length; index++) {
+                txt+= `<a href="${linko[index]}" target="_blank">forrás${index}</a>`
+            }
+            txt+=`</div>`
+
+
+    console.log(linko)
     
 
         

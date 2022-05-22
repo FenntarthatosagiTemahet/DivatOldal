@@ -99,9 +99,9 @@
 
         "workshop_linkek_cim": "Varrd meg, készítsd el magadnak – workshopok",
 
-        "valami_link":"Külföldi márkák, tervezők, alkotók",
+        "alcimlista": ["4 magyar márka, aki hisz a fenntartható divatban", "", "", "", "", "", ""],
 
-        "alcimlista": ["4 magyar márka, aki hisz a fenntartható divatban", "", "", "", "", "", ""]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fennterthetodiv1.jpg", "../kepek/cikkek_kepei/fennterthetodiv2.jpg", "../kepek/cikkek_kepei/fennterthetodiv3.jpg", "../kepek/cikkek_kepei/fennterthetodiv4.jpg", "../kepek/cikkek_kepei/fennterthetodiv5.jpg"]
 
     },
 
@@ -242,7 +242,7 @@
 
         "bekezdeskeplista":["../kepek/cikkek_kepei/ocean1.jpg"],
 
-        "linkek":["Óceánok: mi a szerepük az életben, hogyan óvjuk őket? | xForest"]
+        "linkek":["https://xforest.hu/oceanok/"]
 
     }
 

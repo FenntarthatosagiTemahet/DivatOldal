@@ -18,8 +18,8 @@
         ],
 
         "bekezdeskeplista" :[
-            "../kepek/cikkek_kepei/hulladekmentes/adagoló.jpg",
-            "../kepek/cikkek_kepei/hulladekmentes/fémszívószál.jpg"
+            "../kepek/cikkek_kepei/hulladekmentes1.jpg",
+            "../kepek/cikkek_kepei/hulladekmentes2.jpg"
         ]
 
     },
@@ -39,9 +39,9 @@
         "alcimlista":["", "", ""],
 
         "bekezdeskeplista" : [
-            "../kepek/cikkek_kepei/zold_marketing/zm5.jpg",
-            "../kepek/cikkek_kepei/zold_marketing/zm3.jpg",
-            "../kepek/cikkek_kepei/zold_marketing/zm2.jpg"
+            "../kepek/cikkek_kepei/zm5.jpg",
+            "../kepek/cikkek_kepei/zm3.jpg",
+            "../kepek/cikkek_kepei/zm2.jpg"
 
         ]
 
@@ -111,7 +111,9 @@
         "bekezdeslista":[
             "A TeSzedd! - Önkéntesen a tiszta Magyarországért akció. Hazánk legnagyobb önkéntes mozgalma. Idén immár kilencedik alkalommal valósul meg. A szemétgyűjtési akció keretében szerte az országban „nagytakarítanak” a TeSzedd! önkéntesei. Azért szervezzük meg ezt a mozgalmat minden évben, hogy közösen megtisztítsuk szűkebb-tágabb környezetünket.",
 
-            "A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm. A pályázat célja, hogy tudatosítsa a diákok körében a víz mindennapokban betöltött fontos szerepét. A pályázat a diákok vízhez kötődő viszonyát, művészti alkotásokon keresztül kívánja felmérni. A diákoknak egy vízcsepp helyébe kell beleképzelni magukat és arról szabadon választott művészeti alkotást kell készíteni. <br> A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig"
+            "A pályázat a 2022. évi Fenntarthatósági Témahét keretében kerül meghirdetésre. A pályázat célja a diákok szemléletformálása vízhez kapcsolódó művészeti alkotások készítésével. Benyújtható pályázatok: rajz, fotó, szépirodalmi mű, zenemű, képregény, infografika, kisfilm. A pályázat célja, hogy tudatosítsa a diákok körében a víz mindennapokban betöltött fontos szerepét. A pályázat a diákok vízhez kötődő viszonyát, művészti alkotásokon keresztül kívánja felmérni. A diákoknak egy vízcsepp helyébe kell beleképzelni magukat és arról szabadon választott művészeti alkotást kell készíteni. <br> A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig",
+
+            ""
         ],
 
         "alcimlista":[
@@ -121,9 +123,9 @@
         ],
 
         "bekezdeskeplista":[
-            "../kepek/cikkek_kepei/teszedd/kep1.jpg",
-            "../kepek/cikkek_kepei/teszedd/kep2.jpg",
-            "../kepek/cikkek_kepei/teszedd/kep3.jpg"
+            "../kepek/cikkek_kepei/teszedd1.jpg",
+            "../kepek/cikkek_kepei/teszedd2.jpg",
+            "../kepek/cikkek_kepei/teszedd3.jpg"
         ]
 
     },
@@ -136,11 +138,12 @@
             
             "Papp Endre (a Zöld Színház Projekt vezetője) világossá teszi, hogy a Zöld Színház Projekt nem hivatott szembemenni a művészeti víziókkal, csupán arra tesz javaslatot, hogy az adott díszletelemet és kelléket honnan szerezzék be.",
 
-            "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz."
+            "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz.",
+            "", ""
 
         ],
-        "alcimlista":["Színház újrahasznosított papírból", ""],
-        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/1.png.png", "../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/4.png.png", "../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/2.png.png", "../kepek/cikkek_kepei/fenntarthatosag_a_színhazban/3.png.png"]
+        "alcimlista":["Színház újrahasznosított papírból", "" ,"", ""],
+        "bekezdeskeplista":["../kepek/cikkek_kepei/színházascikk1.png", "../kepek/cikkek_kepei/színházascikk2.jpg", "../kepek/cikkek_kepei/színházascikk3.png", "../kepek/cikkek_kepei/színházascikk4.png"]
     },
 
     {
@@ -158,7 +161,7 @@
         ],
 
         "alcimlista":["", "", "", ""],  
-        "bekezdeskeplista":["../kepek/cikkek_kepei/veracikk/kep1.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/veracikk.jpg"]
 
     },
 
@@ -181,7 +184,7 @@
 
         "felsorolas":["1.) A szegénység felszámolása ","2.) Az éhezés megszüntetése","3.) Egészség és jólét", " 4.) Minőségi oktatás", "5.) Nemek közötti egyenlőség", "6.) Tiszta víz alapvető köztisztaság", "7.) Megfizethető és tisza energia", "8.) Tisztességes munka és gazdasági növekedés", "9.) Ipar, innováció és infrastruktúra", "10.) Egyenlőtlenségek csökkentése", "11.) Fenntartható városok és közösségek", "12.) Felelős fogyasztás és termelés", "13.) Fellépés az éghajlatváltozás ellen", "14.) Óceánok és tengerek védelme", " 15.) Szárazföldi ökoszisztémák védelme", "16.) Béke, igazság és erős intézmények "  ],
 
-        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosag_az_iskolaban/kép2.jpg", "../kepek/cikkek_kepei/fenntarthatosag_az_iskolaban/kép3.jpg", "../kepek/cikkek_kepei/fenntarthatosag_az_iskolaban/Kép1.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosagiskola1.jpg", "../kepek/cikkek_kepei/fenntarthatosagiskola2.jpg", "../kepek/cikkek_kepei/fenntarthatosagiskola3.jpg"]
 
     }, 
 
@@ -206,10 +209,42 @@
         "alcimlista":["De mit is jelent valójában a kifejezés és miért fontos, hogy foglalkozzunk vele?", "A zéro összegű játék hívők", "A win-win hívők", "Környezet, azaz ’odafigyelés’ (környezeti felelősség):", "Társadalmi dimenzió, azaz ’elfogadás’ (társadalmi felelősség):", "Gazdasági dimenzió, azaz a ’felelős vállalat’ megközelítés:" ],
 
 
-        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosag_fogalm/atr2.jpg", "../kepek/cikkek_kepei/fenntarthatosag_fogalm/atr3.png" ]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosagfog1.jpg", "../kepek/cikkek_kepei/fenntarthatosagfog2.png", "../kepek/cikkek_kepei/fenntarthatosagfog3.jpg" ]
+
+    },
+
+
+    {
+
+        "focim":"Óceánok: mi a szerepük az életben, hogyan óvjuk őket?",
+        "cikk_iroja":"Zachar Veronika ",
+        "bekezdeslista":[
+            "Földünk hidroszférájának közel 71 százalékát óceánok borítják. Hatalmas területet fednek le, mégsem kapnak elég figyelmet. Célunk ezen változtatni! Cikkünk szélesíteni kívánja ismereteidet velük kapcsolatban, beutatja, hogy te mit tehetsz védelmük érdekében.",
+
+            "Az óceánok nélkül a bolygó élhetetlen lenne, rengeteg lehetőséget kínálnak a növekedés, a foglalkoztatás és az innováció előmozdítására.",
+            
+            "Sürgős megoldásokat kell találnunk példul a klímaváltozás területén, a rohamos hulladék felhalmozódás ellen, de a sort még folytathatnánk…",
+
+            "A klímaváltozásnak számos káros hatása van az óceánokra.Ilyen példul a hőmérséklet növekedés. A bolygónk felmelegedése mögött közvetlenül 93%-ban az óceánok melegedése áll. Mitől is melegszik az óceán? Ezt a jelenséget az üvegházhatású gázok, ezen belül főként a szén-dioxid fokozódó kibocsátása generálja. Ennek következtében egyre több napenergia esik csapdába a légkörben, mely az óceánokba kerülve növeli a víz hőmérsékletét és megváltoztatja körforgását, valamint a sarki jég olvadását eredményezi. Az óceánokba futó folyók mellett a parton fekvő települések ipari, mezőgazdasági és kommunális eredetű szennyeződéseivel is számolni kell. A hajók motorjai, szennyvize és a szállított áruk mind tovább fokozzák a szennyezettség mértékét. A vízi közlekedés és szállítás, és az ehhez kapcsolódó balesetek miatt sok olaj kerül a vízbe, ami számos élőlény pusztulását okozza. A légköri ülepedés is szennyezi az óceánok vizét. A szilárd szennyezőkről is szót kell ejteni:  az óceánokon hatalmas szemétszigetek alakultak ki, amelyek javarészt a tengerjáró hajók hulladékából, műanyagból tevődnek össze. A Csendes-óceán északi medencéjében található szemétsziget méretét 700 ezer-15 millió négyzetkilométer közöttire becsülik. A vízhőmérséklet a tengeri élővilágra drasztikus hatással lehet, a hőmérséklet emelkedése máris nagy változásokat idézett elő a víz alatt, beleértve a tengeri fajok eloszlásának jelentős átrendeződését. Egyes területeken a sótartalom drasztikus növekedése, más közegekben annak csökkenése vezet a fajok kipusztulásához. Az imént felsorolt változások, illetve problémák az emberek egészségére is hatással vannak: az emelkedő vízhőmérséklet miatt növekedhet a vízzel terjedő betegségek, például a Balti-tengerben fellépő vibriózis fertőzések kockázata is.",
+
+            "Az óceánokban végbemenő változások több komponensből összeálló problémát jelentenek. A víz körforgására gyakorolt hatás szélsőséges időjárási körülményeket idézhet elő. Normál esetben ez a körforgás eredményezi a víz folyamatos elosztását az óceánokból a légkörbe, szárazföldre, folyókba és tavakba, majd vissza a tengerekbe és az óceánokba. Az éghajlatváltozás nyomán fokozódik a légkörben található vízgőz szintje, emiatt teljes mértékben kiszámíthatatlanná válik az, hogy milyen mértékű lesz a rendelkezésre álló víz mennyisége. Mindezek a körülmények egyes helyeken heves zivatarokat okozhatnak, más térségekben viszont épp az ellenkező hatást érik el: súlyosbodhat az aszályhelyzet, különösen a nyári hónapok alatt, és ez egyes területeken elsivatagosodáshoz vezethet.",
+
+            "Ha nem teszünk lépéseket az óceánok felmelegedésének és savasodásának megfékezése érdekében, azt kockáztatjuk, hogy az éghajlatszabályozásban betöltött szerepüket fokozatosan elvesztik, a klíma pedig olyan átalakuláson megy át, hogy az az életkörülmények drasztikus leromlásához vezet. Az óceánokban végbemenő változások hatására olvadnak a gleccserek, zsugorodnak a hóval és jéggel borított területek. Felborul a sarkvidéki ökoszisztéma, egyre kisebb térre szorulnak vissza a sarkvidéki állatok és az őslakos emberek. Az olvadás következtében emelkedik a tengerszint, egyre nagyobb területek kerülnek víz alá, mindezek az egymást generáló események pedig az emberi életkörülményeket is ellehetetlenítik: a gazdasági problémák mellett évtizedeken belül a tömeges migrációval is számolni kell. A csapadékviszonyok is változnak. Európában a csapadékos térségek még csapadékosabbá, a szárazak pedig még szárazabbá válnak, ugyanakkor egyre gyakoribbak és intenzívebbek az éghajlatváltozással összefüggő szélsőségek, köztük a hőhullámok, az erős esőzések és aszályok. A meleg több halálos áldozattal, valamint növénykultúrákat károsító, és erdőtüzeket okozó szárazsággal jár. Az éghajlatváltozás a folyók és tavak átlagos vízhőmérsékletét is fokozatosan növeli, a jégborításos évszakok időtartamát pedig lerövidíti, amely a talajra is káros hatással van: a földben lakozó baktériumok elszaporodnak, a kártevők is szabadabb teret kapnak. E változások jelentősen befolyással lesznek a földművelésre, mezőgazdaságra, és az emberi életminőségre is.",
+
+            "Alapvető változtatásokat kell kieszközölni rövid időn belül az óceánpolitika tekintetében, ha biztosítani kívánják az emberiség jövőjét – ezért a nemzetközi szervezetek is felkarolták az óceánok ügyét. ",
+
+            "Fontos, hogy felismerjük: nem csupán az európai, vagy a nemzetközi szervezetek, politikai nagyhatalmak tehetnek az óceánok ügyéért, hanem mi magunk, személyesen is felelősek vagyunk érte, és egyenként is hozzájárulhatunk a megóvásukhoz, mellyel saját jövőnket is biztosítjuk. Mind egyéni, mind közösségi szinten fontos, hogy csökkentsünk a tengereket érő szennyezést, különösen a szárazföldi tevékenységből eredőket, például a tengeri uszadékot, és a tápanyagterhelést. A jelentős károsító hatások elkerülése érdekében fenntartható módon kezeljük, és védjük a tengeri és tengerparti ökoszisztémákat, ideértve az ellenállásra és alkalmazkodásra való képességük megerősítését, illetve intézkedjünk helyreállításuk érdekében, hogy az óceánok egészségesek és termékenyek legyenek. Elengedhetetlen, hogy a lehető legjobban visszafogjuk az óceán savasodását, és kezeljük annak következményeit, többek között fokozott tudományos együttműködéssel. Ebben az együttműködésben kiemelt szerepet kell biztosítani a sajtóban való megjelenésnek, az ismeretterjesztő programoknak, rendezvényeknek. Fontos, hogy a halászat terén is eredményeket érjünk el. A tengeri halászat szabályozása mellett a halállományok helyreállítása is célként kell lebegjen az emberiség szeme előtt, legalább olyan szinten, amely a biológiai tulajdonságaiknak megfelelően a legnagyobb fenntartható szaporulatot hozza. Ennek fényében globálisan be kell tiltani a halászati támogatások bizonyos formáit, amelyek hozzájárulnak a túlzott kapacitások fenntartásához és a túlhalászathoz, felszámolni azon támogatásokat, amelyek hozzájárulnak a jogellenes, szabályozatlan vagy nem bejelentett halászati tevékenységekhez, és tartózkodjunk egyéni szinten, turistaként olyan termékek megvásárlásától, melyek ilyen körülmények között kerülnek ki a vizekből. Mindeközben pedig globális és egyéni szinten is támogatni kell a legkevésbé fejlett országok és a fejlődő kis szigetállamok fenntartható halászatra tett törekvéseit, programjait.  Ehhez elsősorban a tengeri források fenntartható használatából – ideértve a fenntartható halászatból, haltenyésztésből és turizmusból – fakadó gazdasági előnyöket kell biztosítani nekik. Globálisan, nemzetközi szinten növelni kell a tudományos tudásbázist, fejleszteni a kutatási kapacitásokat, és átadni egymásnak a tengeri technológiákat, figyelembe véve a Kormányközi Oceanográfiai Bizottság „A tengeri technológiák átadásának feltételei és irányelvei” című dokumentumában foglalt előírásait. Ezzel javíthatjuk az óceán egészségét, és növelhetjük azt a hozzájárulást, amit a tengerek fajgazdagsága ad a fejlődő országok, különösen a legkevésbé fejlett országok és a fejlődő kis szigetországok fejlesztéséhez.",
+
+            "Tájékozódj, legyél nyitott a nemzetközi, hazai környezetvédelmi szervezetek kommunikációjára, olvass minél több cikket, fórumot a témában, és figyeld folyamatosan a sajtóban az ezzel kapcsolatos híreket, intézkedéseket, szabályokat. Ezen információk segítségével kerüld el azon cégek termékeit, amelyek környezetpusztító módon állítják elő termékeiket, vagy túlhalászattal biztosítják a hal beszerzését. Nyaraláskor olyan ajándéktárgyat vásárolj, amiről biztosan tudod, hogy nem úgy állították elő, hogy tengeri állatot gyilkoltak érte. Olyan éttermeket látogass a nyaralás során, ahol fenntartható halászatból készítik az ételeket. Olyan halat vásárolj, amiről tudod, hogy fenntartható módon halászták. Itthon, a boltban kapható tengeri halakra ez általában nem érvényes, ezért érdemes hazait fogyasztani, és csak akkor hódolni a tengeri herkentyűk iránti élvezetnek, amikor a tengerparton, óceán mellett vagy. Fontos, hogy folyamatosan tájékozódj arról, hogy a mindennapokban mit tehetünk az óceánokért és mit kerüljünk el. Annak, akinek a környezettudatosság fontos szerepet játszik az életében, a kozmetikumok vásárlásánál nagyon körültekintőnek kell lennie: sok szempontból fontos, hogy az adott termék mit tartalmaz. Egyes szépítkezőszerekhez például olyan, veszélyeztetett fajokat használnak fel, mint a csikóhal. Ha tengerhez, vagy óceánhoz valamilyen formában kapcsolódó cég vezetője vagy Fordíts a nemzetközi jog érvényesítése és végrehajtása által fokozott figyelmet az óceánok és erőforrásaik megőrzésére, és fenntartható használatára az ENSZ Tengerjogi Egyezménye előírásainak megfelelően – ahogy arra „Az áhított jövő” című ENSZ-nyilatkozat 158. bekezdése emlékeztet."
+        ],
+
+        "alcimlista":["Óceánok: mi a szerepük az életben, hogyan óvjuk őket?", "Milyen szerepet töltenek be az óceánok a Föld életében?", "Milyen globális kihívások jelentek fenyegétést az óceánokra jelenünkben?","Említsünk meg néhány konkrét dolgot: ", "Miért jelentenek óriási problémát az óceánokban végbemenő változások?", "Mi várható, ha minden így megy tovább az óceánokban?", "Mi a nemzetközi óceánpolitika álláspontja?", "Mit tehetünk az óceánok védelméért?", "Mit tehetsz te személy szerint az óceánok védelme érdekében?"],
+
+        "bekezdeskeplista":["../kepek/cikkek_kepei/ocean1.jpg"],
+
+        "linkek":["Óceánok: mi a szerepük az életben, hogyan óvjuk őket? | xForest"]
 
     }
-
 
     
 ]

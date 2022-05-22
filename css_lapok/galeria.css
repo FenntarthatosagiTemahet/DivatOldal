@@ -14,6 +14,7 @@ main
                          "a a a a a a a"
                          "f f f f f f f";
 }
+
 section
 {
     grid-area: s;
@@ -262,7 +263,7 @@ footer
     }
     .tervezok div
     {
-        width: 100%;
+        width: 80%;
         margin-left: 50px;
     }
 }

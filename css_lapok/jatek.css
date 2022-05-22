@@ -15,7 +15,7 @@ main {
 }
 
 #memory-game {
-    max-width: 1000px;
+    max-width: 80%;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -53,7 +53,7 @@ main {
 }
 
 #difficulty {
-    width: 350px;
+    width: 450px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@ main {
     color: black;
 }
 
-#difficulty button:hover {
+#difficulty button:hover, #difficulty .active {
     font-weight: bold;
     color: white;
     background-color: black;
@@ -96,7 +96,8 @@ main {
 /* Reszponzivitás: */
 @media screen and (max-width: 1200px) {
     #memory-game {
-        width: 65%;
+        width: 100%;
+        margin: auto;
     }
 }
 
@@ -123,5 +124,15 @@ main {
     #memory-game div {
         width: 120px;
         height: 140px;
+    }
+
+    #difficulty {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #difficulty button {
+        width: 90%;
+        margin: auto;
     }
 }

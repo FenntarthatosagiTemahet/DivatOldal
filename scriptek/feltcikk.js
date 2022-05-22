@@ -54,9 +54,12 @@ function init(){
    
     txt+=`<div id="linkekdiv"><ul>`
     for (let index = 0; index < tomb.length; index++) {
+        if(tomb.length > 0){
         txt+= `<p class="forrasokp">Források:</p>`
+       
         for (let j = 0; j < tomb[index].linkek.length; j++) {
             txt+= `<li><a href="${tomb[index].linkek[j]}" target="_blank">Forrás ${j+1}</a></li>`
+        }
         }
         
     }

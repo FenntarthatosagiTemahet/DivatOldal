@@ -75,7 +75,7 @@ function galeriaFeltoltAdatokkal(tomb)
   var asideTxt="<div>";
   for (var i = 0; i < tomb.length; i++) 
   {
-      txt+=`<div id="${i}"><a href="ruha.html"><img id="${i}" src="${tomb[i].foKepEleresiUt}" alt="kép">
+      txt+=`<div id="${i}"><a href="ruha.html"><img loading="lazy" id="${i}" src="${tomb[i].foKepEleresiUt}" alt="kép">
           <p><span id="${i}">${tomb[i].keszito}</span></p>
           <p>(<span>${tomb[i].modellNeve}</span>)</p></a></div>`;
 

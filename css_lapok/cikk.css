@@ -14,6 +14,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1200px;
     margin: auto;
+    z-index: -1;
     
 }
 
@@ -27,7 +28,7 @@ header{
     margin-top: 40px;
     margin-bottom: 40px;
     text-decoration: none;
-    box-shadow: 5px 10px 8px #131212;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: #B7B7B7;
     text-align: center;
 
@@ -36,8 +37,9 @@ header{
 .mellekdiv:hover{
     transition: 0.5s all ease-in-out;
     transform: scale(1.2);
+    background-color: rgba(255, 159, 104, 0.685);
+    color: aqua;
 }
-
 
 .mellekdiv h1{
     font-size: 25px;
@@ -65,10 +67,12 @@ button:hover{
     text-align: center;
     background-color:rgba(128, 128, 128, 0.342);
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 2) 0px 2px 9px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #halo h1{
     margin: 50px;
+    padding: 15px;
 }
 
 #halo p{
@@ -78,6 +82,7 @@ button:hover{
 }
 
 #halo img {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 10px;
     margin: 10px;
     width: 90%;

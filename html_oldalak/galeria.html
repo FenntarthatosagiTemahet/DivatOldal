@@ -5,38 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../scriptek/galeria.js"></script>
+    <!-- <script src="../scriptek/mobilMenu.js"></script> -->
     <link rel="stylesheet" href="../css_lapok/galeria.css" />
     <link rel="stylesheet" href="../css_lapok/egyseges.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Galéria</title>
   </head>
   <body>
     <main>
       <header>
-        <!-- <a href="#" class="logo">Logo</a> -->
-        <div><h1>Fentarthatósági témahét</h1></div>
+        <div><h1>Galéria</h1></div>
       </header>
       <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkBtn">
+          <i class="fa fa-bars"></i>
+        </label>
         <ul>
           <li><a href="index.html">Kezdőlap</a></li>
-          <li><a href="cikk.html">Cikk</a></li>
+          <li><a href="cikk.html">Cikkek</a></li>
           <li><a href="galeria.html" class="aktiv">Galéria</a></li>
-          <li><a href="teszt.html">Teszt</a></li>
+          <li><a href="teszt.html">Tesztek</a></li>
           <li><a href="jatek.html">Játék</a></li>
         </ul>
         
       </nav>
       <article>
+        <!-- <div class="szoveg">
+          <h1>A zero waste kollekció:</h1>
+          <p>Egy jól tervezett folyamat lényege, hogy ne keletkezzen szemét, legfeljebb hulladék. A természetben az anyagok folyamatos átalakuláson mennek keresztül, de sohasem kerülnek ki egy zárt körforgásból. Vagyis körkörösen, a lehető leghatékonyabban újrahasznosítható erőforrások. Ezzel szemben az átgondolatlan termelési folyamatok felesleget eredményeznek. Ez a szemét. Teljesen mindegy, hogy a szemét elpazarolt alapanyag, energia, vagy humán tőke.<br>A hulladék nélküli öltözékek elkészítése magas szintű szabászati és kivitelezési ismereteket feltételez, ami korlátozta volna a lehetőségeket. Ezért a hulladék mentesség bemutatására három tervezési és kivitelezési koncepciót választottunk:</p>
+            <ul>
+              <li>hulladékmentes szabászati és kivitelezési megoldásokkal készített öltözékek</li>
+              <li>maradék anyagok felhasználásával készített öltözékek</li>
+              <li>upcycle koncepcióval készített öltözékek</li>
+            </ul>
+            <p>Ezekkel az eljárásokkal azok számára is adhatnak a diákok kreatív ötleteket, akik tudnak varrni és azoknak is, akik most kapnak kedvet ahhoz, hogy megtanulják</p>
+        </div> -->
+
         <div id="gombok">
           <button id="zero">Zero waste</button>
           <button id="ing">Újrahasznosított ingek</button>
         </div>
-        
-        <div class="galeria"></div>
+
+
+        <div id="tartalom">
+          <div class="galeria"></div>
+          <div class="tervezok"></div>
+        </div>
         
       </article>
-      <aside>
-        <div class="tervezok"></div>
-      </aside>
       <footer></footer>
     </main>
   </body>

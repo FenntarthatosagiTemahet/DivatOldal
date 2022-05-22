@@ -18,6 +18,10 @@ header{
     
 }
 
+nav{
+    z-index: 1;
+}
+
 .mellekdiv{
     margin: auto;
     position: relative;

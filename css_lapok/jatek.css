@@ -136,3 +136,27 @@ main {
         margin: auto;
     }
 }
+@media screen and (max-width: 600px) {
+    #memory-game {
+        width: 100%;
+    }
+
+    #memory-game div {
+        width: 120px;
+        height: 140px;
+    }
+
+    #difficulty {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #difficulty button {
+        width: 50%;
+        margin: auto;
+    }
+    aside
+    {
+        width: 60%;
+    }
+}

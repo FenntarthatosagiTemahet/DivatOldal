@@ -20,7 +20,9 @@
         "bekezdeskeplista" :[
             "../kepek/cikkek_kepei/hulladekmentes1.jpg",
             "../kepek/cikkek_kepei/hulladekmentes2.jpg"
-        ]
+        ],
+
+        "linkek":[]
 
     },
 
@@ -43,7 +45,9 @@
             "../kepek/cikkek_kepei/zm3.jpg",
             "../kepek/cikkek_kepei/zm2.jpg"
 
-        ]
+        ],
+
+        "linkek":[]
 
     },
 
@@ -69,7 +73,9 @@
             "10.Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal"
         ],
 
-        "alcimlista":[""]
+        "alcimlista":[""],
+
+        "linkek":[]
     },
 
     {
@@ -91,6 +97,7 @@
         ],
 
         "linkek":[
+            
             "https://holyduck.hu/hol-vasaroljak/ruhak-masodkezbol-legjobb-lelohelyek/",
             "https://holyduck.hu/2019/09/03/hasznalt-ruha-szeptember-magyarorszag-turkalo/",
             "https://holyduck.hu/hol-vasaroljak/fenntarthato-es-etikus-magyar-tervezok-alkotok/",
@@ -102,6 +109,7 @@
         "alcimlista": ["4 magyar márka, aki hisz a fenntartható divatban", "", "", "", "", "", ""],
 
         "bekezdeskeplista":["../kepek/cikkek_kepei/fennterthetodiv1.jpg", "../kepek/cikkek_kepei/fennterthetodiv2.jpg", "../kepek/cikkek_kepei/fennterthetodiv3.jpg", "../kepek/cikkek_kepei/fennterthetodiv4.jpg", "../kepek/cikkek_kepei/fennterthetodiv5.jpg"]
+
 
     },
 
@@ -126,7 +134,9 @@
             "../kepek/cikkek_kepei/teszedd1.jpg",
             "../kepek/cikkek_kepei/teszedd2.jpg",
             "../kepek/cikkek_kepei/teszedd3.jpg"
-        ]
+        ],
+
+        "linkek":[]
 
     },
     
@@ -143,7 +153,9 @@
 
         ],
         "alcimlista":["Színház újrahasznosított papírból", "" ,"", ""],
-        "bekezdeskeplista":["../kepek/cikkek_kepei/színházascikk1.jpg", "../kepek/cikkek_kepei/színházascikk2.jpg", "../kepek/cikkek_kepei/színházascikk3.jpg", "../kepek/cikkek_kepei/színházascikk4.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/színházascikk1.jpg", "../kepek/cikkek_kepei/színházascikk2.jpg", "../kepek/cikkek_kepei/színházascikk3.jpg", "../kepek/cikkek_kepei/színházascikk4.jpg"],
+
+        "linkek":[]
     },
 
     {
@@ -161,7 +173,8 @@
         ],
 
         "alcimlista":["", "", "", ""],  
-        "bekezdeskeplista":["../kepek/cikkek_kepei/veracikk.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/veracikk.jpg"],
+        "linkek":[]
 
     },
 
@@ -184,7 +197,9 @@
 
         "felsorolas":["1.) A szegénység felszámolása ","2.) Az éhezés megszüntetése","3.) Egészség és jólét", " 4.) Minőségi oktatás", "5.) Nemek közötti egyenlőség", "6.) Tiszta víz alapvető köztisztaság", "7.) Megfizethető és tisza energia", "8.) Tisztességes munka és gazdasági növekedés", "9.) Ipar, innováció és infrastruktúra", "10.) Egyenlőtlenségek csökkentése", "11.) Fenntartható városok és közösségek", "12.) Felelős fogyasztás és termelés", "13.) Fellépés az éghajlatváltozás ellen", "14.) Óceánok és tengerek védelme", " 15.) Szárazföldi ökoszisztémák védelme", "16.) Béke, igazság és erős intézmények "  ],
 
-        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosagiskola1.jpg", "../kepek/cikkek_kepei/fenntarthatosagiskola2.jpg", "../kepek/cikkek_kepei/fenntarthatosagiskola3.jpg"]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosagiskola1.jpg", "../kepek/cikkek_kepei/fenntarthatosagiskola2.jpg", "../kepek/cikkek_kepei/fenntarthatosagiskola3.jpg"],
+
+        "linkek":[]
 
     }, 
 
@@ -209,7 +224,8 @@
         "alcimlista":["De mit is jelent valójában a kifejezés és miért fontos, hogy foglalkozzunk vele?", "A zéro összegű játék hívők", "A win-win hívők", "Környezet, azaz ’odafigyelés’ (környezeti felelősség):", "Társadalmi dimenzió, azaz ’elfogadás’ (társadalmi felelősség):", "Gazdasági dimenzió, azaz a ’felelős vállalat’ megközelítés:" ],
 
 
-        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosagfog1.jpg", "../kepek/cikkek_kepei/fenntarthatosagfog2.jpg", "../kepek/cikkek_kepei/fenntarthatosagfog3.jpg" ]
+        "bekezdeskeplista":["../kepek/cikkek_kepei/fenntarthatosagfog1.jpg", "../kepek/cikkek_kepei/fenntarthatosagfog2.jpg", "../kepek/cikkek_kepei/fenntarthatosagfog3.jpg" ],
+        "linkek":[]
 
     },
 

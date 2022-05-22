@@ -101,26 +101,25 @@ button:hover{
     font-size: 17px;
 }
 #linkekdiv{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
     position: relative;
     height: 300px;
 }
 
 #linkekdiv ul{
-
     position: absolute;
-    right:90%
+    right:85%
 }
 
  #linkekdiv ul li a{
     margin: 15px;
-    /* padding-right: 15px; */
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
+ }
 
-    
+ .forrasokp{
+    font-size: 20px;
+    font-weight:bold;
  }
 
 

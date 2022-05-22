@@ -22,7 +22,7 @@ function CLASS(elem)
 
 function init(){
     let txt = ""
-
+    const tomb = [];
     let adatok =JSON.parse(localStorage.getItem("aktualisgomb"));
     const bekezdestomb = adatok.bekezdeslista;
     const alcimtomb = adatok.alcimlista;
@@ -30,7 +30,8 @@ function init(){
     const bekkep = adatok.bekezdeskeplista;
     const linko = adatok.linkek;
 
-    
+    tomb.push(adatok)
+    console.log(tomb)
     txt+=`<h1>${adatok.focim}</h1>`
     for (let index = 0; index < bekezdestomb.length; index++) {
         txt+=`<h2>${alcimtomb[index]}</h2><p>${bekezdestomb[index]}</p>`
@@ -50,18 +51,19 @@ function init(){
             txt+=`</ul>`
         }
     }
+   
+    txt+=`<div id="linkekdiv"><ul>`
+    for (let index = 0; index < tomb.length; index++) {
+        txt+= `<p class="forrasokp">Források:</p>`
+        for (let j = 0; j < tomb[index].linkek.length; j++) {
+            txt+= `<li><a href="${tomb[index].linkek[j]}" target="_blank">Forrás ${j+1}</a></li>`
+        }
+        
+    }
+    txt+=`</ul></div>`
 
-
-            txt+=`<div id="linkekdiv"><ul><p>Források:</p>`
-            for (let index = 0; index < linko.length; index++) {
-                txt+= `<li><a href="${linko[index]}" target="_blank">forrás ${index+1}</a></li>`
-            }
-            txt+=`</ul></div>`
-
-
-    console.log(linko)
-    
-
+    console.log(txt)
+   
         
     ID("halo").innerHTML = txt
     

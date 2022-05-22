@@ -39,7 +39,7 @@ header
 
 header h1
 {
-    /* line-height: 100px; */
+    line-height: 100px;
     /* padding: 50px; */
     text-align: center;
     color: white;
@@ -48,6 +48,11 @@ header h1
     /* font-family: 'Rubik Glitch', cursive; */
     letter-spacing: 2px;
     font-size: 30pt;
+}
+h2
+{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 nav

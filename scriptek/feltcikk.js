@@ -53,5 +53,8 @@ function init(){
 
         
     ID("halo").innerHTML = txt
+
+
+    ID("lab").innerHTML="&copy Készítette: Paál Ádám";
     
 }

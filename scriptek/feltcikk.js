@@ -34,7 +34,7 @@ function init(){
         txt+=`<h2>${alcimtomb[index]}</h2><p>${bekezdestomb[index]}</p>`
         for (const key in adatok) {
             if (key.includes("bekezdeskeplista") && index<bekkep.length) {
-                txt+=`<img id="bekkep${index}" src="${bekkep[index]}" alt="kep">`
+                txt+=`<img loading="lazy" id="bekkep${index}" src="${bekkep[index]}" alt="kep">`
             }
         }
     }

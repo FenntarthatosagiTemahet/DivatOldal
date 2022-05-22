@@ -1,9 +1,5 @@
-/* main, article, header, aside
+:root
 {
-    border: 1px solid black;
-} */
-
-:root{
     
     --galeriaGomb: #f5ebe0;
     /* #9F9AA4, #E7CFCD, #CFD8D7, #B5C9C3, #CAB1BD */
@@ -14,23 +10,16 @@ main
     display: grid;
     grid-template-areas: "h h h h h h h"
                          "n n n n n n n"
-                         "a a a a a a as"
+                         "a a a a a a a"
                          "f f f f f f f";
-}
-
-nav #gombok
-{
-    position: relative;
 }
 
 #gombok
 {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 100px;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: unset; */
+    /* /* margin-left: 80px; */
+    width: 90%;
 }
 
 #gombok button
@@ -60,7 +49,6 @@ header
 header h1
 {
     line-height: 100px;
-    /* padding: 50px; */
     text-align: center;
     color: #540b0e;
     opacity: 1;
@@ -74,10 +62,15 @@ nav
 
 article
 {
-    /* margin-top: 60px; */
     grid-area: a;
-    /* background-color: var(--galeriaHatter); */
 }
+
+#tartalom
+{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
  .galeria .galeriaKepek
 {
     display: flex;
@@ -86,11 +79,14 @@ article
     align-items: flex-start ;
     flex-wrap: wrap;
 }
+
 .galeriaKepek div
 {
     flex: 0 0 24%;
     padding: 10px;
+    justify-content: center;
 }
+
 .galeria .galeriaKepek img
 {
     width: 100%;
@@ -98,6 +94,7 @@ article
     box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
     cursor: pointer;
 }
+
 .galeriaKepek div span
 {
     font-weight: bold;
@@ -114,26 +111,22 @@ article
     text-decoration: none;
 }
 
+/* aside rész */
+
 aside
 {
     grid-area: as;
-    /* display: grid;
-    grid-template-columns: 1fr; */
-    /* margin: 20px; */
     margin-top: 60px;
-    padding: 0px;
-    /* background-color: var(--galeriaHatter); */
-    /* padding: 10px; */
-    /* border: 1px solid black; */
 }
-aside p
+
+.tervezok p
 {
     margin: 5px;
     float: left;
-    
+    margin-top: 20px;
 }
 
-aside a
+.tervezok a
 {
     text-decoration: none;
     border: 1px solid black;
@@ -143,18 +136,128 @@ aside a
     color: black;
 }
 
-aside a:hover
+.tervezok a:hover
 {
     box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.8);
 }
 
-.tervezok p
+.tervezok div
 {
-    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+    padding: 5px; 
 }
 
+.szoveg
+{
+    font-size: 12pt;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+.szoveg li
+{
+    margin: 5px;
+    margin-left: 15px;
+    padding-left: 20px;
+}
 footer
 {
     grid-area: f;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px)
+{
+    article
+    {
+        max-width: 100%;
+    }
+    #tartalom
+    {
+        grid-template-columns: 2fr 1fr;
+    }
+    .galeriaKepek div
+    {
+        flex: 0 0 33%;
+    }
+    .galeriaKepek img
+    {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    #gombok
+    {
+        justify-content: space-evenly;
+        /* margin-left: 20px; */
+        width: 100%;
+    }
+    #tartalom
+    {
+        width: 100%;
+        grid-template-columns: 2fr 1fr;
+    }
+    .galeriaKepek div
+    {
+        flex: 0 0 45%;
+    }
+    .tervezok div
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    #gombok
+    {
+        justify-content: center;
+        width: 100%;
+    }
+    #tartalom
+    {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .galeriaKepek div
+    {
+        flex: 0 0 80%;
+    }
+    .tervezok div
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    #gombok
+    {
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        /* display: grid;
+        grid-template-columns: 1fr; */
+    }
+    #tartalom
+    {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .galeriaKepek div
+    {
+        flex: 0 0 80%;
+    }
+    .tervezok div
+    {
+        width: 100%;
+        margin-left: 50px;
+    }
 }

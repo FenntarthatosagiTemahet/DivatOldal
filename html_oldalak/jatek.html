@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../scriptek/jatek.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <link rel="stylesheet" href="../css_lapok/jatek.css">
     <link rel="stylesheet" href="../css_lapok/egyseges.css">
-    <title>Játék</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Fenntarthatósági témahét</title>
 </head>
 <body>
     <main>
         <header id="title"></header>
         <nav id="navbar">
+            <input type="checkbox" id="check">
+        <label for="check" class="checkBtn">
+          <i class="fa fa-bars"></i>
+        </label>
             <ul>
                 <li><a href="index.html">Kezdőlap</a></li>
-                <li><a href="cikk.html">Cikk</a></li>
+                <li><a href="cikk.html">Cikkek</a></li>
                 <li><a href="galeria.html">Galéria</a></li>
-                <li><a href="teszt.html">Teszt</a></li>
+                <li><a href="teszt.html">Tesztek</a></li>
                 <li><a href="jatek.html" class="aktiv">Játék</a></li>
             </ul>
         </nav>
-        <aside id="difficulty"></aside>
+        <aside id="difficulty">
+            <h3>Válassz nehézségi szintet: </h3>
+            <button id="normal-difficulty" type="button">Normál</button>
+            <button id="hard-difficulty" type="button">Nehéz</button>
+        </aside>
         <aside id="points"></aside>
         <section id="memory-game"></section>
         <footer id="footer"></footer>

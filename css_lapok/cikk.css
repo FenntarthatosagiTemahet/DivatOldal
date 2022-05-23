@@ -170,11 +170,11 @@ button:hover{
         left: 34%;
     }
     #halo{
-        max-width: 80%;
+        width: 80%;
     }
 
     #halo img{
-        max-width: 80%;
+        width: 80%;
     }
 
     #linkekdiv ul{
@@ -182,7 +182,8 @@ button:hover{
         right:65%
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) 
+{
     .mellekdiv{
         width: 100%;
         height: 300px;
@@ -191,11 +192,23 @@ button:hover{
         left: 34%;
     }
     #halo{
-        max-width: 80%;
+        margin-top: 20px;
+        width: 90%;
+    }
+    #halo h1
+    {
+        margin: 0px;
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+    #halo h2
+    {
+        font-size: 22px;
     }
 
     #halo img{
-        max-width: 80%;
+        width: 80%;
     }
 
     #linkekdiv ul{

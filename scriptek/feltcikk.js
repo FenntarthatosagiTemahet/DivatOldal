@@ -31,7 +31,6 @@ function init(){
     const linko = adatok.linkek;
 
     tomb.push(adatok)
-    console.log(tomb)
     txt+=`<h1>${adatok.focim}</h1>`
     for (let index = 0; index < bekezdestomb.length; index++) {
         txt+=`<h2>${alcimtomb[index]}</h2><p>${bekezdestomb[index]}</p>`
@@ -62,8 +61,6 @@ function init(){
         
     }
     txt+=`</ul></div>`
-
-    console.log(txt)
    
         
     ID("halo").innerHTML = txt

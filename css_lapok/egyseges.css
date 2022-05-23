@@ -162,7 +162,7 @@ footer
         left: -200%;
         text-align: center;
         flex-wrap: wrap;
-        transition:  all 1.5s;
+        transition:  all 1s;
     }
     nav ul li a
     {

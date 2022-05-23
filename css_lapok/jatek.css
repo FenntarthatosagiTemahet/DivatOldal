@@ -146,7 +146,8 @@ main {
     }
 
     #difficulty {
-        max-width: 400px;
+        /* max-width: 400px; */
+        width: 50%;
         flex-direction: column;
         gap: 10px;
     }

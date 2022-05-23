@@ -126,6 +126,7 @@ main {
     #difficulty {
         flex-direction: column;
         gap: 10px;
+        max-width: 100%;
     }
 
     #difficulty button {

@@ -36,7 +36,6 @@ function feltolt()
         for (let j = 0; j < ruhaKepekTomb[i].tovabbiKepek.length; j++) 
         {
             txt+=`<div><img id="${j}" src="${ruhaKepekTomb[i].tovabbiKepek[j]}"></div>`;
-            // console.log(j);    
         }
         txt+="</div>"
         txt+=`<div class="szovegTartalom"><h2>${ruhaKepekTomb[i].kepCim}</h2>

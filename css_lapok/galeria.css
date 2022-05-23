@@ -1,8 +1,6 @@
 :root
 {
-    
     --galeriaGomb: #f5ebe0;
-    /* #9F9AA4, #E7CFCD, #CFD8D7, #B5C9C3, #CAB1BD */
 }
 
 main
@@ -24,7 +22,6 @@ section
 {
     display: flex;
     justify-content: space-evenly;
-    /* /* margin-left: 80px; */
     width: 90%;
 }
 
@@ -190,7 +187,6 @@ footer
     }
     .galeriaKepek img
     {
-        /* display: block; */
         margin-left: auto;
         margin-right: auto;
         max-width: 100%;
@@ -202,7 +198,6 @@ footer
     #gombok
     {
         justify-content: space-evenly;
-        /* margin-left: 20px; */
         width: 100%;
     }
     #tartalom
@@ -249,8 +244,6 @@ footer
         justify-content: center;
         width: 100%;
         flex-wrap: wrap;
-        /* display: grid;
-        grid-template-columns: 1fr; */
     }
     #tartalom
     {

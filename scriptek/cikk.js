@@ -29,12 +29,9 @@ function init(){
       fetch("../json/cikkek.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        console.log(data.cikkek);
         data.cikkek.forEach((elem) => {
           lista.push(elem);
         });
-        console.log(lista);
         feltolt();
       })
       .catch((err) => {
@@ -58,7 +55,6 @@ function init(){
             txt+=`<a href="../html_oldalak/feltcikk.html"><button value="${index}" id="refgmb${index}">Bővebben</button></a></div>`
           }
          
-        console.log(txt);
         ID("lab").innerHTML = "&copy Készítette: Paál Ádám";
         ID("cikkContainer").innerHTML = txt;
 

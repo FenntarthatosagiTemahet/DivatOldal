@@ -24,12 +24,9 @@ function init() {
   fetch("../json/manipul.json")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
-      console.log(data.manipul);
       data.manipul.forEach((elem) => {
         manipul.push(elem);
       });
-      console.log(manipul);
       feltolt();
     })
     .catch((err) => {
@@ -42,12 +39,9 @@ function valami(){
   fetch("../json/indexbekezd.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
-    console.log(data.indexbekezd);
     data.indexbekezd.forEach((elem) => {
       indexbekezd.push(elem);
     });
-    console.log(indexbekezd);
     betolt();
   })
   .catch((err) => {
@@ -74,7 +68,6 @@ function betolt(){
         
       }
     }
-    console.log(text)
     ID("cikek").innerHTML = text;
     }
     
@@ -85,7 +78,6 @@ function feltolt() {
   let txt = "";
   for (let index = 0; index < manipul.length; index++) {
     txt += `<div id="mellék_div"><div class="ize""><a href=${manipul[index].link}><div class="kep"><img src="${manipul[index].kep}"alt="menuKep""/></div></a></div><div><h4>${manipul[index].cim}</h4><p>${manipul[index].szoveg}</p></div></div>`;
-    console.log(txt);
   }
   ID("fodiv").innerHTML = txt;
 }

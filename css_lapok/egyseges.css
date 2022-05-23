@@ -2,12 +2,9 @@
 :root{
     --menu: rgba(186, 173, 160, 0.8);
     --menuArnyeknelkul: rgba(186, 173, 160, 1);
-    /* --menu: rgba(214, 204, 194, 0.8); */
     --hatterAtmenet2: #edede9;
     --hatterAtmenet1: #cebdb0;
-    /* --galeriaHatterAtmenet: #e3d5ca; */
     --Cim: #d5bdaf;
-    /* #3E78B2,#004BA8,#4A525A,#24272B,#07070A */
 }
 *
 {
@@ -45,7 +42,6 @@ h2, h3, h4, h5, h6, nav ul li, footer
 
 body
 {
-    /* background-color: var(--galeriaHatter); */
     background-image: linear-gradient(var(--hatterAtmenet1), var(--hatterAtmenet2));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,12 +62,8 @@ header
 header h1
 {
     line-height: 100px;
-    /* padding: 50px; */
     text-align: center;
     color: white;
-    /* opacity: 1; */
-    /* z-index: 1; */
-    /* font-family: 'Rubik Glitch', cursive; */
     letter-spacing: 2px;
     font-size: 30pt;
 }
@@ -93,12 +85,9 @@ nav
 nav ul
 {
     display: flex;
-    /* flex: 0 0 100%  ; */
-    /* padding: 0 300px; */
     margin: 0px 200px;
     justify-content: space-evenly;
     align-items: center;
-    /* float: right; */
 }
 
 nav ul li
@@ -181,8 +170,7 @@ footer
     }
     nav ul li
     {
-        display: block;  
-        /* margin: 50px; */
+        display: block;
         line-height: 50px; 
     }
     #check:checked ~ ul

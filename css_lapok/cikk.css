@@ -1,12 +1,9 @@
 :root{
     --menu: rgba(186, 173, 160, 0.8);
     --menuArnyeknelkul: rgba(186, 173, 160, 1);
-    /* --menu: rgba(214, 204, 194, 0.8); */
     --hatterAtmenet2: #edede9;
     --hatterAtmenet1: #cebdb0;
-    /* --galeriaHatterAtmenet: #e3d5ca; */
     --Cim: #d5bdaf;
-    /* #3E78B2,#004BA8,#4A525A,#24272B,#07070A */
 }
 
 p
@@ -40,7 +37,6 @@ nav{
     border-radius: 10px;
     width:400px ;
     height: 250px;
-    /* border-radius: 10px; */
     margin-top: 40px;
     margin-bottom: 40px;
     text-decoration: none;
@@ -115,7 +111,6 @@ button:hover{
 #halo li {
     list-style: none;
     text-align: justify;
-    /* margin-left: 30%; */
     text-align: center;
     padding: 10px;
     font-size: 17px;

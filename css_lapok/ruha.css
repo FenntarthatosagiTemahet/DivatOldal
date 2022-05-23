@@ -70,15 +70,12 @@ article
 {
     transition: 0.5s all ease-in-out;
     transform: scale(1.3);
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
 }
 
 .szovegTartalom
 {
     box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.75);
     border-radius: 5px;
-    /* border: 1px solid black; */
 }
 
 .szovegTartalom h2
@@ -108,7 +105,6 @@ footer
     article
     {
         grid-template-columns: 2fr 1fr;
-        /* max-width: 80%; */
     }
     .ruhaKepek div
     {
@@ -121,7 +117,6 @@ footer
     article
     {
         grid-template-columns: 2fr 1fr;
-        /* max-width: 80%; */
     }
     .ruhaKepek div
     {
@@ -135,7 +130,6 @@ footer
     {
         width: 80%;
         grid-template-columns: 1fr 1fr;
-        /* max-width: 80%; */
     }
     .ruhaKepek div
     {
@@ -151,7 +145,6 @@ footer
     article
     {
         grid-template-columns: 1fr;
-        /* max-width: 80%; */
     }
     .ruhaKepek div
     {

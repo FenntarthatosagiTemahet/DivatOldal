@@ -149,7 +149,8 @@ button:hover{
     }
 
     #halo{
-        width: 80%;
+        margin-top: 50px;
+        width: 90%;
     }
 
     #halo img{
@@ -170,7 +171,13 @@ button:hover{
         left: 34%;
     }
     #halo{
-        width: 80%;
+        margin-top: 50px;
+        width: 90%;
+    }
+    #halo h1
+    {
+        margin: 0px;
+        margin-bottom: 30px;
     }
 
     #halo img{
@@ -192,7 +199,7 @@ button:hover{
         left: 34%;
     }
     #halo{
-        margin-top: 20px;
+        margin-top: 50px;
         width: 90%;
     }
     #halo h1

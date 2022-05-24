@@ -72,7 +72,7 @@ function listabejaras(array) {
                 <label for="${db}.valasz">${array[index][key]}</label><br>`
                 db++;
       } else if (i === 5) {
-        txt += `<p>${array[index][key]}pont</p><br>`
+        txt += `<span>${array[index][key]}pont</span><br>`
       }
       i++
     }

@@ -3,7 +3,7 @@
     --menuArnyeknelkul: rgba(186, 173, 160, 1);
     --hatterAtmenet2: #edede9;
     --hatterAtmenet1: #cebdb0;
-    --Cim: #d5bdaf;
+    --Cim: #bba090;
 }
 
 p
@@ -31,16 +31,15 @@ nav{
 }
 
 .mellekdiv{
+    padding: 35px;
     margin: auto;
     position: relative;
-    border: 1px solid black;
     border-radius: 10px;
     width:400px ;
-    height: 250px;
+    height: 200px;
     margin-top: 40px;
     margin-bottom: 40px;
     text-decoration: none;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: var(--Cim);
     text-align: center;
 
@@ -65,7 +64,7 @@ nav{
 button{
     padding: 1px; 
     position: absolute;
-    left: 37%;
+    left: 39.75%;
     bottom: 10px;
     text-align: center;
     border: none;
@@ -74,7 +73,7 @@ button{
     background-color: none;
     border-radius: 5px;
     padding: 5px;
-    box-shadow: rgba(0, 0, 0, 2) 0px 2px 9px;
+    font-size: 12pt;
 }
 
 button:hover{
@@ -87,7 +86,6 @@ button:hover{
     text-align: center;
     background-color:rgba(128, 128, 128, 0.342);
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 2) 0px 2px 9px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #halo h1{
@@ -102,7 +100,6 @@ button:hover{
 }
 
 #halo img {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 9px, rgba(0, 0, 0, 1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 10px;
     margin: 10px;
     width: 45%;
@@ -194,6 +191,7 @@ button:hover{
     .mellekdiv{
         width: 100%;
         height: 300px;
+        line-height: center;
     }
     button{
         left: 34%;

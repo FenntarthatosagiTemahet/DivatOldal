@@ -125,12 +125,12 @@ function kartyatMutat(i, aktualisKartya) {
 }
 
 function vegeKiir() {
-    var szoveg = "Gratulálok! Végigjátszottad a játékot!\n\nEnnyi próbálkozásból sikerült: " + probalkozasokSzama;
+    var szoveg = "Gratulálok! Sikeresen végigjátszotta a játékot!\n\nEnnyi próbálkozásból sikerült: " + probalkozasokSzama;
     alert(szoveg);
 }
 
 function init() {
-    ID("title").innerHTML = "<h1>Memóriajáték</h1>";
+    ID("title").innerHTML = "<h1>Fenntarthatósági témahét</h1>";
     ID("footer").innerHTML = "<p>© Készítette: Piller András Gábor</p>";
 
     fetch("../json/jatek.json")

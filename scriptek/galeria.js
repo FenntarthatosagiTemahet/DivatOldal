@@ -113,8 +113,8 @@ function szovegKiiras(index)
     szovegTxt+=`<h2>${szoveg[index].szovegCim}</h2>${szoveg[index].szovegLeiras}`;
   
   szovegTxt+="";
-  console.log(szovegTxt);
+  // console.log(szovegTxt);
   $("#zeroSzoveg").innerHTML=szovegTxt;  
-  console.log(szoveg);
+  // console.log(szoveg);
 }
  

@@ -61,7 +61,7 @@ function betolt(){
             if(typeof key[index] ==="undefined"){
               index=key.length;
           }else{
-            text+=`<p>${indexbekezd[i][key][index]}</p>`
+            text+=`<p class="bekezdes">${indexbekezd[i][key][index]}</p>`
           }
           }
       }

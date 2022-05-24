@@ -1,0 +1,17 @@
+-  főaldan naigációs menü megjelenítése.
+- számalk suli lógója kerüljön be az oldal tetejére
+- minden oldalon fenntarthatósági témahét linkkel vezessen a kezdőlapra
+- kezdőlap reszponzivítás
+- bővebben felírat kissebb és padding a dobozokra
+- hosszú cím rövidítése 
+- ne szegály , ne árnyék, ne másik árnyék
+-modell: kisebb betűméret
+- galéria aside le a boxshadowkat
+- ruha oldal 0 waste helyett zero waste + 10pxmin padding
+- újrahasznosított ing helyett kreatív kollekció
+- kollekciók átír gomb és egyforma szélesség
+- fotósok nevei
+- dávid hátra
+- tesztek gombok egyforma szélesek legyenek
+- kissebb betűs a válaszok és küldés paddinggal
+- célja? helyett Mi a célja

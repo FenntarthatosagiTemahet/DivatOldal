@@ -42,7 +42,7 @@ function feltolt()
         <p><span id="keszitoNeve">${ruhaKepekTomb[i].keszito}</span></p>
         <p><span>${ruhaKepekTomb[i].tipus}</span></p>
         <p>${ruhaKepekTomb[i].leiras}</p>
-        <p>Modell neve: <span>${ruhaKepekTomb[i].modellNeve}</p></span><div>`;
+        <p>Modell: <span>${ruhaKepekTomb[i].modellNeve}</p></span><div>`;
         $("h1").innerHTML=ruhaKepekTomb[i].keszito;
     }
 

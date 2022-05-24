@@ -148,6 +148,12 @@ main {
     }
 }
 
+@media screen and (max-width: 442px) {
+    #title {
+        height: 180px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     #memory-game {
         width: 100%;

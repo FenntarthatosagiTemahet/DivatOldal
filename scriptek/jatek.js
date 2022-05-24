@@ -102,8 +102,8 @@ function kartyatMutat(i, aktualisKartya) {
                     ID(Number(kartyak[1])).style.animation = "megtalalt 1s 1";
                     ID(Number(kartyak[0])).style.opacity = "0.5";
                     ID(Number(kartyak[1])).style.opacity = "0.5";
-                    kartyak.splice(0, kartyak.length);
-                }, 500);
+                    kartyak.splice(0, 2);
+                }, 600);
             }
             else {
                 probalkozasokSzama++;
@@ -112,8 +112,8 @@ function kartyatMutat(i, aktualisKartya) {
                     ID(Number(kartyak[0])).style.backgroundImage = "none";
                     ID(Number(kartyak[1])).className = "invisible";
                     ID(Number(kartyak[1])).style.backgroundImage = "none";
-                    kartyak.splice(0, kartyak.length);
-                }, 500)
+                    kartyak.splice(0, 2);
+                }, 600)
             };
             ID("points").innerHTML = "<h3>Próbálkozások száma: " + probalkozasokSzama + "</h3>";
             szamlalo = 0;

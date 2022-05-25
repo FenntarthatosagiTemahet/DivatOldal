@@ -50,7 +50,12 @@ form{
 }
 #kep{
     text-align: center;
-    
+    width: 80%;
+    margin: auto;
+}
+#kep img
+{
+    width: 40%;
 }
 form div{
     font-size: 20px;
@@ -101,7 +106,24 @@ form div input,form div label,form div p{
         align-items: center;
         width: 100%;
     }
-    /* #gombok button{
-    width: 100%;
-    } */
+    #kep img
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    #kep img
+    {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    #kep img
+    {
+        width: 100%;
+    }
 }

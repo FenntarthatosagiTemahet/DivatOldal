@@ -134,6 +134,7 @@ function init() {
   tesztvalasztas();
   const felhvalaszok = [];
   tesztjavitas();
+  ID("teszt").innerHTML = "<div id='kep'><img src='../minta_kepek/tesztek_minta.png' alt='asd'></div>"
   $("footer").innerHTML="<p>&copy Készítette: Xu Jiyu</p>"
 
 }

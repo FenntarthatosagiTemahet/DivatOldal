@@ -73,6 +73,7 @@ button{
     background-color: none;
     border-radius: 5px;
     padding: 5px;
+    margin-bottom: 10px;
     font-size: 12pt;
 }
 
@@ -164,9 +165,6 @@ button:hover{
     .mellekdiv{
         width: 100%;
     }
-    button{
-        left: 34%;
-    }
     #halo{
         margin-top: 50px;
         width: 90%;
@@ -192,9 +190,6 @@ button:hover{
         width: 100%;
         height: 300px;
         line-height: center;
-    }
-    button{
-        left: 34%;
     }
     #halo{
         margin-top: 50px;

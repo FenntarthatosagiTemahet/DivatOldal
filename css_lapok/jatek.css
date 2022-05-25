@@ -6,8 +6,10 @@ main {
     justify-content: center;
 }
 
-#title {
-    text-decoration: underline;
+h2 {
+    /* text-decoration: underline; */
+    margin-top: 20px;
+    text-align: center;
 }
 
 #navbar {

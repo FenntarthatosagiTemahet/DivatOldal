@@ -29,7 +29,7 @@ function init() {
 }
 
 function valaszt(){
-  var melyik = ""
+  var melyik = "";
   const tomb = $All("#gombok button");
   tomb.forEach((elem)=>{
     elem.addEventListener("click", function(){
@@ -37,14 +37,23 @@ function valaszt(){
       if(melyik === "Zero waste kollekció"){
         $("#zero").addEventListener("click", galeriaFeltoltAdatokkal(zeroWasteKepek));
         szovegKiiras(0);
+        $(".tervezok").style.display="block";
+        $("#kollekcioSzoveg").style.display="block";
+        $("#tartalom").style.gridTemplateColumns= "4fr 1fr";
       }
       else if(melyik ==="Kreatív kollekció"){
         $("#ing").addEventListener("click",galeriaFeltoltAdatokkal(ingKepek));
         szovegKiiras(1);
+        $(".tervezok").style.display="block";
+        $("#kollekcioSzoveg").style.display="block";
+        $("#tartalom").style.gridTemplateColumns= "4fr 1fr";
       }
       else if(melyik ==="Esemény képek")
       {
         $("#esemenyGomb").addEventListener("click", esemenyKepek());
+        $("#tartalom").style.gridTemplateColumns= "1fr";
+        $(".tervezok").style.display="none";
+        $("#kollekcioSzoveg").style.display="none";
       }
     })
   })
@@ -104,18 +113,22 @@ function galeriaFeltoltAdatokkal(tomb)
 
      {
      szovegCim: "A zero waste kollekció:",
-     szovegLeiras: "<p>Egy jól tervezett folyamat lényege, hogy ne keletkezzen szemét, legfeljebb hulladék. A természetben az anyagok folyamatos átalakuláson mennek keresztül, de sohasem kerülnek ki egy zárt körforgásból. Vagyis körkörösen, a lehető leghatékonyabban újrahasznosítható erőforrások. Ezzel szemben az átgondolatlan termelési folyamatok felesleget eredményeznek. Ez a szemét. Teljesen mindegy, hogy a szemét elpazarolt alapanyag, energia, vagy humán tőke.<br>A hulladék nélküli öltözékek elkészítése magas szintű szabászati és kivitelezési ismereteket feltételez, ami korlátozta volna a lehetőségeket. Ezért a hulladék mentesség bemutatására három tervezési és kivitelezési koncepciót választottunk:</p><ul><li>hulladékmentes szabászati és kivitelezési megoldásokkal készített öltözékek</li><li>maradék anyagok felhasználásával készített öltözékek</li><li>upcycle koncepcióval készített öltözékek</li></ul><p>Ezekkel az eljárásokkal azok számára is adhatnak a diákok kreatív ötleteket, akik tudnak varrni és azoknak is, akik most kapnak kedvet ahhoz, hogy megtanulják.</p>"
+     szovegLeiras: "<p>Egy jól tervezett folyamat lényege, hogy ne keletkezzen szemét, legfeljebb hulladék. A természetben az anyagok folyamatos átalakuláson mennek keresztül, de sohasem kerülnek ki egy zárt körforgásból. Vagyis körkörösen, a lehető leghatékonyabban újrahasznosítható erőforrások. Ezzel szemben az átgondolatlan termelési folyamatok felesleget eredményeznek. Ez a szemét. Teljesen mindegy, hogy a szemét elpazarolt alapanyag, energia, vagy humán tőke.<br>A hulladék nélküli öltözékek elkészítése magas szintű szabászati és kivitelezési ismereteket feltételez, ami korlátozta volna a lehetőségeket. Ezért a hulladék mentesség bemutatására három tervezési és kivitelezési koncepciót választottunk:</p><ul><li>hulladékmentes szabászati és kivitelezési megoldásokkal készített öltözékek</li><li>maradék anyagok felhasználásával készített öltözékek</li><li>upcycle koncepcióval készített öltözékek</li></ul><p>Ezekkel az eljárásokkal azok számára is adhatnak a diákok kreatív ötleteket, akik tudnak varrni és azoknak is, akik most kapnak kedvet ahhoz, hogy megtanulják.</p>",
+     fotosok: "Fotósok: Fehér Szebasztián, Gál Regina, Józsa Anna, Nagy Ágoston Gellért ",
+     tanarok: "Felkészítő tanárok: Molnár-Csíkós Hajnalka, Szilágyi Eszter Mária"
    },
    {
      szovegCim: "A kreatív kísérletek kollekció:",
-     szovegLeiras: "<p>A kreatív kísérletek kollekció bepillantást enged a tervezési folyamat egyik fázisába, ahol a diákok kötöttségek nélkül, a formákkal szabadon kísérletezve alkothatták meg az elképzeléseiket régi férfiingeket használva alapanyagként.<br>A feladat az ing alkotóelemeire bontása, a kapott alkatrészek újrakomponálása volt.<br>A bemutatásra kerülő modellek a tervezési folyamat egy pillanatfelvételét testesítik meg, a kibontakozó ötletek egy-egy lehetséges irányát mutatják meg a számtalan lehetőség közül, amelyeket továbbfejlesztve születnek majd meg a végső öltözékek.</p>"
+     szovegLeiras: "<p>A kreatív kísérletek kollekció bepillantást enged a tervezési folyamat egyik fázisába, ahol a diákok kötöttségek nélkül, a formákkal szabadon kísérletezve alkothatták meg az elképzeléseiket régi férfiingeket használva alapanyagként.<br>A feladat az ing alkotóelemeire bontása, a kapott alkatrészek újrakomponálása volt.<br>A bemutatásra kerülő modellek a tervezési folyamat egy pillanatfelvételét testesítik meg, a kibontakozó ötletek egy-egy lehetséges irányát mutatják meg a számtalan lehetőség közül, amelyeket továbbfejlesztve születnek majd meg a végső öltözékek.</p>",
+     fotosok: "Fotósok: Fehér Szebasztián, Gál Regina, Józsa Anna, Nagy Ágoston Gellért ",
+     tanarok: "Felkészítő tanárok: Molnár-Csíkós Hajnalka, Szilágyi Eszter Mária"
    }
 ]
 
 function szovegKiiras(index) 
 {
   var szovegTxt="";
-  szovegTxt+=`<h2>${szoveg[index].szovegCim}</h2>${szoveg[index].szovegLeiras}`;
+  szovegTxt+=`<h2>${szoveg[index].szovegCim}</h2>${szoveg[index].szovegLeiras}<p><br>${szoveg[index].tanarok}</p><p>${szoveg[index].fotosok}</p>`;
 
   $("#kollekcioSzoveg").innerHTML=szovegTxt;  
 }

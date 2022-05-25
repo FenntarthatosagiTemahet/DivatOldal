@@ -10,8 +10,8 @@
 - ruha oldal 0 waste helyett zero waste + 10pxmin padding
 - újrahasznosított ing helyett kreatív kollekció
 - kollekciók átír gomb és egyforma szélesség
-- fotósok nevei
-- dávid hátra
+- fotósok nevei !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- dávid hátra 
 - tesztek gombok egyforma szélesek legyenek
 - kissebb betűs a válaszok és küldés paddinggal
 - célja? helyett Mi a célja

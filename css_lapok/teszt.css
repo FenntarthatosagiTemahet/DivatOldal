@@ -2,6 +2,10 @@ article{
     max-width: 90%;
     margin: auto;
 }
+main
+{
+    min-height: 100vh;
+}
 #valasztas h2{
     margin-top: 15px;
 }

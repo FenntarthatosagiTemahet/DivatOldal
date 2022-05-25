@@ -39,7 +39,7 @@ function feltolt()
         }
         txt+="</div>"
         txt+=`<div class="szovegTartalom"><h2>${ruhaKepekTomb[i].kepCim}</h2>
-        <p><span id="keszitoNeve">${ruhaKepekTomb[i].keszito}</span></p>
+        <p>Készítette: <span id="keszitoNeve">${ruhaKepekTomb[i].keszito}</span></p>
         <p><span>${ruhaKepekTomb[i].tipus}</span></p>
         <p>${ruhaKepekTomb[i].leiras}</p>
         <p>Modell: <span>${ruhaKepekTomb[i].modellNeve}</p></span><div>`;

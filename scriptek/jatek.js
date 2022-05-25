@@ -87,7 +87,7 @@ function kartyatMutat(i, aktualisKartya) {
         event.target.className = "visible";
         event.target.style.backgroundImage = `url("${aktualisKartya[i].kepEleresiUtvonala}")`;
         event.target.style.backgroundSize = "100%";
-        event.target.style.animation = "lathato 1.5s 1";
+        /* event.target.style.animation = "lathato 1.5s 1"; */
         kartyak.push(event.target.id);
         szamlalo++;
         if(szamlalo == 2) {
@@ -96,12 +96,17 @@ function kartyatMutat(i, aktualisKartya) {
                 megtalaltKartyak.push(kartyak[0]);
                 megtalaltKartyak.push(kartyak[1]);
                 setTimeout(() => {
-                    ID(Number(kartyak[0])).className = "found";
+                    /* ID(Number(kartyak[0])).className = "found";
                     ID(Number(kartyak[1])).className = "found";
                     ID(Number(kartyak[0])).style.animation = "megtalalt 1s 1";
                     ID(Number(kartyak[1])).style.animation = "megtalalt 1s 1";
                     ID(Number(kartyak[0])).style.opacity = "0.5";
-                    ID(Number(kartyak[1])).style.opacity = "0.5";
+                    ID(Number(kartyak[1])).style.opacity = "0.5"; */
+                    for(i = 0; i < 2; i++) {
+                        ID(Number(kartyak[i])).className = "found";
+                        ID(Number(kartyak[i])).style.animation = "megtalalt 1s 1";
+                        ID(Number(kartyak[i])).style.opacity = "0.5";
+                    }
                     kartyak.splice(0, 2);
                 }, 600);
             }
@@ -129,8 +134,9 @@ function vegeKiir() {
     alert(szoveg);
 }
 
+// MAIN
 function init() {
-    ID("title").innerHTML = "<h1>Fenntarthatósági témahét</h1>";
+    ID("title").innerHTML = "<h1>Fenntarthatósági témahét 2022</h1>";
     ID("footer").innerHTML = "<p>© Készítette: Piller András Gábor</p>";
 
     fetch("../json/jatek.json")

@@ -16,6 +16,7 @@ main {
 
 #memory-game {
     max-width: 80%;
+    min-height: 57vh;
     margin: auto;
     padding: 20px;
     display: flex;

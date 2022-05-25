@@ -60,7 +60,7 @@ nav
     grid-area: n;
 }
 
-section
+section div
 {
     width: 80%;
     margin: auto;
@@ -98,7 +98,14 @@ article
     grid-template-columns: 4fr 1fr;
 }
 
- .galeria .galeriaKepek
+.galeria .esemenyTarolo
+{
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
+}
+
+
+ .galeria .galeriaKepek, .galeria .esemenyTarolo
 {
     display: flex;
     flex-direction: row;
@@ -107,18 +114,17 @@ article
     flex-wrap: wrap;
 }
 
-.galeriaKepek div
+.galeriaKepek div, .esemenyTarolo div
 {
     flex: 0 0 24%;
     padding: 10px;
     justify-content: center;
 }
 
-.galeria .galeriaKepek img
+.galeria .galeriaKepek img, .esemenyTarolo img
 {
     width: 100%;
     border-radius: 5px;
-    /* box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5); */
     cursor: pointer;
 }
 
@@ -168,7 +174,6 @@ aside
 }
 .tervezok a:hover
 {
-    /* box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.8); */
     box-shadow: 0px 0px 10px -3px #000000;
 }
 
@@ -209,11 +214,11 @@ footer
     {
         grid-template-columns: 2fr 1fr;
     }
-    .galeriaKepek div
+    .galeriaKepek div, .esemenyTarolo div
     {
         flex: 0 0 33%;
     }
-    .galeriaKepek img
+    .galeriaKepek img, .esemenyTarolo img
     {
         margin-left: auto;
         margin-right: auto;
@@ -233,7 +238,7 @@ footer
         width: 100%;
         grid-template-columns: 2fr 1fr;
     }
-    .galeriaKepek div
+    .galeriaKepek div, .esemenyTarolo div
     {
         flex: 0 0 45%;
     }
@@ -255,7 +260,7 @@ footer
         width: 100%;
         grid-template-columns: 1fr 1fr;
     }
-    .galeriaKepek div
+    .galeriaKepek div, .esemenyTarolo div
     {
         flex: 0 0 80%;
     }
@@ -269,7 +274,7 @@ footer
 {
     #gombok button
     {
-        width: 35%;
+        width: 45%;
     }
     header
     {
@@ -286,7 +291,7 @@ footer
         width: 100%;
         grid-template-columns: 1fr;
     }
-    .galeriaKepek div
+    .galeriaKepek div, .esemenyTarolo div
     {
         flex: 0 0 80%;
     }

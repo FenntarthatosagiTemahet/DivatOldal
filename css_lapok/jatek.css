@@ -103,6 +103,11 @@ main {
     padding: 20px;
 }
 
+#title a h1
+{
+    text-decoration: none;
+}
+
 /* Animáció: */
 @keyframes megtalalt {
     from {opacity: 1;}

@@ -37,6 +37,10 @@ a
 {
     text-align: center;
 }
+p>a
+{
+    color: black;
+}
 #fodiv {
     display: flex;
     width: 100%;

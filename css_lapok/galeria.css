@@ -1,34 +1,30 @@
-:root
-{
-    --galeriaGomb: #f5ebe0;
+:root {
+  --galeriaGomb: #f5ebe0;
 }
 
-main
-{
-    display: grid;
-    grid-template-areas: "h h h h h h h"
-                         "n n n n n n n"
-                         "s s s s s s s"
-                         "a a a a a a a"
-                         "f f f f f f f";
+main {
+  display: grid;
+  grid-template-areas:
+    "h h h h h h h"
+    "n n n n n n n"
+    "s s s s s s s"
+    "a a a a a a a"
+    "f f f f f f f";
 }
 
-section
-{
-    grid-area: s;
+section {
+  grid-area: s;
 }
 
-#gombok
-{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 90%;
+#gombok {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
-#gombok button
-{
-    /* cursor: pointer;
+#gombok button {
+  /* cursor: pointer;
     border: none;
     background-color: var(--galeriaGomb);
     margin: 10px;
@@ -36,289 +32,291 @@ section
     border-radius: 5px;
     font-size: 16pt;
     width: 20%; */
-    background-color: var(--galeriaGomb);
-    width: 200px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 4px 10px;
-    margin: 5px 20px;
-    font-size: 16pt;
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+  background-color: var(--galeriaGomb);
+  width: 200px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 4px 10px;
+  margin: 5px 20px;
+  font-size: 16pt;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
-#gombok button:focus, #gombok button:hover
-{
-    background-color: black;
-    color: white;
+#gombok button:focus,
+#gombok button:hover {
+  background-color: black;
+  color: white;
 }
 
-header
-{
-    grid-area: h;
+header {
+  grid-area: h;
 }
 
-header h1
-{
-    line-height: 100px;
-    text-align: center;
+header h1 {
+  line-height: 100px;
+  text-align: center;
 }
 
-nav
-{
-    grid-area: n;
+nav {
+  grid-area: n;
 }
 
-section div
-{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 20px;
+section div {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
-section h2
-{
-    margin-top: 20px;
+section h2 {
+  margin-top: 20px;
 }
 
-section ul
-{   padding: 10px;
-    margin-left: 20px;
+section ul {
+  padding: 10px;
+  margin-left: 20px;
 }
 
-section li
-{
-    padding-left: 10px;
+section li {
+  padding-left: 10px;
 }
 
-section p
-{
-    text-align: justify;
+section p {
+  text-align: justify;
 }
 
-article
-{
-    grid-area: a;
+article {
+  grid-area: a;
 }
 
-#tartalom
-{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+#tartalom {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
 
-.galeria .esemenyTarolo
-{
-    display: grid;
-    /* grid-template-columns: repeat(5, 1fr); */
+.galeria .esemenyTarolo {
+  display: grid;
+  /* grid-template-columns: repeat(5, 1fr); */
 }
 
-
- .galeria .galeriaKepek, .galeria .esemenyTarolo
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start ;
-    flex-wrap: wrap;
+.galeria .galeriaKepek,
+.galeria .esemenyTarolo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.galeriaKepek div, .esemenyTarolo div
-{
-    flex: 0 0 24%;
-    padding: 10px;
-    justify-content: center;
+.galeriaKepek div,
+.esemenyTarolo div {
+  flex: 0 0 24%;
+  padding: 10px;
+  justify-content: center;
+  z-index: 0;
 }
 
-.galeria .galeriaKepek img, .esemenyTarolo img
-{
-    width: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    /* object-fit: cover; */
+.galeria .galeriaKepek img,
+.esemenyTarolo img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  /* object-fit: cover; */
 }
 
-.galeriaKepek div span
-{
-    font-weight: bold;
+.galeriaKepek div span {
+  font-weight: bold;
 }
 
-.galeriaKepek div p
-{
-    text-align: center;
+.galeriaKepek div p {
+  text-align: center;
 }
 
-.galeriaKepek a
-{
-    color: black;
-    text-decoration: none;
+.galeriaKepek a {
+  color: black;
+  text-decoration: none;
 }
-.kepDiv{
-    min-height: 350px;
-    min-width: 500px;
-    
+.kepDiv {
+  min-height: 300px;
+  min-width: 350px;
 }
-.kepDiv img{
-    object-fit: cover;
-    height: 350px;
-    width: 450px;
+.kepDiv img {
+  object-fit: cover;
+  height: 300px;
+  width: 350px;
 }
 /* aside rész */
 
-aside
-{
-    grid-area: as;
-    margin-top: 60px;
+aside {
+  grid-area: as;
+  margin-top: 60px;
 }
 
-.tervezok p
-{
-    margin: 5px;
-    float: left;
-    margin-top: 20px;
+.tervezok p {
+  margin: 5px;
+  float: left;
+  margin-top: 20px;
 }
 
-.tervezok a
-{
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 50px;
-    
-    padding: 5px;
-    color: black;
+.tervezok a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 50px;
+
+  padding: 5px;
+  color: black;
 }
-#modell
-{
-    font-size: 9pt;
+#modell {
+  font-size: 9pt;
 }
-.tervezok a:hover
-{
-    box-shadow: 0px 0px 10px -3px #000000;
+.tervezok a:hover {
+  box-shadow: 0px 0px 10px -3px #000000;
 }
 
-.tervezok div
-{
-    display: grid;
+.tervezok div {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 5px;
+  padding: 5px;
+}
+
+.szoveg {
+  font-size: 12pt;
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+.szoveg li {
+  margin: 5px;
+  margin-left: 15px;
+  padding-left: 20px;
+}
+footer {
+  grid-area: f;
+  text-align: center;
+}
+#nyilGombok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+.nyilGomb {
+  width: 60px;
+  height: 30px;
+  /*  background-color: #ffe7bd; */
+  border-radius: 16px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nyilGomb:hover {
+  background-color: var(--galeriaGomb);
+}
+.nyilGomb img {
+  width: 100%;
+}
+
+.kepDiv {
+  filter: grayscale(0);
+  cursor: default;
+}
+#holTart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#holTart p {
+  padding: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+  article {
+    max-width: 100%;
+  }
+  #tartalom {
+    grid-template-columns: 2fr 1fr;
+  }
+  .galeriaKepek div,
+  .esemenyTarolo div {
+    flex: 0 0 33%;
+  }
+  .galeriaKepek img,
+  .esemenyTarolo img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #gombok {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #tartalom {
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+  }
+  .galeriaKepek div,
+  .esemenyTarolo div {
+    flex: 0 0 45%;
+  }
+  .tervezok div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #gombok {
+    justify-content: center;
+    width: 100%;
+  }
+  #tartalom {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .galeriaKepek div,
+  .esemenyTarolo div {
+    flex: 0 0 80%;
+  }
+  .tervezok div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #gombok button {
+    width: 45%;
+  }
+  header {
+    height: 180px;
+  }
+  #gombok {
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  #tartalom {
+    width: 100%;
     grid-template-columns: 1fr;
-    margin: 5px;
-    padding: 5px; 
-}
-
-.szoveg
-{
-    font-size: 12pt;
-    margin: 10px;
-    padding: 10px;
-    text-align: justify;
-}
-.szoveg li
-{
-    margin: 5px;
-    margin-left: 15px;
-    padding-left: 20px;
-}
-footer
-{
-    grid-area: f;
-    text-align: center;
-}
-
-
-@media screen and (max-width: 1100px)
-{
-    article
-    {
-        max-width: 100%;
-    }
-    #tartalom
-    {
-        grid-template-columns: 2fr 1fr;
-    }
-    .galeriaKepek div, .esemenyTarolo div
-    {
-        flex: 0 0 33%;
-    }
-    .galeriaKepek img, .esemenyTarolo img
-    {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px)
-{
-    #gombok
-    {
-        justify-content: space-evenly;
-        width: 100%;
-    }
-    #tartalom
-    {
-        width: 100%;
-        grid-template-columns: 2fr 1fr;
-    }
-    .galeriaKepek div, .esemenyTarolo div
-    {
-        flex: 0 0 45%;
-    }
-    .tervezok div
-    {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 700px)
-{
-    #gombok
-    {
-        justify-content: center;
-        width: 100%;
-    }
-    #tartalom
-    {
-        width: 100%;
-        grid-template-columns: 1fr 1fr;
-    }
-    .galeriaKepek div, .esemenyTarolo div
-    {
-        flex: 0 0 80%;
-    }
-    .tervezok div
-    {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 500px)
-{
-    #gombok button
-    {
-        width: 45%;
-    }
-    header
-    {
-        height: 180px;
-    }
-    #gombok
-    {
-        justify-content: center;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    #tartalom
-    {
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-    .galeriaKepek div, .esemenyTarolo div
-    {
-        flex: 0 0 80%;
-    }
-    .tervezok div
-    {
-        width: 80%;
-        margin-left: 50px;
-    }
+  }
+  .galeriaKepek div,
+  .esemenyTarolo div {
+    flex: 0 0 80%;
+  }
+  .tervezok div {
+    width: 80%;
+    margin-left: 50px;
+  }
 }

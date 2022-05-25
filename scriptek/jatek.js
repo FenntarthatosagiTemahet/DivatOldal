@@ -136,7 +136,7 @@ function vegeKiir() {
 
 // MAIN
 function init() {
-    ID("title").innerHTML = "<h1>Fenntarthatósági témahét 2022</h1>";
+    ID("title").innerHTML = "<a href='../html_oldalak/index.html'><h1>Fenntarthatósági témahét 2022</h1></a>";
     ID("footer").innerHTML = "<p>© Készítette: Piller András Gábor</p>";
 
     fetch("../json/jatek.json")

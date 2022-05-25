@@ -279,8 +279,9 @@ footer {
 
 @media screen and (max-width: 700px) {
   #gombok {
-    justify-content: center;
-    width: 100%;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    width: 90%;
   }
   #tartalom {
     width: 100%;
@@ -303,8 +304,9 @@ footer {
     height: 180px;
   }
   #gombok {
-    justify-content: center;
-    width: 100%;
+    /* justify-content: center; */
+    width: 90%;
+    margin: auto;
     flex-wrap: wrap;
   }
   #tartalom {

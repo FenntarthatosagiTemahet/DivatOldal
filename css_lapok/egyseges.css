@@ -162,7 +162,7 @@ footer
     display: none;
 }
 
-button
+/* button
 {
     background-color: var(--galeriaGomb);
     width: 200px;
@@ -174,7 +174,7 @@ button
     text-decoration: none;
     color: black;
     cursor: pointer;
-}
+} */
 
 @media screen and (max-width: 800px)
 {

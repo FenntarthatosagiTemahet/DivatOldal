@@ -16,7 +16,6 @@ main {
 
 #memory-game {
     max-width: 80%;
-    min-height: 57vh;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -41,6 +40,12 @@ main {
 
 #memory-game .found {
     cursor: default;
+}
+
+#memory-game #default-img {
+    max-width: 51vw;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 #points {

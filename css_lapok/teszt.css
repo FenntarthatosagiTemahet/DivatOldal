@@ -86,8 +86,11 @@ form div p{
     border: 0px
 }
 #gombok{
+    width: 800px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
 }
 form div input,form div label,form div p{
     margin-bottom: 10px;

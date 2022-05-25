@@ -25,6 +25,7 @@ function init() {
   tombBeolvasas(zeroWasteKepek, "zeroWaste");
   valaszt();
   szovegKiiras(0);
+  // $("#esemenyGomb").addEventListener("click", esemenyKepek());
 }
 
 function valaszt(){
@@ -40,6 +41,10 @@ function valaszt(){
       else if(melyik ==="Kreatív kollekció"){
         $("#ing").addEventListener("click",galeriaFeltoltAdatokkal(ingKepek));
         szovegKiiras(1);
+      }
+      else if(melyik ==="Esemény képek")
+      {
+        $("#esemenyGomb").addEventListener("click", esemenyKepek());
       }
     })
   })
@@ -62,19 +67,19 @@ function tombBeolvasas(tomb, kulcs)
 function galeriaFeltoltAdatokkal(tomb) 
 {
   var txt=`<div class="galeriaKepek">`;
-  var asideTxt="<div>";
+  var tervezokNeveTxt="<div>";
   for (var i = 0; i < tomb.length; i++) 
   {
       txt+=`<div id="${i}"><a href="ruha.html"><img loading="lazy" id="${i}" src="${tomb[i].foKepEleresiUt}" alt="kép">
           <p><span id="${i}">${tomb[i].keszito}</span></p>
           <p id="modell">modell: <span>${tomb[i].modellNeve}</span></p></a></div>`;
 
-      asideTxt+=`<p><a id="${i}" href="ruha.html">${tomb[i].keszito}</a></p>`;
+      tervezokNeveTxt+=`<p><a id="${i}" href="ruha.html">${tomb[i].keszito}</a></p>`;
   }
   txt+="</div>";
-  asideTxt+="</div>";
+  tervezokNeveTxt+="</div>";
   $(".galeria").innerHTML=txt;
-  $(".tervezok").innerHTML=asideTxt;
+  $(".tervezok").innerHTML=tervezokNeveTxt;
   kepLista = document.querySelectorAll(".galeriaKepek>div");
   asideLista = document.querySelectorAll(".tervezok>div>p");
   for (let i = 0; i < kepLista.length; i++) 
@@ -110,11 +115,22 @@ function galeriaFeltoltAdatokkal(tomb)
 function szovegKiiras(index) 
 {
   var szovegTxt="";
-    szovegTxt+=`<h2>${szoveg[index].szovegCim}</h2>${szoveg[index].szovegLeiras}`;
-  
-  szovegTxt+="";
-  // console.log(szovegTxt);
-  $("#zeroSzoveg").innerHTML=szovegTxt;  
-  // console.log(szoveg);
+  szovegTxt+=`<h2>${szoveg[index].szovegCim}</h2>${szoveg[index].szovegLeiras}`;
+
+  $("#kollekcioSzoveg").innerHTML=szovegTxt;  
+}
+
+const esemeny=[];
+function esemenyKepek() 
+{
+  var txt=`<div class="esemenyTarolo">`;
+  for (let i = 1; i < 51; i++) 
+  {
+    txt+=`<div><img src="../kepek/esemenyKepek/${i}.jpg" alt="kép"></div>`;
+  }
+  txt+="</div>";
+  // console.log(txt);
+  $(".galeria").innerHTML=txt;
+  // $("section").style.display="none";
 }
  

@@ -110,7 +110,8 @@ nav ul
 nav ul li
 {
     list-style-type: none;
-    width: 35%;
+    /* width: 35%; */
+    width: 100%;
     text-align: center;
     margin: 0 5px;
 }
@@ -196,8 +197,8 @@ footer
     nav ul li
     {
         display: block;
-        line-height: 50px; 
-        width: 18%;
+        line-height: 50px;
+        width: 30%;
     }
     #check:checked ~ ul
     {
@@ -219,5 +220,9 @@ footer
     header
     {
         height: 180px;
+    }
+    nav ul li
+    {
+        width: 50%;
     }
 }

@@ -29,10 +29,6 @@ header h1
     line-height: 100px;
 }
 
-.egetett{
-    padding-left: 10px;
-}
-
 footer{
     width: 100%;
 }
@@ -53,9 +49,6 @@ nav{
     height: 30px;
 }
 
-div {
-    margin: 10px;
-}
 #mellék_div{
     
     width: 400px;
@@ -88,7 +81,7 @@ div {
 }
 
 
-img{
+aside img{
     width: 200px;
     border-radius: 100%;
 }
@@ -104,9 +97,6 @@ h2{
     text-align: center;
     font-size: 25pt;
     padding-top: 20px;
-}
-h3{
-    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

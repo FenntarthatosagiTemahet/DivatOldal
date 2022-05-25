@@ -19,7 +19,10 @@ article{
 #teszt div p{
     font-weight: bold;
 }
-#teszt div{
+#teszt {
+    min-height: 55vh;
+}
+#teszt  div{
     padding-left: 15px;
     padding-bottom: 15px;
 }

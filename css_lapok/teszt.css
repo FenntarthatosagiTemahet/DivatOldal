@@ -16,6 +16,9 @@ article{
     border-radius: 20px;
     font-size: 16pt;
 }
+#teszt {
+    min-height: 55vh;
+}
 #teszt  div{
     padding-left: 15px;
     padding-bottom: 15px;

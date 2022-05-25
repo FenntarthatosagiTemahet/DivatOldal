@@ -43,7 +43,7 @@ main {
 }
 
 #memory-game #default-img {
-    max-width: 51vw;
+    max-width: 50vw;
     border: 1px solid gray;
     border-radius: 10px;
 }
@@ -151,6 +151,12 @@ main {
         width: 90%;
         margin: auto;
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #memory-game #default-img {
+        display: none;
     }
 }
 

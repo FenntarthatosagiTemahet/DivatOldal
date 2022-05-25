@@ -47,13 +47,8 @@ form{
     grid-template-columns: 1fr 1fr 1fr;
 }
 #kep{
-    width: 35%;
-    margin: auto;
+    text-align: center;
     
-}
-#kep img{
-    width: 500px;
-
 }
 form div{
     font-size: 20px;

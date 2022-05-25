@@ -1,24 +1,24 @@
 { "manipul" : [
     {
-      "szoveg": "Ha szeretne olvasni néhány cikket a fentarthatósági témahéttel kapcsolatban és, hogy zöldebben éljen akkor ezen az oldalon a helye.",
+      "szoveg": "Ha szeretne olvasni néhány cikket a fentarthatósági témahéttel kapcsolatban és, hogy szeretné megtudni, hogyan élhet zöldebben  akkor ezen az oldalon a helye!",
       "cim": "Cikkek",
       "kep": "../kepek/cikkkol.jpg",
       "link": "cikk.html"
     },
     {
-      "szoveg": "Ebben a galériában a divattervezők ruháit lehet megnézni, hogy miket terveztek a fentarthatósági témahét kapcsán.",
+      "szoveg": "Ebben a galériában a divattervezőink fenntarthatósági témahétre tervezett ruháit tekintheti meg.",
       "cim" : "Galéria",
       "kep": "../kepek/KozosKep.png",
       "link": "galeria.html"
     },
     {
-      "szoveg": "Ez az oldal egy teszt kitöltéséről szól ami kapcsolatos a cikkekhez és a fentarthatósági témahéttel kapcsolatosan.",
+      "szoveg": "A fenntarthatósággal kapcsolatos tesztkérdéseken mérheti fel tudását a témával kapcsolatban.",
       "cim" : "Tesztek",
       "kep": "../kepek/tesztlehet.jpg",
       "link": "teszt.html"
     },
     {
-      "szoveg": "Ezen az oldalon, ha nem szeretne olvasni a cikkekről, vagy ruhákat nézni, vagy pedig tesztet kitölteni, akkor eltölthet némi időt játékkal.",
+      "szoveg": "Ha már  szeretne olvasni a fenntarthatóságról, vagy ruhákat nézegetni, vagy pedig tesztet kitölteni, akkor eltölthet némi időt játékkal.",
       "cim": "Játék",
       "kep": "../kepek/memkoll.jpg",
       "link": "jatek.html"

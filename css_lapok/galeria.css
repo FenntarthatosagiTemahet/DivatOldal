@@ -153,7 +153,16 @@ article
     color: black;
     text-decoration: none;
 }
-
+.kepDiv{
+    min-height: 350px;
+    min-width: 500px;
+    
+}
+.kepDiv img{
+    object-fit: cover;
+    height: 350px;
+    width: 450px;
+}
 /* aside rész */
 
 aside
@@ -213,6 +222,7 @@ footer
     grid-area: f;
     text-align: center;
 }
+
 
 @media screen and (max-width: 1100px)
 {

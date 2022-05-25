@@ -54,6 +54,15 @@ function valaszt(){
         $("#tartalom").style.gridTemplateColumns= "1fr";
         $(".tervezok").style.display="none";
         $("#kollekcioSzoveg").style.display="none";
+       /*  $(".kepDiv").style.width="300px";
+        $(".kepDiv").style.height="250px";
+        $(".kepDiv").style.backgroundImage = "cover" */
+        /* object-fit: cover; */
+
+        /* .kepDiv {
+          width: 300px;
+          height: 250px;
+        } */
       }
     })
   })
@@ -139,7 +148,7 @@ function esemenyKepek()
   var txt=`<div class="esemenyTarolo">`;
   for (let i = 1; i < 51; i++) 
   {
-    txt+=`<div><img src="../kepek/esemenyKepek/${i}.jpg" alt="kép"></div>`;
+    txt+=`<div class="kepDiv"><img src="../kepek/esemenyKepek/${i}.jpg" alt="kép"></div>`;
   }
   txt+="</div>";
   // console.log(txt);

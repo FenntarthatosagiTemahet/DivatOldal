@@ -86,9 +86,11 @@ h2
 nav div a img
 {
     position: absolute;
+    bottom: -1px;
     left: 100;
     margin-left: 40px;
     width: 50px;
+
 }
 nav
 {
@@ -157,6 +159,20 @@ footer
 #check
 {
     display: none;
+}
+
+button
+{
+    background-color: var(--galeriaGomb);
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin: 5px 20px;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px)

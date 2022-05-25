@@ -44,6 +44,7 @@ main {
 
 #memory-game #default-img {
     max-width: 50vw;
+    margin: auto;
     border: 1px solid gray;
     border-radius: 10px;
 }

@@ -24,6 +24,11 @@ header{
     width: 100%;
 }
 
+header h1
+{
+    line-height: 100px;
+}
+
 .egetett{
     padding-left: 10px;
 }

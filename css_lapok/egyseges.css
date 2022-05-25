@@ -6,6 +6,11 @@
     --hatterAtmenet1: #cebdb0;
     --Cim: #d5bdaf;
 }
+main
+{
+    min-height: 100vh;
+}
+
 *
 {
     box-sizing: border-box;
@@ -188,4 +193,20 @@ footer
         left: 0%;
     }
     
+}
+
+@media screen and (max-width: 600px)
+{
+    header
+    {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    header
+    {
+        height: 180px;
+    }
 }

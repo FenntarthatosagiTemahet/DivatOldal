@@ -2,6 +2,10 @@ article{
     max-width: 90%;
     margin: auto;
 }
+main
+{
+    min-height: 100vh;
+}
 #valasztas h2{
     margin-top: 15px;
 }
@@ -13,8 +17,11 @@ article{
     background-color: var(--galeriaGomb);
     margin: 10px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 16pt;
+}
+#teszt div p{
+    font-weight: bold;
 }
 #teszt {
     min-height: 55vh;
@@ -58,7 +65,7 @@ form div p{
     background-color: black;
     color: white;
     font-size: 25px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 15px;
     cursor: pointer;
     border: 0px
